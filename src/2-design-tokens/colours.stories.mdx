@@ -1,0 +1,137 @@
+import { Meta, ColorPalette, ColorItem } from "@storybook/addon-docs";
+import { themes, ThemeProvider, convert, ensure } from "@storybook/theming";
+
+<Meta
+	title="Design Tokens/Colours"
+	parameters={{
+		previewTabs: {
+			canvas: { hidden: true },
+			"storybook/docs/panel": { hidden: true },
+		},
+	}}
+/>
+
+<h2>Design Tokens</h2>
+<h1>Colours</h1>
+
+<ColorPalette>
+	<ColorItem
+		title="act-colours-primary"
+		subtitle="Primary Colours"
+		colors={{
+			Purple: "#472D8C",
+			Grey: "#777777",
+			Black: "#000000",
+			White: "#FFFFFF"
+		}}
+	/>
+	<ColorItem
+		title="act-colours-alerts"
+		subtitle="Alert Colours"
+		colors={{
+			Green: "#098660",
+			Red: "#BA2133",
+			Yellow: "#F2C94C"
+		}}
+	/>
+	<ColorItem
+		title="act-colours-greys"
+		subtitle="Greys"
+		colors={{
+			Grey: "#777777",
+			MiddleGrey: "#ADADAD",
+			LightGrey: "#F6F6F6"
+		}}
+	/>
+	<ColorItem
+		title="act-colours-regions"
+		subtitle="Region Colours"
+		colors={{
+			Belconnen: "#377E7A",
+			InnerCity: "#008FC5",
+			Gungahlin: "#90A630",
+			Tuggeranong: "#C6B30B",
+			Wooden: "#F15F50",
+		}}
+	/>
+	<ColorItem
+		title="act-colours-districts"
+		subtitle="District Colours"
+		colors={{
+			InnerNorth: "#008FC5",
+			InnerSouth: "#004868",
+			Wooden: "#F15F50",
+			WestonCreek: "#F14C76",
+			MolongloValley: "#93171B",
+		}}
+	/>
+	<ColorItem
+		title="act-colours-health"
+		subtitle="ACT Health Colours"
+		colors={{
+			DarkBlue: "#2C4EAB",
+			LightBlue: "#0076C8",
+		}}
+	/>
+</ColorPalette>
+
+<table>
+	<thead>
+		<tr>
+			<td>Colour</td>
+			<td>Hex</td>
+			<td>SASS Variable</td>
+			<td>SASS Map</td>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>Purple</td>
+			<td>
+				<code>#472D8C</code>
+			</td>
+			<td>
+				<code>$act-colour__purple</code>
+			</td>
+			<td>
+				<code>map-get($act-colour, "purple")</code>
+			</td>
+		</tr>
+		<tr>
+			<td>Grey</td>
+			<td>
+				<code>#777777</code>
+			</td>
+			<td>
+				<code>$act-colour__grey</code>
+			</td>
+			<td>
+				<code>map-get($act-colour, "grey")</code>
+			</td>
+		</tr>
+		<tr>
+			<td>Black</td>
+			<td>
+				<code>#000000</code>
+			</td>
+			<td>
+				<code>$act-colour__black</code>
+			</td>
+			<td>
+				<code>map-get($act-colour, "black")</code>
+			</td>
+		</tr>
+		<tr>
+			<td>White</td>
+			<td>
+				<code>#FFFFFF</code>
+			</td>
+			<td>
+				<code>$act-colour__purple</code>
+			</td>
+			<td>
+				<code>map-get($act-colour, "purple")</code>
+			</td>
+		</tr>
+	</tbody>
+</table>
