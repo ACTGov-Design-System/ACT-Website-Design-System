@@ -1,0 +1,27 @@
+/* Design Token Import */
+@import "../../../src/_core/_tokens.scss";
+
+/* Core Style Import */
+@import "../../../src/_core/_reset.scss";
+@import "../../../src/_core/_flex.scss";
+@import "../../../src/_core/_typography.scss";
+
+/* Component Style Import */
+@import "../../../src/3-layout/3-Page-Layout/style.scss";
+@import "../../../src/4-components/A2-Alerts/A2-1-Alert-Global/style.scss";
+@import "../../../src/4-components/A2-Alerts/A2-2-Alert-InPage/style.scss";
+@import "../../../src/4-components/B1-Back-to-top/B1-1-Back-to-top/style.scss";
+@import "../../../src/4-components/B3-Breadcrumbs/B3-1-Breadcrumbs/style.scss";
+
+/* Documentation Styling */
+#docs-root {
+	margin-bottom: 200px;
+	.sbdocs {
+		&-content {
+
+		}
+		table {
+			width: $act-page-full-width;
+		}
+	}
+}

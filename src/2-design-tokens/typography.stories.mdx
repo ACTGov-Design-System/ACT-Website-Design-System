@@ -1,0 +1,80 @@
+import { Meta, Typeset } from "@storybook/addon-docs/blocks";
+
+<Meta
+	title="Design Tokens/Typography"
+	parameters={{
+		previewTabs: {
+			canvas: { hidden: true },
+			"storybook/docs/panel": { hidden: true },
+		},
+	}}
+/>
+
+<h2>Design Tokens</h2>
+<h1>Typography</h1>
+
+export const typography = {
+	type: {
+		primary: '"Montserrat", sans-serif',
+	},
+	weight: {
+		regular: "400",
+		semibold: "600",
+		bold: "700",
+	},
+	size: {
+		a1: 48,
+		a2: 40,
+		a3: 32,
+		a4: 24,
+		a5: 20,
+		a6: 16,
+	},
+};
+
+export const SampleText = "The quick brown fox jumps over the lazy dog";
+
+<h3>Montserrat 400 Regular</h3>
+<Typeset
+	fontSizes={[
+		Number(typography.size.a1),
+		Number(typography.size.a2),
+		Number(typography.size.a3),
+		Number(typography.size.a4),
+		Number(typography.size.a5),
+		Number(typography.size.a6),
+	]}
+	fontWeight={typography.weight.regular}
+	sampleText={SampleText}
+	fontFamily={typography.type.primary}
+/>
+
+<h3>Montserrat 600 Semibold</h3>
+<Typeset
+	fontSizes={[
+		Number(typography.size.a1),
+		Number(typography.size.a2),
+		Number(typography.size.a3),
+		Number(typography.size.a4),
+		Number(typography.size.a5),
+		Number(typography.size.a6),
+	]}
+	fontWeight={typography.weight.semibold}
+	sampleText={SampleText}
+	fontFamily={typography.type.primary}
+/>
+
+<h3>Montserrat 700 Bold</h3>
+<Typeset
+	fontSizes={[
+		Number(typography.size.a1),
+		Number(typography.size.a2),
+		Number(typography.size.a3),
+		Number(typography.size.a4),
+		Number(typography.size.a5),
+		Number(typography.size.a6),
+	]}
+	fontWeight={typography.weight.bold}
+	sampleText={SampleText}
+	fontFamily={typography.type.primary}
+/>

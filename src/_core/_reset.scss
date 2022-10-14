@@ -1,0 +1,32 @@
+/* Docs */
+/* Resets CSS within Storybook Story */
+
+* {
+	box-sizing: border-box;
+	margin:0;
+	padding:0;
+}
+*:not[class^="act-"],
+*:not(.prismjs, .prismjs div, .prismjs span) {
+	font-family: sans-serif;
+}
+*[class^="act-"] {
+	font-family: $montserrat;
+}
+code {
+	font-family: monospace !important;
+}
+.innerZoomElementWrapper > div > div > div {
+	/* This is the div the component is rendered into in Docs mode */
+	display: flex;
+	width: 100%
+}
+
+/* Canvas */
+.sb-show-main {
+	#root {
+		/* This is the div the component is rendered into in Canvas mode */
+		display: flex;
+		width: 100%;
+	}
+}
