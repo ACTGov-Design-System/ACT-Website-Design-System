@@ -1,6 +1,5 @@
-.act-masthead {
-	background-color: $act-colour__violet;
-	color: $act-colour__white;
+.act-navbar {
+	background-color: $act-colour__white;
 	display: flex;
 	width: $act-page-full-width;
 	&__container {
@@ -10,18 +9,19 @@
 		font-weight: $act-font-weight__semibold;
 		justify-content: space-between;
 		line-height: $act-line-height__100;
-		padding: map-get($act-space, "desktop-1") map-get($act-space, "desktop-2");
+		padding: 0px map-get($act-space, "desktop-2");
 		width: 100%;
 	}
 	&__content {
 		align-items: center;
 		display: flex;
-		height: 24px;
 		&:first-of-type {
 			justify-content: flex-start;
+			padding: map-get($act-space, "desktop-2") 0px ;
 		}
 		&:last-of-type {
 			justify-content: flex-end;
+			padding: 0px ;
 		}
 	}
 }

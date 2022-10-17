@@ -1,7 +1,7 @@
-import { createM31 } from './component';
+import { createW16 } from './component';
 
 export default {
-  title: 'Components/Masthead/Default',
+  title: 'Components/Wayfinding/NavBar',
   parameters: {
     // More on Story layout: https://storybook.js.org/docs/html/configure/story-layout
     layout: 'fullscreen',
@@ -12,7 +12,7 @@ export default {
   },
 };
 
-const Template = (args) => createM31(args);
+const Template = (args) => createW16(args);
 
 export const Default = Template.bind({});
 Default.args = {
