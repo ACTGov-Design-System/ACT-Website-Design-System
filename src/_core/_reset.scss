@@ -19,6 +19,7 @@ code {
 .innerZoomElementWrapper > div > div > div {
 	/* This is the div the component is rendered into in Docs mode */
 	display: flex;
+	flex-direction: column;
 	width: 100%
 }
 
@@ -27,6 +28,7 @@ code {
 	#root {
 		/* This is the div the component is rendered into in Canvas mode */
 		display: flex;
+		flex-direction: column;
 		width: 100%;
 	}
 }
