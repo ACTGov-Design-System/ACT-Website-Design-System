@@ -1,10 +1,24 @@
 .act-flex {
+	background-color: $act-colour__white;
 	display: flex;
 	justify-content: center;
 	width: $act-page-full-width;
+	&-light-grey {
+		background-color: $act-colour__light-grey;
+	}
 	&__container {
-		padding: map-get($act-space, "desktop-3") map-get($act-space, "desktop-5");
+		display: flex;
+		justify-content: center;
 		width: $act-page-full-width;
+		@include devices(mobile) {
+			padding: calc(map-get($act-space, "desktop-5") - 4px) calc(map-get($act-space, "desktop-2") - 4px);
+		}
+		@include devices(tablet) {
+			padding: calc(map-get($act-space, "desktop-5") - 8px) calc(map-get($act-space, "desktop-3") + 4px);
+		}
+		@include devices(desktop) {
+			padding: calc(map-get($act-space, "desktop-5") - 12px) calc(map-get($act-space, "desktop-4") + 4px);
+		}
 	}
 	&__grid {
 		align-items: center;
@@ -24,30 +38,118 @@
 	}
 	.act-col {
 		flex-grow: 1;
-		max-width: 25%;
-		width: 25%;
-		&-sm-3 {
-			max-width: 25%;
-			width: 25%;
+		&-sm-2 { /* 2 Column *//* 16.666% *//* 50/33/16 */
+			@include devices(mobile) {
+				max-width: 		50%;
+				width: 				50%;
+			}
+			@include devices(tablet) {
+				max-width: 		33.333%;
+				width: 				33.333%;
+			}
+			@include devices(desktop) {
+				max-width: 		16.666%;
+				width: 				16.666%;
+			}
 		}
-		&-sm-4 {
-			max-width: 33.333%;
-			width: 33.333%;
+		&-sm-3 { /* 3 Column *//* 25% *//* 100/50/25 */
+			@include devices(mobile) {
+				max-width: 		100%;
+				width: 				100%;
+			}
+			@include devices(tablet) {
+				max-width: 		50%;
+				width: 				50%;
+			}
+			@include devices(desktop) {
+				max-width: 		25%;
+				width: 				25%;
+			}
 		}
-		&-sm-6 {
-			max-width: 50%;
-			width: 50%;
+		&-sm-4 { /* 4 Column *//* 33.333% *//* 100/33/33 */
+			@include devices(mobile) {
+				max-width: 		100%;
+				width: 				100%;
+			}
+			@include devices(tablet) {
+				max-width: 		33.333%;
+				width: 				33.333%;
+			}
+			@include devices(desktop) {
+				max-width: 		33.333%;
+				width: 				33.333%;
+			}
 		}
-		&-sm-8 {
-			max-width: 66.666%;
-			width: 66.666%;
+		&-sm-6 { /* 6 Column *//* 50% *//* 100/50/50 */
+			@include devices(mobile) {
+				max-width: 		100%;
+				width: 				100%;
+			}
+			@include devices(tablet) {
+				max-width: 		50%;
+				width: 				50%;
+			}
+			@include devices(desktop) {
+				max-width: 		50%;
+				width: 				50%;
+			}
 		}
-		&-sm-9 {
-			max-width: 75%;
-			width: 75%;
+		&-sm-8 { /* 8 Column *//* 66.666% *//* 100/66/66 */
+			@include devices(mobile) {
+				max-width: 		100%;
+				width: 				100%;
+			}
+			@include devices(tablet) {
+				max-width: 		66.666%;
+				width: 				66.666%;
+			}
+			@include devices(desktop) {
+				max-width: 		66.666%;
+				width: 				66.666%;
+			}
+		}
+		&-sm-9 { /* 9 Column *//* 75% *//* 100/100/75 */
+			@include devices(mobile) {
+				max-width: 		100%;
+				width: 				100%;
+			}
+			@include devices(tablet) {
+				max-width: 		100%;
+				width: 				100%;
+			}
+			@include devices(desktop) {
+				max-width: 		75%;
+				width: 				75%;
+			}
+		}
+		&-sm-12 { /* 12 Column *//* 100% *//* 100/100/100 */
+			@include devices(mobile) {
+				max-width: 		100%;
+				width: 				100%;
+			}
+			@include devices(tablet) {
+				max-width: 		100%;
+				width: 				100%;
+			}
+			@include devices(desktop) {
+				max-width: 		100%;
+				width: 				100%;
+			}
 		}
 		.act-box {
-			margin: calc(map-get($act-space, "desktop-3")/2);
+			background-color: $act-colour__purple;
+			color: $act-colour__white;
+			padding: 10px;
+			@include devices(mobile) {
+				margin: calc(map-get($act-space, "desktop-1")/2);
+			}
+			@include devices(tablet) {
+				margin: calc(map-get($act-space, "desktop-2")/2);
+			}
+			@include devices(desktop) {
+				margin: calc(map-get($act-space, "desktop-3")/2);
+			}
 		}
 	}
 }
+

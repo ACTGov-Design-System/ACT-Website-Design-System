@@ -6,23 +6,48 @@
 /* Variables */
 $montserrat: 'Montserrat', sans-serif;
 
-$act-font-size__desktop-h1: 48px;
-$act-font-size__desktop-h2: 40px;
-$act-font-size__desktop-h3: 32px;
-$act-font-size__desktop-h4: 24px;
-$act-font-size__desktop-h5: 20px;
-$act-font-size__desktop-h6: 16px;
-$act-font-size__desktop-p: 16px;
-$act-font-size__desktop-p-large: 20px;
-$act-font-size__desktop-p-small: 14px;
+$act-font-size__desktop-h1: 			48px;
+$act-font-size__desktop-h1-large: 64px;
+$act-font-size__desktop-h2: 			40px;
+$act-font-size__desktop-h3: 			32px;
+$act-font-size__desktop-h4: 			24px;
+$act-font-size__desktop-h5: 			20px;
+$act-font-size__desktop-h6: 			16px;
+$act-font-size__desktop-p: 				18px;
+$act-font-size__desktop-p-large: 	20px;
+$act-font-size__desktop-p-small: 	14px;
 
-$act-font-weight__regular: 400;
-$act-font-weight__semibold: 600;
-$act-font-weight__bold: 700;
+$act-font-size__tablet-h1: 				$act-font-size__desktop-h1;
+$act-font-size__tablet-h1-large: 	$act-font-size__desktop-h1-large;
+$act-font-size__tablet-h2: 				$act-font-size__desktop-h2;
+$act-font-size__tablet-h3: 				$act-font-size__desktop-h3;
+$act-font-size__tablet-h4: 				$act-font-size__desktop-h4;
+$act-font-size__tablet-h5: 				$act-font-size__desktop-h5;
+$act-font-size__tablet-h6: 				$act-font-size__desktop-h6;
+$act-font-size__tablet-p: 				$act-font-size__desktop-p;
+$act-font-size__tablet-p-large: 	$act-font-size__desktop-p-large;
+$act-font-size__tablet-p-small: 	$act-font-size__desktop-p-small;
 
-$act-line-height__150: 150%;
-$act-line-height__140: 140%;
-$act-line-height__130: 130%;
-$act-line-height__120: 120%;
-$act-line-height__110: 110%;
-$act-line-height__100: 100%;
+$act-font-size__mobile-h1: 				40px;
+$act-font-size__mobile-h1-large: 	54px;
+$act-font-size__mobile-h2: 				32px;
+$act-font-size__mobile-h3: 				30px;
+$act-font-size__mobile-h4: 				24px;
+$act-font-size__mobile-h5: 				20px;
+$act-font-size__mobile-h6: 				16px;
+$act-font-size__mobile-p: 				18px;
+$act-font-size__mobile-p-large: 	18px;
+$act-font-size__mobile-p-small: 	14px;
+
+$act-font-size__alt-tags: 				14px;
+
+$act-font-weight__regular: 				400;
+$act-font-weight__semibold: 			600;
+$act-font-weight__bold: 					700;
+
+$act-line-height__150: 						150%;
+$act-line-height__140: 						140%;
+$act-line-height__130: 						130%;
+$act-line-height__120: 						120%;
+$act-line-height__110: 						110%;
+$act-line-height__100: 						100%;
