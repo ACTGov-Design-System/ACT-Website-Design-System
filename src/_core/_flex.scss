@@ -6,6 +6,10 @@
 	&-light-grey {
 		background-color: $act-colour__light-grey;
 	}
+	&-purple {
+		background-color: $act-colour__purple;
+		color: $act-colour__white;
+	}
 	&__container {
 		display: flex;
 		justify-content: center;

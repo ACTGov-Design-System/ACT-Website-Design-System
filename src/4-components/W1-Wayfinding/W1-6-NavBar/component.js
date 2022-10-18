@@ -14,17 +14,28 @@ export const createW16 = ({
 	});
 
 	const navbarHTML = `
+<div class="act-navbar">
 <div class="act-navbar__container">
-  <div class="act-navbar__content left">
+  <div class="act-navbar__content">
     `+logo+`
   </div>
-  <div class="act-navbar__content right">
-
+  <div class="act-navbar__content">
+    <div class="act-navbar__search">
+      <div class="act-navbar__search__container act-h5">
+        <span class="act-navbar__search__text">Search</span> <i class="fa-solid fa-magnifying-glass"></i>
+      </div>
+    </div>
+    <div class="act-navbar__menu">
+      <div class="act-navbar__menu__container act-h5">
+        <span class="act-navbar__menu__text">Menu</span> <i class="fa-solid fa-bars"></i>
+      </div>
+    </div>
   </div>
+</div>
 </div>
 	`
 	const navbar = document.createElement('div');
-	navbar.className = 'act-navbar';
+	navbar.className = 'sb-act-navbar';
 	navbar.innerHTML = navbarHTML;
 	const navbarExport = navbar.innerHTML;
 	return navbarExport;

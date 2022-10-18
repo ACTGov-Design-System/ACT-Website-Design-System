@@ -9,19 +9,85 @@
 		font-weight: $act-font-weight__semibold;
 		justify-content: space-between;
 		line-height: $act-line-height__100;
-		padding: 0px map-get($act-space, "desktop-2");
+		padding: 0px 0px 0px map-get($act-space, "desktop-2");
 		width: 100%;
 	}
 	&__content {
 		align-items: center;
 		display: flex;
+		height: 100%;
 		&:first-of-type {
 			justify-content: flex-start;
 			padding: map-get($act-space, "desktop-2") 0px ;
 		}
+		@include devices(mobile) {
+			&:first-of-type {
+				padding: map-get($act-space, "desktop-1") 0px ;
+			}
+		}
 		&:last-of-type {
 			justify-content: flex-end;
 			padding: 0px ;
+		}
+	}
+	&__search {
+		height: 100%;
+		&__container {
+			align-items: center;
+			display: flex;
+			justify-content: center;
+			height: 100%;
+			padding: 0px map-get($act-space, "desktop-2");
+			i {
+				border-radius: 25%;
+				height: map-get($act-space, "desktop-3");
+				margin-left: map-get($act-space, "desktop-1");
+				width: map-get($act-space, "desktop-3");
+			}
+		}
+		@include devices(mobile) {
+			&__container {
+				i {
+					margin-left: 0px;
+				}
+			}
+			&__text {
+				display: none;
+			}
+		}
+	}
+	&__menu {
+		height: 100%;
+		cursor: pointer;
+		&__container {
+			align-items: center;
+			background: $act-colour__health-light-blue;
+			color: $act-colour__white;
+			display: flex;
+			justify-content: center;
+			height: 100%;
+			padding: 0px map-get($act-space, "desktop-2");
+			i {
+				border-radius: 25%;
+				height: map-get($act-space, "desktop-3");
+				margin-left: map-get($act-space, "desktop-1");
+				width: map-get($act-space, "desktop-3");
+			}
+			&:hover,
+			&-hover {
+				background-color: $act-colour__health-dark-blue;
+			}
+		}
+		@include devices(mobile) {
+			&__container {
+				background: $act-colour__purple;
+				i {
+					margin-left: 0px;
+				}
+			}
+			&__text {
+				display: none;
+			}
 		}
 	}
 }

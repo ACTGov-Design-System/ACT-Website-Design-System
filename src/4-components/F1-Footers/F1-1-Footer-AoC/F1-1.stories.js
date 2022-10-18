@@ -1,7 +1,7 @@
-import { createT11 } from './component';
+import { createF11 } from './component';
 
 export default {
-  title: 'Patterns/Wayfinding/TopBar',
+  title: 'Components/Footers/Acknowledgement of Country',
   parameters: {
     // More on Story layout: https://storybook.js.org/docs/html/configure/story-layout
     layout: 'fullscreen',
@@ -12,6 +12,6 @@ export default {
   },
 };
 
-const Template = (args) => createT11(args);
+const Template = (args) => createF11(args);
 
 export const Default = Template.bind({});

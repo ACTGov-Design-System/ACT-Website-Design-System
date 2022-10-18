@@ -56,6 +56,10 @@ h4,
 	@include devices(mobile) {
 		font-size: 				$act-font-size__mobile-h4;
 	}
+	&.white,
+	&-white {
+		color: $act-colour__white;
+	}
 }
 
 /* H5 */
@@ -93,8 +97,20 @@ p,
 	&-bold {
 		font-weight: 			$act-font-weight__semibold;
 	}
+	&.white,
+	&-white {
+		color: $act-colour__white;
+	}
+	&.large,
+	&-large {
+		font-size: 				$act-font-size__desktop-p-large;
+	}
 	@include devices(mobile) {
 		font-size: 				$act-font-size__mobile-p;
+		&.large,
+		&-large {
+			font-size: 			$act-font-size__mobile-p-large;
+		}
 	}
 }
 
@@ -102,6 +118,7 @@ p,
 a,
 .act-a {
 	color: 							$act-colour__black;
+	cursor: 						pointer;
 	font-size: 					inherit;
 	font-weight:				inherit;
 	line-height:				inherit;

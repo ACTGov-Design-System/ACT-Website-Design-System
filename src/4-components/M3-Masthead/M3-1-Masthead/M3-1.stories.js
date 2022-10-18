@@ -17,4 +17,5 @@ const Template = (args) => createM31(args);
 export const Default = Template.bind({});
 Default.args = {
 	title: "An ACT Government Website",
+	buttonText: "Login",
 };
