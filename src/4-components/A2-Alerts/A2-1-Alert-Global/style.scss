@@ -7,28 +7,81 @@
 	padding: map-get($act-space, "desktop-1");
 
 	&__container {
+		display: flex;
+		flex-direction: row;
 		position: relative;
+		justify-content: space-between;
 		max-width: $act-page-max-width;
 		width: 100%;
 	}
 	&__content {
-
+		align-items: center;
+		display: flex;
+		flex-direction: row;
+		min-height: map-get($act-space, "desktop-3");
+		.act-h6 {
+			font-weight: $act-font-weight__regular;
+			text-decoration: underline;
+			span {
+				font-weight: $act-font-weight__semibold;
+			}
+		}
 	}
 	&__title {
 
 	}
 
-	&--success {
+	&__success {
 		background-color: $act-colour__green;
 		color: $act-colour__white;
+		i,
+		.act-h6 {
+			color: $act-colour__white;
+		}
 	}
-	&--warning {
+	&__warning {
 		background-color: $act-colour__yellow;
 		color: $act-colour__black;
+		i,
+		.act-h6 {
+			color: $act-colour__black;
+		}
 	}
-	&--error {
+	&__error {
 		background-color: map-get($act-colour, "red");
 		color: $act-colour__white;
+		i,
+		.act-h6 {
+			color: $act-colour__white;
+		}
 	}
-
+	&__no-icon {
+		i {
+			display: none;
+		}
+	}
+	&__icon-left {
+		i {
+			display: flex;
+			height: map-get($act-space, "desktop-3");
+			margin-right: map-get($act-space, "desktop-1");
+			width: map-get($act-space, "desktop-3");
+		}
+	}
+	&__dismiss-false {
+		i.act-alert-global__dismiss {
+			display: none;
+			height: map-get($act-space, "desktop-3");
+			margin-right: 0px;
+			width: map-get($act-space, "desktop-3");
+		}
+	}
+	&__dismiss-true {
+		i.act-alert-global__dismiss {
+			display: flex;
+			height: map-get($act-space, "desktop-3");
+			margin-right: 0px;
+			width: map-get($act-space, "desktop-3");
+		}
+	}
 }

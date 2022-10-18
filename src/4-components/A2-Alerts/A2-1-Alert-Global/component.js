@@ -1,24 +1,27 @@
 export const createA21 = ({
-	backgroundColor,
-	label,
 	type,
-	onClick,
-	primary = false,
-	size = "medium",
+	alert,
+	fontawesome,
+	icon,
+	dismissible
 }) => {
+
+	var dismissibleHTML;
+
+	if ( dismissible == true){
+		dismissibleHTML = "act-alert-global__dismiss-true";
+	} else {
+		dismissibleHTML = "act-alert-global__dismiss-false";
+	}
+
 	return `
-<div class="act-alert-global act-alert-global`+type+`" role="alert">
+<div class="act-alert-global act-alert-global__`+type+` act-alert-global__`+icon+` `+dismissibleHTML+`" role="alert">
   <div class="act-alert-global__container">
     <div class="act-alert-global__content">
-      <h1>`+label+`</h1>
-      <h1 class="large">`+label+`</h1>
-      <h2>`+label+`</h2>
-      <h3>`+label+`</h3>
-      <h4>`+label+`</h4>
-      <h5>`+label+`</h5>
-      <h6>`+label+`</h6>
-      <p>`+label+`</p>
-      <p class="bold">`+label+`</p>
+      <i class="fa-solid `+fontawesome+`"></i> <a class="act-h6" href="#" target="_self" title="">`+alert+`</a>
+    </div>
+    <div class="act-alert-global__content">
+      <i class="fa-solid fa-xmark act-alert-global__dismiss"></i>
     </div>
   </div>
 </div>

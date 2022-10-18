@@ -1,31 +1,25 @@
 export const createB41 = ({
 	label,
+	fontawesome,
 	size,
 	icon,
 	type,
+	pseudoClass,
 	onClick,
 }) => {
+
+	var pseudoClassHTML;
+
+	if ( pseudoClass != ""){
+		pseudoClassHTML = "act-button__"+type+"-"+pseudoClass;
+	} else {
+		pseudoClassHTML = "";
+	}
+
 	return `
-<button class="act-button act-button__`+type+` act-button__`+size+` act-button__`+icon+`">
+<button class="act-button act-button__`+type+` act-button__`+size+` act-button__`+icon+ ` `+pseudoClassHTML+`">
   `+label+`
-  <i></i>
+  <i class="fa-solid `+fontawesome+`"></i>
 </button>
 	`;
 };
-
-// <button class="act-button act-button__`+type+` act-button__`+type+`-hover act-button__`+size+` act-button__`+icon+`">
-// 	`+label+`
-// 	<i></i>
-// </button>
-// <button class="act-button act-button__`+type+` act-button__`+type+`-active act-button__`+size+` act-button__`+icon+`">
-// 	`+label+`
-// 	<i></i>
-// </button>
-// <button class="act-button act-button__`+type+` act-button__`+type+`-focus act-button__`+size+` act-button__`+icon+`">
-// 	`+label+`
-// 	<i></i>
-// </button>
-// <button class="act-button act-button__`+type+` act-button__`+type+`-disabled act-button__`+size+` act-button__`+icon+`" disabled="disabled">
-// 	`+label+`
-// 	<i></i>
-// </button>

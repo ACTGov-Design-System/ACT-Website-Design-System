@@ -1,6 +1,6 @@
 $act-local-logo-border: 									1px solid $act-colour__grey;
 $act-local-logo-space: 										map-get($act-space, "desktop-2");
-$act-local-logo-height-mobile: 						map-get($act-space, "desktop-5");
+$act-local-logo-height-mobile: 						36px;
 $act-local-logo-height-tablet: 						map-get($act-space, "desktop-5");
 $act-local-logo-height-desktop: 					map-get($act-space, "desktop-6");
 $act-local-cobrand-logo-height-mobile: 		calc(($act-local-logo-height-mobile/100)*90);

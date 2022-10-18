@@ -16,11 +16,18 @@
 code {
 	font-family: monospace !important;
 }
+i.fa,
+i.fa-solid {
+	/* Centre align Fontawesome icons within their container */
+	align-items: center;
+	justify-content: center;
+}
 .innerZoomElementWrapper > div > div > div {
 	/* This is the div the component is rendered into in Docs mode */
 	display: flex;
 	flex-direction: column;
-	width: 100%
+	width: 100%;
+	padding: map-get($act-space, "desktop-1");
 }
 
 /* Canvas */
