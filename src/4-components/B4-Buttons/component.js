@@ -17,7 +17,7 @@ export const createB41 = ({
 	}
 
 	return `
-<button class="act-button act-button__`+type+` act-button__`+size+` act-button__`+icon+ ` `+pseudoClassHTML+`">
+<button class="act-button act-button__`+type+` act-button__`+size+` act-button__`+icon+ ` `+pseudoClassHTML+`" type="button">
   `+label+`
   <i class="fa-solid `+fontawesome+`"></i>
 </button>

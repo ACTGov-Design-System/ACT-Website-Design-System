@@ -1,11 +1,12 @@
 import { createB41 } from './component';
+import { createTable } from '../../_helpers/helper-table';
 
 export default {
   title: 'Components/Buttons',
   parameters: {
 		docs: {
 			description: {
-				component: '',
+				component: "",
 			},
 		},
 		layout: 'fullscreen',
@@ -37,7 +38,7 @@ export default {
 			control: { type: 'radio' },
 			options: ['no-icon', 'icon-left', 'icon-right'],
 			defaultValue: 'no-icon',
-			description: 'Sets the button size',
+			description: 'Sets the button icon position',
 			table: {
 				defaultValue: {
 					summary: 'no-icon',

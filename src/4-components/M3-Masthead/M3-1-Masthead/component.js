@@ -1,4 +1,4 @@
-import { createB41 } from '../../B4-Buttons/B4-1-Primary-Button/component';
+import { createB41 } from '../../B4-Buttons/component';
 
 export const createM31 = ({
 	title,
