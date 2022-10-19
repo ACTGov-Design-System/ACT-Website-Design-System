@@ -29,7 +29,8 @@
     "@storybook/html": "^6.5.12",
     "@storybook/manager-webpack4": "^6.5.12",
     "@storybook/testing-library": "^0.0.13",
-    "babel-loader": "^8.2.5"
+    "babel-loader": "^8.2.5",
+    "json-loader": "^0.5.7"
   },
   "dependencies": {
     "storybook-addon-sass-postcss": "^0.1.3"
