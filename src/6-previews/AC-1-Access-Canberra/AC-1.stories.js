@@ -1,7 +1,7 @@
-import { createF1 } from "./component";
+import { createAC1 } from "./component";
 
 export default {
-	title: "Patterns/Footers",
+	title: "Previews/Access Canberra",
 	parameters: {
 		// More on Story layout: https://storybook.js.org/docs/html/configure/story-layout
 		layout: "fullscreen",
@@ -12,6 +12,6 @@ export default {
 	},
 };
 
-const Template = (args) => createF1(args);
+const Template = (args) => createAC1(args);
 
 export const Default = Template.bind({});

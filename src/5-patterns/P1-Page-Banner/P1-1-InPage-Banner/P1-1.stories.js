@@ -1,13 +1,18 @@
-import { createB31 } from "./component";
+import { createP11 } from "./component";
 
 export default {
-	title: "Components/Breadcrumbs/Default",
+	title: "Patterns/Page Banners/In Page Banner",
 	parameters: {
 		// More on Story layout: https://storybook.js.org/docs/html/configure/story-layout
 		layout: "fullscreen",
 	},
 	// More on argTypes: https://storybook.js.org/docs/html/api/argtypes
 	argTypes: {
+		heading1: {
+			control: { type: "text", },
+			defaultValue: "Motor vehicle registration and renewal",
+			description: "Sets the heading value",
+		},
 		crumb1: {
 			control: { type: "text", },
 			defaultValue: "Crumb One",
@@ -61,6 +66,6 @@ export default {
 	},
 };
 
-const Template = (args) => createB31(args);
+const Template = (args) => createP11(args);
 
 export const Default = Template.bind({});

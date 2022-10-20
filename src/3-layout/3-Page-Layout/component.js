@@ -1,12 +1,12 @@
 export const create3P = ({
-	backgroundColor,
-	label,
-	type,
-	onClick,
-	primary = false,
-	size = "medium",
+  backgroundColor,
+  label,
+  type,
+  onClick,
+  primary = false,
+  size = "medium",
 }) => {
-	return `
+  return `
 <div class="act-flex">
   <div class="act-flex__container">
     <div class="act-flex__grid">

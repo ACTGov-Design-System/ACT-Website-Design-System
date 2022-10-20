@@ -10,8 +10,18 @@
 			max-width: map-get($act-space, "desktop-4");
 			min-height: map-get($act-space, "desktop-4");
 			min-width: map-get($act-space, "desktop-4");
-			margin-right:  map-get($act-space, "desktop-2");
+			margin-right: map-get($act-space, "desktop-2");
 			width: map-get($act-space, "desktop-4");
+		}
+	}
+	&__icon {
+		margin-right: map-get($act-space, "desktop-2");
+		height: map-get($act-space, "desktop-4");
+		width: map-get($act-space, "desktop-4");
+		i,
+		img {
+			height: 100%;
+			width: auto;
 		}
 	}
 	&__body {
