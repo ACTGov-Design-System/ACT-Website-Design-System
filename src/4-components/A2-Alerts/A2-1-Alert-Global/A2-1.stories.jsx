@@ -1,10 +1,34 @@
 import { createA21 } from "./component";
 
+// Component Settings
+const component = {
+	id: "A2",
+	name: "Alerts",
+	section: "-",
+	status: [
+		// Component Status First
+		"production",
+		// Component Style Second
+		"core",
+	],
+	version: "1",
+};
+const componentDescription = `
+	<button>` + component.id + "-" + component.version + `</button>
+`;
+
 export default {
-	title: "Components/Alerts/Global",
+	title: "Components/Alerts/Global Alert",
 	parameters: {
-		// More on Story layout: https://storybook.js.org/docs/html/configure/story-layout
+		docs: {
+			description: {
+				component: "<div>" + componentDescription + "</div>",
+			},
+		},
 		layout: "fullscreen",
+		status: {
+			type: component.status,
+		},
 	},
 	// More on argTypes: https://storybook.js.org/docs/html/api/argtypes
 	argTypes: {

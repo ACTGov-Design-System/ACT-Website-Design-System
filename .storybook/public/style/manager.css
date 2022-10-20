@@ -1,5 +1,13 @@
 /* Storybook Preview Styles */
 
+/* FONTS */
+/* Import Source Sans Pro */
+/* 400, 600, 700 */
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400&display=swap');
+
 :root {
 	--act-colour-black: #111111;
 	--act-colour-gainsboro: #E0E0E0;
@@ -17,14 +25,11 @@
 	--act-colour-yellow: #f2c94c;
 
 	--act-font-source-sans-pro: "Source Sans Pro", sans-serif;
+	--act-font-ibm-plex-mono: "IBM Plex Mono", monospace;
 	--act-font-montserrat: "Montserrat", sans-serif;
 }
 
-/* FONTS */
-/* Import Source Sans Pro */
-/* 400, 600, 700 */
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600&display=swap");
+
 
 html {
 	background-color: var(--act-colour-light-grey);
@@ -282,9 +287,10 @@ html {
 /* PREVIEW PANE */
 .sto-j0a3mh .sto-1va4tas,
 .sto-sqdry3 .sto-1va4tas {
-	background: var(--act-colour-black);
-	background-color: var(--act-colour-black);
+	background: var(--act-colour-white);
+	background-color: var(--act-colour-white);
 	border-radius: 0px;
+	box-shadow: 0 5px 5px 2px rgba(0, 0, 0, 0.15);
 }
 
 /* TOOLBAR */
@@ -334,30 +340,33 @@ html {
 }
 .sto-16navex .sto-p1dfi6 .sto-1lyqzqv .sto-1xonygc {
 	/* Tool Containers */ /* Tabs */ /* Tab Wrapper */
-	color: #000000;
-	font-family: "Montserrat";
+	color: var(--act-colour-black);
+	font-family: var(--act-font-source-sans-pro);
 }
 .sto-16navex .sto-p1dfi6 .sto-1lyqzqv .sto-1xonygc button {
 	/* Tool Containers */ /* Tabs */ /* Tab Wrapper */ /* Tab */
 	align-items: center;
 	border: 0px solid transparent !important;
-	color: #000000;
+	color: var(--act-colour-black);
 	display: flex;
-	font-family: "Montserrat";
-	font-size: 12px;
+	font-family: var(--act-font-source-sans-pro);
+	font-size: 13px;
 	height: 29px;
 	justify-content: center;
-	line-height: 12px;
-	padding-top: 2px;
+	line-height: 13px;
+	padding-top: 0px;
+	transition: none !important;
 }
 .sto-16navex .sto-p1dfi6 .sto-1lyqzqv .sto-1xonygc button:hover {
 	/* Tool Containers */ /* Tabs */ /* Tab Wrapper */ /* Tab */ /* :hover */
-	background-color: #31313125;
+	background-color: var(--act-colour-plum-purple);
+	color: var(--act-colour-white);
 }
 .sto-16navex .sto-p1dfi6 .sto-1lyqzqv .sto-1xonygc button.sto-16xipd6,
 .sto-16navex .sto-p1dfi6 .sto-1lyqzqv .sto-1xonygc button.sto-16xipd6:hover {
 	/* Tool Containers */ /* Tabs */ /* Tab Wrapper */ /* Tab */ /* :active */
-	background-color: #31313150;
+	background-color: var(--act-colour-purple);
+	color: var(--act-colour-white);
 }
 .sto-16navex .sto-p1dfi6 .sto-c3junj {
 	/* Tool Containers */ /* Container */
@@ -377,7 +386,7 @@ html {
 .sto-16navex .sto-p1dfi6 .sto-w68cbo {
 	/* Tool Containers */ /* Action Buttons */
 	border-radius: 0px;
-	color: #000000;
+	color: var(--act-colour-black);
 	height: 30px;
 	margin: 0;
 	padding: 0;
@@ -397,8 +406,8 @@ html {
 }
 .sto-16navex .sto-p1dfi6 .sto-17u15qg {
 	/* Tool Containers */ /* Action Buttons */ /* Viewport */
-	background: #ffffff;
-	background-color: #ffffff;
+	background: var(--act-colour-white);
+	background-color: var(--act-colour-white);
 	border-radius: 0px;
 	height: 30px;
 	margin: 0;
@@ -415,8 +424,8 @@ html {
 }
 .sto-16navex .sto-p1dfi6 .sto-vxcmzt {
 	/* Tool Containers */ /* Action Buttons */ /* Viewport Size */
-	background: #ffffff;
-	background-color: #ffffff;
+	background: var(--act-colour-white);
+	background-color: var(--act-colour-white);
 	border-radius: 0px;
 	height: 29px;
 	margin: 0;
@@ -424,8 +433,8 @@ html {
 .sto-16navex .sto-p1dfi6 .sto-vxcmzt .sto-3gces1 {
 	/* Tool Containers */ /* Action Buttons */ /* Viewport Size */ /* Value */
 	align-items: center;
-	background: #ffffff;
-	background-color: #ffffff;
+	background: var(--act-colour-white);
+	background-color: var(--act-colour-white);
 	border-radius: 0px;
 	border: none !important;
 	display: flex;
@@ -440,14 +449,19 @@ html {
 	/* Tool Containers */ /* Component Labels */
 	align-items: center;
 	border-radius: 0px;
+	box-sizing: border-box;
+	border-top: 6px solid var(--act-colour-white);
+	border-bottom: 6px solid var(--act-colour-white);
+	border-left: 1px solid var(--act-colour-white);
+	border-right: 1px solid var(--act-colour-white);
 	display: flex;
-	font-family: "Montserrat";
-	font-size: 10px;
+	font-family: var(--act-font-source-sans-pro);
+	font-size: 11px;
 	height: 30px;
 	justify-content: center;
-	line-height: 10px;
+	line-height: 1em;
 	margin: 0;
-	padding: 0 10px;
+	padding: 0 8px;
 }
 
 .sto-10ro1m {
@@ -526,6 +540,7 @@ html {
 	justify-content: center;
 	line-height: 12px;
 	padding-top: 2px;
+	transition: none !important;
 }
 #storybook-panel-root .sto-pfzk3k .sto-p1dfi6 .sto-1lyqzqv .tabbutton:hover {
 	/* Tool Containers */ /* Tabs */ /* Tab Wrapper */ /* Tab */ /* :hover */

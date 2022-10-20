@@ -47,6 +47,7 @@
     "prettier": "2.7.1"
   },
   "dependencies": {
+    "@etchteam/storybook-addon-status": "^4.2.2",
     "@storybook/theming": "^6.5.12",
     "storybook-addon-sass-postcss": "^0.1.3"
   }
