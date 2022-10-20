@@ -16,7 +16,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/t-pm/design-system--act.git"
+    "url": "git+https://github.com/pollen-digital/design-system--act.git"
   },
   "keywords": [],
 	"author": {
@@ -26,9 +26,9 @@
 	},
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/t-pm/design-system--act/issues"
+    "url": "https://github.com/pollen-digital/design-system--act/issues"
   },
-  "homepage": "https://github.com/t-pm/design-system--act#readme",
+  "homepage": "https://github.com/pollen-digital/design-system--act#readme",
   "devDependencies": {
     "@babel/core": "^7.19.3",
     "@storybook/addon-actions": "^6.5.12",
