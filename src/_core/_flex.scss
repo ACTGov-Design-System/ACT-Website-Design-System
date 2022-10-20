@@ -44,6 +44,10 @@
 			padding: calc(map-get($act-space, "desktop-5") - 12px)
 				calc(map-get($act-space, "desktop-4") + 4px);
 		}
+		&-padding-trim {
+			padding: 0px calc(map-get($act-space, "desktop-4") + 4px)
+				map-get($act-space, "desktop-1");
+		}
 	}
 	&__grid {
 		align-items: center;

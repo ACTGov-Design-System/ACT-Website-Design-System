@@ -21,7 +21,11 @@ export const createT11 = () => {
     title: "An ACT Government Website1",
   });
 
-  const topbarHTML = alertHTML + mastheadHTML + navbarHTML;
+  const topbarHTML = alertHTML + `
+<header class="act-header">
+  ` + mastheadHTML + navbarHTML + `
+</header>
+`;
 
   const topbar = document.createElement("div");
   topbar.className = "sb-act-topbar";

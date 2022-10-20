@@ -29,7 +29,7 @@ export const createP11 = ({
 
   const inpageBannerHTML = `
 <div class="act-flex act-flex-light-grey-gradient">
-  <div class="act-flex__container">
+  <div class="act-flex__container act-flex__container-padding-trim">
     <div class="act-flex__grid">
       <div class="act-flex__row">
         <div class="act-col act-col-sm-12">
