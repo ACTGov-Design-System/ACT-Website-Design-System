@@ -1,14 +1,14 @@
-import { createL21 } from '../../L2-Logos/L2-1-Primary-Logo/component';
+import { createL21 } from "../../L2-Logos/L2-1-Primary-Logo/component";
 
-export const createF12 = ({}) => {
+export const createF12 = () => {
 
-	const logo = createL21({
-		colour: "white",
-		type: "horizontal",
-		alt: "ACT Government",
-	});
+  const logo = createL21({
+    colour: "white",
+    type: "horizontal",
+    alt: "ACT Government",
+  });
 
-	return `
+  return `
 <div class="act-flex act-flex-violet">
   <div class="act-flex__container">
     <div class="act-flex__grid">
@@ -59,7 +59,7 @@ export const createF12 = ({}) => {
             <h4>Karrugang</h4>
             <ul>
               <li>Gamburra</li>
-              <li>Yumba</li>
+              <li>Yumba<i class="fa-solid fa-arrow-up-right-from-square"></i></li>
             </ul>
           </div>
           </div>

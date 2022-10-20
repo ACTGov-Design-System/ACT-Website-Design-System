@@ -18,16 +18,16 @@
 		height: 100%;
 		&:first-of-type {
 			justify-content: flex-start;
-			padding: map-get($act-space, "desktop-2") 0px ;
+			padding: map-get($act-space, "desktop-2") 0px;
 		}
 		@include devices(mobile) {
 			&:first-of-type {
-				padding: map-get($act-space, "desktop-1") 0px ;
+				padding: map-get($act-space, "desktop-1") 0px;
 			}
 		}
 		&:last-of-type {
 			justify-content: flex-end;
-			padding: 0px ;
+			padding: 0px;
 		}
 	}
 	&__search {

@@ -1,15 +1,15 @@
-import { createM31 } from './component';
+import { createM31 } from "./component";
 
 export default {
-  title: 'Components/Masthead/Default',
-  parameters: {
-    // More on Story layout: https://storybook.js.org/docs/html/configure/story-layout
-    layout: 'fullscreen',
-  },
-  // More on argTypes: https://storybook.js.org/docs/html/api/argtypes
-  argTypes: {
+	title: "Components/Masthead/Default",
+	parameters: {
+		// More on Story layout: https://storybook.js.org/docs/html/configure/story-layout
+		layout: "fullscreen",
+	},
+	// More on argTypes: https://storybook.js.org/docs/html/api/argtypes
+	argTypes: {
 
-  },
+	},
 };
 
 const Template = (args) => createM31(args);

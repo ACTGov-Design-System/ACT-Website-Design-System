@@ -12,6 +12,9 @@
 			line-height: $act-line-height__100;
 			padding: map-get($act-space, "desktop-1") 0px;
 			text-decoration: underline;
+			i {
+				margin-left: map-get($act-space, "desktop-0");
+			}
 		}
 	}
 }

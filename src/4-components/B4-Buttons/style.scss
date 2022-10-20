@@ -71,7 +71,7 @@
 		&:focus,
 		&-focus {
 			border-color: $act-colour__purple;
-			box-shadow:0 0 0 2px $act-colour__white, 0 0 0 4px $act-colour__purple;
+			box-shadow: 0 0 0 2px $act-colour__white, 0 0 0 4px $act-colour__purple;
 			i {
 				color: $act-colour__white;
 			}
@@ -87,7 +87,6 @@
 		border: 2px solid $act-colour__purple;
 		color: $act-colour__purple;
 		i {
-
 		}
 		&:hover,
 		&-hover {
@@ -108,7 +107,7 @@
 		&:focus,
 		&-focus {
 			border-color: $act-colour__purple;
-			box-shadow:0 0 0 2px $act-colour__white, 0 0 0 4px $act-colour__purple;
+			box-shadow: 0 0 0 2px $act-colour__white, 0 0 0 4px $act-colour__purple;
 			i {
 				color: $act-colour__purple;
 			}
@@ -149,7 +148,7 @@
 		&:focus,
 		&-focus {
 			border-color: $act-colour__white;
-			box-shadow:0 0 0 2px $act-colour__white, 0 0 0 4px $act-colour__purple;
+			box-shadow: 0 0 0 2px $act-colour__white, 0 0 0 4px $act-colour__purple;
 			i {
 				color: $act-colour__purple;
 			}

@@ -1,81 +1,80 @@
-import { createB41 } from './component';
-import { createTable } from '../../_helpers/helper-table';
+import { createB41 } from "./component";
 
 export default {
-  title: 'Components/Buttons',
-  parameters: {
+	title: "Components/Buttons",
+	parameters: {
 		docs: {
 			description: {
 				component: "",
 			},
 		},
-		layout: 'fullscreen',
-  },
+		layout: "fullscreen",
+	},
 	argTypes: {
 		type: {
-			control: { type: 'radio' },
-			options: ['primary', 'secondary', 'tertiary', 'inline'],
-			defaultValue: 'primary',
-			description: 'Sets the button type',
+			control: { type: "radio", },
+			options: ["primary", "secondary", "tertiary", "inline",],
+			defaultValue: "primary",
+			description: "Sets the button type",
 			table: {
 				defaultValue: {
-					summary: 'primary',
+					summary: "primary",
 				},
-			}
+			},
 		},
 		size: {
-			control: { type: 'select' },
-			options: ['default', 'large', 'small', 'xsmall'],
-			defaultValue: 'default',
-			description: 'Sets the button size',
+			control: { type: "select", },
+			options: ["default", "large", "small", "xsmall",],
+			defaultValue: "default",
+			description: "Sets the button size",
 			table: {
 				defaultValue: {
-					summary: 'default',
+					summary: "default",
 				},
-			}
+			},
 		},
 		icon: {
-			control: { type: 'radio' },
-			options: ['no-icon', 'icon-left', 'icon-right'],
-			defaultValue: 'no-icon',
-			description: 'Sets the button icon position',
+			control: { type: "radio", },
+			options: ["no-icon", "icon-left", "icon-right",],
+			defaultValue: "no-icon",
+			description: "Sets the button icon position",
 			table: {
 				defaultValue: {
-					summary: 'no-icon',
+					summary: "no-icon",
 				},
-			}
+			},
 		},
 		pseudoClass: {
-			control: { type: 'radio' },
-			options: ['', 'hover', 'active', 'focus', 'disabled'],
-			defaultValue: 'undefined',
-			description: 'Sets the pseudo-class of the button.<br>Make sure this is empty before copying code from this page.',
+			control: { type: "radio", },
+			options: ["", "hover", "active", "focus", "disabled",],
+			defaultValue: "undefined",
+			description: "Sets the pseudo-class of the button.<br>Make sure this is empty before copying code from this page.",
 			table: {
 				defaultValue: {
-					summary: 'undefined',
+					summary: "undefined",
 				},
-			}
+			},
 		},
 		fontawesome: {
-			control: { type: 'text' },
-			defaultValue: 'fa-face-laugh',
-			description: 'Sets the button icon',
+			control: { type: "text", },
+			defaultValue: "fa-face-laugh",
+			description: "Sets the button icon",
 			table: {
 				defaultValue: {
-					summary: 'fa-face-laugh',
+					summary: "fa-face-laugh",
 				},
-			}
+			},
 		},
 		label: {
-			control: { type: 'text' },
-			defaultValue: 'Birrigai',
-			description: 'Sets the button text',
+			control: { type: "text", },
+			defaultValue: "Birrigai",
+			description: "Sets the button text",
 			table: {
 				defaultValue: {
-					summary: 'birrigai',
-					detail: '"To laugh"',
+					summary: "birrigai",
+					detail: "\"To laugh\"",
 				},
-			}
+			},
 		},
 	},
 };

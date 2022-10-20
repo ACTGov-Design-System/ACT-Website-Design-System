@@ -1,15 +1,15 @@
-import { createF12 } from './component';
+import { createF12 } from "./component";
 
 export default {
-  title: 'Components/Footers/Main',
-  parameters: {
-    // More on Story layout: https://storybook.js.org/docs/html/configure/story-layout
-    layout: 'fullscreen',
-  },
-  // More on argTypes: https://storybook.js.org/docs/html/api/argtypes
-  argTypes: {
+	title: "Components/Footers/Main",
+	parameters: {
+		// More on Story layout: https://storybook.js.org/docs/html/configure/story-layout
+		layout: "fullscreen",
+	},
+	// More on argTypes: https://storybook.js.org/docs/html/api/argtypes
+	argTypes: {
 
-  },
+	},
 };
 
 const Template = (args) => createF12(args);

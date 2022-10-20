@@ -1,61 +1,61 @@
-import { createA21 } from './component';
+import { createA21 } from "./component";
 
 export default {
-  title: 'Components/Alerts/Global',
-  parameters: {
-    // More on Story layout: https://storybook.js.org/docs/html/configure/story-layout
-    layout: 'fullscreen',
-  },
-  // More on argTypes: https://storybook.js.org/docs/html/api/argtypes
-  argTypes: {
+	title: "Components/Alerts/Global",
+	parameters: {
+		// More on Story layout: https://storybook.js.org/docs/html/configure/story-layout
+		layout: "fullscreen",
+	},
+	// More on argTypes: https://storybook.js.org/docs/html/api/argtypes
+	argTypes: {
 		type: {
-			control: { type: 'radio' },
-			options: ['success', 'warning', 'error'],
-			defaultValue: 'success',
-			description: 'Sets the alert type',
+			control: { type: "radio", },
+			options: ["success", "warning", "error",],
+			defaultValue: "success",
+			description: "Sets the alert type",
 			table: {
 				defaultValue: {
-					summary: 'success',
+					summary: "success",
 				},
-			}
+			},
 		},
 		dismissible: {
-			control: 'boolean',
+			control: "boolean",
 			defaultValue: true,
-			description: 'Sets the alerts persistance',
+			description: "Sets the alerts persistance",
 			table: {
 				defaultValue: {
 					summary: true,
 				},
-			}
+			},
 		},
 		icon: {
-			control: { type: 'radio' },
-			options: ['no-icon', 'icon-left'],
-			defaultValue: 'icon-left',
-			description: 'Sets the alert icon',
+			control: { type: "radio", },
+			options: ["no-icon", "icon-left",],
+			defaultValue: "icon-left",
+			description: "Sets the alert icon",
 			table: {
 				defaultValue: {
-					summary: 'icon-left',
+					summary: "icon-left",
 				},
-			}
+			},
 		},
 		fontawesome: {
-			control: { type: 'text' },
-			defaultValue: 'fa-leaf',
-			description: 'Sets the alert icon',
+			control: { type: "text", },
+			defaultValue: "fa-leaf",
+			description: "Sets the alert icon",
 			table: {
 				defaultValue: {
-					summary: 'fa-leaf',
+					summary: "fa-leaf",
 				},
-			}
+			},
 		},
 		alert: {
-			control: { type: 'text' },
-			defaultValue: 'Free registration for zero emission vehicles for two years',
-			description: 'Sets the alert text',
+			control: { type: "text", },
+			defaultValue: "Free registration for zero emission vehicles for two years",
+			description: "Sets the alert text",
 		},
-  },
+	},
 };
 
 const Template = (args) => createA21(args);

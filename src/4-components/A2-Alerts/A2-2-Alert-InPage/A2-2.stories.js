@@ -1,15 +1,15 @@
-import { createA22 } from './component';
+import { createA22 } from "./component";
 
 export default {
-  title: 'Components/Alerts/InPage',
-  parameters: {
-    // More on Story layout: https://storybook.js.org/docs/html/configure/story-layout
-    layout: 'fullscreen',
-  },
-  // More on argTypes: https://storybook.js.org/docs/html/api/argtypes
-  argTypes: {
+	title: "Components/Alerts/InPage",
+	parameters: {
+		// More on Story layout: https://storybook.js.org/docs/html/configure/story-layout
+		layout: "fullscreen",
+	},
+	// More on argTypes: https://storybook.js.org/docs/html/api/argtypes
+	argTypes: {
 
-  },
+	},
 };
 
 const Template = (args) => createA22(args);

@@ -1,18 +1,18 @@
-import { createB41 } from '../../B4-Buttons/component';
+import { createB41 } from "../../B4-Buttons/component";
 
 export const createM31 = ({
-	title,
-	buttonText,
+  title,
+  buttonText,
 }) => {
 
-	const button = createB41({
-		type: "primary",
-		size: "xsmall",
-		icon: "no-icon",
-		label: buttonText,
-	});
+  const button = createB41({
+    type: "primary",
+    size: "xsmall",
+    icon: "no-icon",
+    label: buttonText,
+  });
 
-	const mastheadHTML = `
+  const mastheadHTML = `
 <div class="act-masthead">
   <div class="act-masthead__container">
     <div class="act-masthead__content left">
@@ -34,10 +34,10 @@ export const createM31 = ({
     </div>
   </div>
 </div>
-	`
-	const masthead = document.createElement('div');
-	masthead.className = 'sb-act-masthead';
-	masthead.innerHTML = mastheadHTML;
-	const mastheadExport = masthead.innerHTML;
-	return mastheadExport;
+	`;
+  const masthead = document.createElement("div");
+  masthead.className = "sb-act-masthead";
+  masthead.innerHTML = mastheadHTML;
+  const mastheadExport = masthead.innerHTML;
+  return mastheadExport;
 };

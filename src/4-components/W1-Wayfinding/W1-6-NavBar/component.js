@@ -1,19 +1,19 @@
-import { createL22 } from '../../L2-Logos/L2-2-Cobranded-Logo/component';
+import { createL22 } from "../../L2-Logos/L2-2-Cobranded-Logo/component";
 
 export const createW16 = ({
-	title,
+  title,
 }) => {
 
-	const logo = createL22({
-		colour: "black",
-		cobrand: "access-canberra",
-		type1: "horizontal",
-		type2: "cobrand-logo",
-		alt1: "ACT Government",
-		alt2: "Access Canberra",
-	});
+  const logo = createL22({
+    colour: "black",
+    cobrand: "access-canberra",
+    type1: "horizontal",
+    type2: "cobrand-logo",
+    alt1: "ACT Government",
+    alt2: "Access Canberra",
+  });
 
-	const navbarHTML = `
+  const navbarHTML = `
 <div class="act-navbar">
 <div class="act-navbar__container">
   <div class="act-navbar__content">
@@ -33,10 +33,10 @@ export const createW16 = ({
   </div>
 </div>
 </div>
-	`
-	const navbar = document.createElement('div');
-	navbar.className = 'sb-act-navbar';
-	navbar.innerHTML = navbarHTML;
-	const navbarExport = navbar.innerHTML;
-	return navbarExport;
+	`;
+  const navbar = document.createElement("div");
+  navbar.className = "sb-act-navbar";
+  navbar.innerHTML = navbarHTML;
+  const navbarExport = navbar.innerHTML;
+  return navbarExport;
 };

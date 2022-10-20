@@ -4,16 +4,26 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "storybook": "start-storybook -p 6006",
-    "build-storybook": "build-storybook"
+		"dev": "start-storybook -p 2600",
+		"test-eslint": "npx eslint .",
+		"test-prettier": "npx prettier --check .",
+		"test-all": "npm run test-eslint && npm run test-prettier",
+		"fix-eslint": "npx eslint . --fix",
+		"fix-prettier": "npx prettier --write .",
+		"fix-all": "npm run fix-eslint && npm run fix-prettier",
+		"build-storybook": "build-storybook",
+		"build": "npm run fix-eslint && npm run fix-prettier && npm run build-storybook"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/t-pm/design-system--act.git"
   },
   "keywords": [],
-  "author": "",
+	"author": {
+		"name": "Tom Milburn",
+		"email": "tom@pollen.com.au",
+		"url": "https://pollen.com.au"
+	},
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/t-pm/design-system--act/issues"
@@ -30,7 +40,11 @@
     "@storybook/manager-webpack4": "^6.5.12",
     "@storybook/testing-library": "^0.0.13",
     "babel-loader": "^8.2.5",
-    "json-loader": "^0.5.7"
+    "eslint": "^8.25.0",
+    "eslint-plugin-react": "^7.31.10",
+    "eslint-plugin-storybook": "^0.6.6",
+    "json-loader": "^0.5.7",
+    "prettier": "2.7.1"
   },
   "dependencies": {
     "storybook-addon-sass-postcss": "^0.1.3"
