@@ -72,7 +72,7 @@ export default {
 			table: {
 				defaultValue: {
 					summary: "birrigai",
-					detail: "\"To laugh\"",
+					detail: "To laugh",
 				},
 			},
 		},

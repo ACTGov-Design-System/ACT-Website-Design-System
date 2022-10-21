@@ -14,7 +14,7 @@ const component = {
 	version: "1",
 };
 const componentDescription = `
-	<button>` + component.id + "-" + component.version + `</button>
+	<button>` + component.id + `-` + component.version + `</button>
 `;
 
 export default {

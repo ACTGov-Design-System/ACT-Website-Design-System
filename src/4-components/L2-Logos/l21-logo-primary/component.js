@@ -8,7 +8,7 @@ export const createL21 = ({
 <div class="act-logos">
   <div class="act-logos__container">
     <div class="act-logo-`+type+`">
-      <img src="/logos/act-govt-`+colour+"-"+type+".svg\" alt=\""+alt+`"/>
+      <img src="/logos/act-govt-`+colour+`-`+type+`.svg" alt="`+alt+`"/>
     </div>
   </div>
 </div>

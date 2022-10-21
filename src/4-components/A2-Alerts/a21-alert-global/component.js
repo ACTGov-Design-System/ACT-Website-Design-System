@@ -18,7 +18,7 @@ export const createA21 = ({
 <div class="act-alert-global act-alert-global__`+type+" act-alert-global__"+icon+" "+dismissibleHTML+`" role="alert">
   <div class="act-alert-global__container">
     <div class="act-alert-global__content">
-      <i class="fa-solid `+fontawesome+"\"></i> <a class=\"act-h6\" href=\"#\" target=\"_self\" title=\"\">"+alert+`</a>
+      <i class="fa-solid `+fontawesome+`"></i> <a class="act-h6" href="#" target="_self" title="">`+alert+`</a>
     </div>
     <div class="act-alert-global__content">
       <i class="fa-solid fa-xmark act-alert-global__dismiss"></i>
