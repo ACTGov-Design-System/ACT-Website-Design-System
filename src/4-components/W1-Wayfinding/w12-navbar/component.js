@@ -34,9 +34,11 @@ export const createW12 = ({
     </div>
   </div>
 	`;
+
   const navbar = document.createElement("div");
   navbar.className = "sb-act-navbar";
   navbar.innerHTML = navbarHTML;
   const navbarExport = navbar.innerHTML;
   return navbarExport;
+
 };
