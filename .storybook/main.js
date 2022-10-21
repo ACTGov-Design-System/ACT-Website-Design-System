@@ -1,9 +1,10 @@
 module.exports = {
-  "stories": [
+  stories: [
     "../src/**/*.stories.mdx",
-    "../src/**/*.stories.@(js|jsx|ts|tsx)"
+    "../src/**/*.stories.jsx",
+    "../src/**/*.stories.js",
   ],
-  "addons": [
+  addons: [
     "@storybook/addon-links",
     "@storybook/addon-essentials",
     "@storybook/addon-interactions",
@@ -17,8 +18,18 @@ module.exports = {
 			},
 		},
   ],
-  "framework": "@storybook/html",
+	babel: async (options) => ({
+		...options,
+		presets: [
+			"@babel/preset-react",
+		],
+	}),
+  framework: "@storybook/html",
 	staticDirs: [
 		"./public",
 	],
+	resolve: {
+		extensions: ['.js', '.jsx', '.json', '.css', '.scss'],
+		modules: ['src', 'node_modules']
+	}
 }
