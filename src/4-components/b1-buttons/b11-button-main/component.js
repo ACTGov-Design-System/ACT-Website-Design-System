@@ -17,7 +17,7 @@ export const createB11 = ({
   }
 
   return `
-<button class="act-button act-button__`+type+" act-button__"+size+" act-button__"+icon+ " "+pseudoClassHTML+`" type="button">
+<button class="act-button act-button__`+type+` act-button__`+size+` act-button__`+icon+` `+pseudoClassHTML+`" type="button">
   `+label+`
   <i class="fa-solid `+fontawesome+`"></i>
 </button>
