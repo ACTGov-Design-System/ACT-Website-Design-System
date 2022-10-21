@@ -1,5 +1,5 @@
-import { createF11 } from "../../4-components/f1-footers/f11-footer-main/component";
-import { createF12 } from "../../4-components/f1-footers/f12-footer-aoc/component";
+import { createF11 } from "../../4-components/f1-footers/f11-footer-main/component.js";
+import { createF12 } from "../../4-components/f1-footers/f12-footer-aoc/component.js";
 
 
 export const createPF2 = () => {

@@ -1,4 +1,4 @@
-import { createW16 } from "../../../4-components/w1-wayfinding/w16-breadcrumbs/component";
+import { createW16 } from "../../../4-components/w1-wayfinding/w16-breadcrumbs/component.js";
 
 export const createPH12 = ({
   heading1,
