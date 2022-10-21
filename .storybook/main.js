@@ -17,8 +17,18 @@ module.exports = {
 			},
 		},
   ],
+	babel: async (options) => ({
+		...options,
+		presets: [
+			"@babel/preset-react",
+		],
+	}),
   framework: "@storybook/html",
 	staticDirs: [
 		"./public",
 	],
+	resolve: {
+			extensions: ['.js', '.jsx', '.json', '.css', '.scss'],
+			modules: ['src', 'node_modules']
+	}
 }
