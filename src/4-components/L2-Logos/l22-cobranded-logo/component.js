@@ -1,15 +1,11 @@
 export const createL22 = ({
   alt1,
   alt2,
-  backgroundColor,
   colour,
   cobrand,
   label,
   type1,
   type2,
-  onClick,
-  primary = false,
-  size = "medium",
 }) => {
   return `
 <div class="act-logos">
