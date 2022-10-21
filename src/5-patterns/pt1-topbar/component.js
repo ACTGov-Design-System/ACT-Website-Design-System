@@ -1,5 +1,4 @@
 import { createA21 } from "../../4-components/a2-alerts/a21-alert-global/component";
-import { createL22 } from "../../4-components/l2-logos/l22-cobranded-logo/component";
 import { createW11 } from "../../4-components/w1-wayfinding/w11-masthead/component";
 import { createW12 } from "../../4-components/w1-wayfinding/w12-navbar/component";
 
