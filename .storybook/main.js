@@ -1,7 +1,8 @@
 module.exports = {
   stories: [
     "../src/**/*.stories.mdx",
-    "../src/**/*.stories.@(js|jsx|ts|tsx)"
+    "../src/**/*.stories.jsx",
+    "../src/**/*.stories.js",
   ],
   addons: [
     "@storybook/addon-links",
@@ -28,7 +29,7 @@ module.exports = {
 		"./public",
 	],
 	resolve: {
-			extensions: ['.js', '.jsx', '.json', '.css', '.scss'],
-			modules: ['src', 'node_modules']
+		extensions: ['.js', '.jsx', '.json', '.css', '.scss'],
+		modules: ['src', 'node_modules']
 	}
 }

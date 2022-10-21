@@ -5,7 +5,7 @@ import { createW12 } from "../../4-components/w1-wayfinding/w12-navbar/component
 import { createPH12 } from "../../5-patterns/ph1-hero-rows/ph12-inpage-row/component";
 
 
-export const createAC1 = () => {
+export const createPR1 = () => {
 
   const alertHTML = createA21({
     type: "success",
