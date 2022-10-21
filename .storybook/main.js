@@ -7,6 +7,7 @@ module.exports = {
     "@storybook/addon-links",
     "@storybook/addon-essentials",
     "@storybook/addon-interactions",
+		'@etchteam/storybook-addon-status',
 		{
 			name: 'storybook-addon-sass-postcss',
 			options: {

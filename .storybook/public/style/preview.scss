@@ -7,17 +7,16 @@
 @import "../../../src/_core/_typography.scss";
 
 /* Component Style Import */
-@import "../../../src/3-layout/3-Page-Layout/style.scss";
-@import "../../../src/4-components/A2-Alerts/A2-1-Alert-Global/style.scss";
-@import "../../../src/4-components/A2-Alerts/A2-2-Alert-InPage/style.scss";
-@import "../../../src/4-components/B1-Back-to-top/B1-1-Back-to-top/style.scss";
-@import "../../../src/4-components/B4-Buttons/style.scss";
-@import "../../../src/4-components/B3-Breadcrumbs/B3-1-Breadcrumbs/style.scss";
-@import "../../../src/4-components/F1-Footers/F1-1-Footer-AoC/style.scss";
-@import "../../../src/4-components/F1-Footers/F1-2-Footer-Main/style.scss";
-@import "../../../src/4-components/L2-Logos/L2-1-Primary-Logo/style.scss";
-@import "../../../src/4-components/M3-Masthead/M3-1-Masthead/style.scss";
-@import "../../../src/4-components/W1-Wayfinding/W1-6-NavBar/style.scss";
+@import "../../../src/4-components/a1-accordion/a11-accordion/style.scss";
+@import "../../../src/4-components/a2-alerts/a21-alert-global/style.scss";
+@import "../../../src/4-components/a2-alerts/a22-alert-inpage/style.scss";
+@import "../../../src/4-components/b1-buttons/b11-button-main/style.scss";
+@import "../../../src/4-components/f1-footers/f11-footer-main/style.scss";
+@import "../../../src/4-components/f1-footers/f12-footer-aoc/style.scss";
+@import "../../../src/4-components/l2-logos/l21-logo-primary/style.scss";
+@import "../../../src/4-components/w1-wayfinding/w11-masthead/style.scss";
+@import "../../../src/4-components/w1-wayfinding/w12-navbar/style.scss";
+@import "../../../src/4-components/w1-wayfinding/w16-breadcrumbs/style.scss";
 
 /* Documentation Styling */
 #docs-root {

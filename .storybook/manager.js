@@ -29,7 +29,7 @@ addons.setConfig({
 			hidden: false,
 		},
 		fullscreen: {
-			hidden: true,
+			hidden: false,
 		},
 		title: {
 			hidden: false,

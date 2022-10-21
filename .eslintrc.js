@@ -44,7 +44,7 @@ module.exports = {
 		"no-else-return": "error",
 		"no-unused-vars": "off",
 		"quotes": [
-			"error", "double",
+			"error", "double", { "allowTemplateLiterals": true }
 		],
 		"semi": [
 			"error", "always",

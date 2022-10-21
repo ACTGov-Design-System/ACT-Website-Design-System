@@ -3,7 +3,7 @@ import { create } from "@storybook/theming";
 export default create({ // https://storybook.js.org/docs/react/configure/theming
 
 	base: "light",
-	colorPrimary: "#000000",
+	colorPrimary: "#472d8c",
 	colorSecondary: "#000000",
 
 	// UI
