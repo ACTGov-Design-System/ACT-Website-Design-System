@@ -16,12 +16,7 @@ export const parameters = {
 					"Changes & updates",
 				],
 				"Guidelines",
-				[
-					"Glossary",
-					"Accessibility",
-					"Branding",
-					"Content",
-				],
+				[],
 				"Design Tokens",
 				[
 					"Overview",
