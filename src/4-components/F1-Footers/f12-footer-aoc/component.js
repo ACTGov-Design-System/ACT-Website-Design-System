@@ -10,7 +10,7 @@ export const createF12 = () => {
             <div class="act-footer-aoc">
               <div class="act-footer-aoc__title">
                 <div class="act-footer-aoc__icon">
-                  <img src="/icons/footer-aoc-icon.svg"/>
+                  <img src="/icons/footer-aoc-icon.svg" alt="symbol"/>
                 </div>
                 <h4 class="act-h4-white">Acknowledgement of Country</h4>
               </div>

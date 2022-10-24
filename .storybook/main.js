@@ -9,6 +9,8 @@ module.exports = {
     "@storybook/addon-essentials",
     "@storybook/addon-interactions",
 		'@etchteam/storybook-addon-status',
+		'@whitespace/storybook-addon-html',
+		'@storybook/addon-a11y',
 		{
 			name: 'storybook-addon-sass-postcss',
 			options: {
