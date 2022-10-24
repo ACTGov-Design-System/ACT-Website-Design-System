@@ -32,6 +32,7 @@
 		display: flex;
 		justify-content: center;
 		width: $act-page-full-width;
+
 		@include devices(mobile) {
 			padding: calc(map-get($act-space, "desktop-5") - 4px)
 				calc(map-get($act-space, "desktop-2") - 4px);
@@ -45,9 +46,12 @@
 				calc(map-get($act-space, "desktop-4") + 4px);
 		}
 		&-padding-trim {
-			padding: 0px calc(map-get($act-space, "desktop-4") + 4px)
-				map-get($act-space, "desktop-1");
+			padding: 0px calc(map-get($act-space, "desktop-4") + 4px)	map-get($act-space, "desktop-0") ;
+			@include devices(mobile) {
+				padding: map-get($act-space, "desktop-0") calc(map-get($act-space, "desktop-2") + 4px)	;
+			}
 		}
+
 	}
 	&__grid {
 		align-items: center;
@@ -104,8 +108,8 @@
 				width: 100%;
 			}
 			@include devices(tablet) {
-				max-width: 50%;
-				width: 50%;
+				max-width: 33.333%;
+				width: 33.333%;
 			}
 			@include devices(desktop) {
 				max-width: 33.333%;

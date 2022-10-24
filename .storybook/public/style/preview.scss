@@ -13,6 +13,7 @@
 @import "../../../src/4-components/b1-buttons/b11-button-main/style.scss";
 @import "../../../src/4-components/f1-footers/f11-footer-main/style.scss";
 @import "../../../src/4-components/f1-footers/f12-footer-aoc/style.scss";
+@import "../../../src/4-components/f2-form-elements/style.scss";
 @import "../../../src/4-components/l2-logos/l21-logo-primary/style.scss";
 @import "../../../src/4-components/w1-wayfinding/w11-masthead/style.scss";
 @import "../../../src/4-components/w1-wayfinding/w12-navbar/style.scss";
@@ -20,13 +21,173 @@
 
 /* Documentation Styling */
 #docs-root {
-	margin-bottom: 200px;
 	.sbdocs {
 		&-content {
 			max-width: $act-page-max-width;
+			table {
+				border: 1px solid $act-colour__middle-grey;
+				width: $act-page-full-width;
+				thead {
+					background-color: $act-colour__middle-grey;
+					color: $act-colour__white;
+					th {
+						color: inherit;
+						button {
+							background-color: $act-colour__purple;
+							border-radius: 0px;
+							box-shadow: none;
+							color: $act-colour__white;
+							&:hover {
+								background-color: $act-colour__indigo;
+							}
+						}
+					}
+				}
+				tbody {
+					border-radius: 0px;
+				}
+				tr {
+					border-color: $act-colour__middle-grey;
+					th,
+					td {
+						border-radius: 0px !important;
+						border-color: $act-colour__middle-grey;
+						input,
+						select,
+						textarea {
+							border-radius: 0px;
+							&:focus {
+								box-shadow:$act-colour__purple 0 0 0 1px inset !important;
+							}
+						}
+						label {
+							border-radius: 0px;
+							input {
+								border-radius: 0px;
+							}
+							span {
+								border-radius: 0px !important;
+							}
+						}
+					}
+				}
+
+			}
 		}
-		table {
-			width: $act-page-full-width;
+		.css-1vg6q84 {
+			display: none;
+		}
+		&-preview {
+			border: 1px solid $act-colour__middle-grey;
+			border-radius: 0px;
+			overflow: hidden;
+			&:first-child {
+				padding-top: 31px;
+				> div:first-child {
+					border-bottom: 1px solid $act-colour__middle-grey;
+					box-shadow: none;
+					height: 31px;
+					max-height: 31px;
+					min-height: 31px;
+					> div {
+						border: none;
+						margin: 0px;
+						padding: 0px;
+						.css-p1dfi6 {
+							/* Toolbar */
+							height: 30px;
+							overflow: hidden;
+							.css-1amsdi0,
+							.css-102is01 {
+								margin: 0px;
+								padding: 0px;
+								a,
+								button {
+									align-items: center;
+									border-radius: 0px;
+									display: inline-flex;
+									height: 30px;
+									justify-content: center;
+									margin: 0px;
+									padding: 0px;
+									width: 30px;
+									svg {
+										height: 14px;
+										width: 14px;
+									}
+									&:hover {
+										background-color: $act-colour__purple;
+										color: $act-colour__white;
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+			.css-1dt41f3 {
+				border-radius: 0px !important;
+			}
+			.css-17vdvg6,
+			.docblock-code-toggle {
+				border-radius: 0px;
+				box-shadow: none;
+				font-family: monospace;
+				font-size: 11px;
+				font-weight: normal;
+				letter-spacing: 0px;
+				line-height: 1em;
+				outline: none;
+				&:hover {
+					background-color: $act-colour__purple;
+					color: $act-colour__white;
+				}
+			}
+		}
+	}
+}
+
+.act-docs-masthead {
+	align-items: center;
+	background-color: $act-colour__purple;
+	color: $act-colour__white;
+	display: flex;
+	font-size: 13px;
+	font-family: $sourcesanspro;
+	justify-content: space-between;
+	padding: 8px 16px;
+	position: fixed;
+	top: 0px;
+	width: 100%;
+	left: 0px;
+	&__content {
+		font-family: $sourcesanspro;
+		a.local {
+			color: $act-colour__white;
+			cursor: pointer;
+			display: inline-flex;
+			font-family: $sourcesanspro;
+			font-size: 13px;
+			font-weight: $act-font-weight__regular;
+			padding: 4px 8px;
+			text-decoration: none;
+			&:hover {
+				background-color: $act-colour__plum-purple;
+			}
+		}
+		a.feature {
+			background-color: $act-colour__plum-purple;
+			color: $act-colour__white;
+			cursor: pointer;
+			display: inline-flex;
+			font-family: $sourcesanspro;
+			font-size: 13px;
+			font-weight: $act-font-weight__semibold;
+			padding: 4px 12px;
+			text-decoration: none;
+			&:hover {
+				background-color: $act-colour__indigo;
+			}
 		}
 	}
 }
