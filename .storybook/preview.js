@@ -103,7 +103,9 @@ export const parameters = {
 						"Changes & updates",
 					],
 				"Guidelines",
-					[],
+					[
+						"Overview",
+					],
 				"Design Tokens",
 					[
 						"Overview",

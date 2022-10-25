@@ -157,6 +157,10 @@
 				}
 			}
 		}
+		.docblock-colorpalette {
+			font-family: $sourcesanspro;
+			margin: map-get($act-space, "desktop-5") 0px;
+		}
 	}
 }
 

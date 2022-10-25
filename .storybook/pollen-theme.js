@@ -32,7 +32,7 @@ export default create({ // https://storybook.js.org/docs/react/configure/theming
 	inputBorderRadius: 4,
 
 	brandTitle: "ACT Government Design System",
-	brandUrl: "/?path=/docs/",
+	brandUrl: "/?path=/docs/system-introduction--page",
 	brandImage: "/logos/act-gov-inline.svg",
 	brandTarget: "_self",
 
