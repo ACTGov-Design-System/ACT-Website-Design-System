@@ -7,10 +7,11 @@ module.exports = {
   addons: [
     "@storybook/addon-links",
     "@storybook/addon-essentials",
-    "@storybook/addon-interactions",
 		'@etchteam/storybook-addon-status',
 		'@whitespace/storybook-addon-html',
 		'@storybook/addon-a11y',
+		'storybook-mobile',
+		'storybook-addon-html-validator',
 		{
 			name: 'storybook-addon-sass-postcss',
 			options: {

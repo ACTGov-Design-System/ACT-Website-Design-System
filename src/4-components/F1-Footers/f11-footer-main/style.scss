@@ -4,13 +4,15 @@
 		list-style-type: none;
 		list-style-position: inside;
 		margin: map-get($act-space, "desktop-3") 0px;
+		li {
+			padding: map-get($act-space, "desktop-1") 0px;
+		}
 		li,
 		li a {
 			cursor: pointer;
 			font-size: $act-font-size__desktop-p;
 			font-weight: $act-font-weight__regular;
 			line-height: $act-line-height__100;
-			padding: map-get($act-space, "desktop-1") 0px;
 			text-decoration: underline;
 			i {
 				margin-left: map-get($act-space, "desktop-0");
