@@ -46,12 +46,13 @@
 				calc(map-get($act-space, "desktop-4") + 4px);
 		}
 		&-padding-trim {
-			padding: 0px calc(map-get($act-space, "desktop-4") + 4px)	map-get($act-space, "desktop-0") ;
+			padding: 0px calc(map-get($act-space, "desktop-4") + 4px)
+				map-get($act-space, "desktop-0");
 			@include devices(mobile) {
-				padding: map-get($act-space, "desktop-0") calc(map-get($act-space, "desktop-2") + 4px)	;
+				padding: map-get($act-space, "desktop-0")
+					calc(map-get($act-space, "desktop-2") + 4px);
 			}
 		}
-
 	}
 	&__grid {
 		align-items: center;

@@ -55,6 +55,29 @@ export const createPR1 = () => {
       required: true,
       value: "john@smith.com",
     },
+    field4: {
+      type: "checkbox",
+      width: "100%",
+      label: "Email Address",
+      required: false,
+      value: "john@smith.com",
+    },
+    field5: {
+      type: "radio",
+      width: "100%",
+      label: "Email Address",
+      name: "email",
+      required: false,
+      value: "john@smith.com",
+    },
+    field6: {
+      type: "radio",
+      width: "100%",
+      label: "E",
+      name: "email",
+      required: false,
+      value: "john@smith.com",
+    },
   });
   const footerHTML = createPF2({
     heading1: "Motor vehicle registration and renewal",

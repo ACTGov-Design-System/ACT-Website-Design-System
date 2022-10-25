@@ -1,11 +1,9 @@
-export const createF21 = ({
+export const createF22 = ({
   type,
   width,
   label,
   required,
   pseudoClass,
-  placeholder,
-  value,
 }) => {
 
   var widthVal = "-sm-12";
@@ -24,21 +22,10 @@ export const createF21 = ({
   }
 
   var disabledData;
-  if (pseudoClass == "disabled"){disabledData = "disabled";}
+  if (pseudoClass == "disabled"){disabledData = "disabled";} else {disabledData = "";}
 
   var readonlyData;
   if (pseudoClass == "read-only"){readonlyData = "readonly";}
-
-  var placeholderData;
-  if (placeholder != "" && placeholder != undefined ){placeholderData = `placeholder="`+placeholder+`"`;}
-
-  var valueData;
-  if (value != "" && value != undefined ){
-    valueData = value;
-  } else {
-    valueData = "";
-  }
-
 
   function makeid(length) {
     var result           = "";
@@ -49,13 +36,13 @@ export const createF21 = ({
     }
     return result;
   }
-  var id = type + "_" + makeid(5);
+  var id = "checkbox_" + makeid(5);
 
   return `
-<div class="act-form__container act-form__container`+widthVal+`" id="container_`+id+`">
+<div class="act-form__container act-form__container__checkbox act-form__container`+widthVal+`" id="container_`+id+`">
   <label class="act-form__field__label" for="`+id+`">
     `+labelHTML+`
   </label>
-  <input class="act-form__field__`+type+` `+pseudoClass+`" id="`+id+`" `+requiredData+` type="`+type+`" value="`+valueData+`" `+placeholderData+` `+readonlyData+` `+disabledData+`/>
+  <input class="act-form__field__checkbox `+pseudoClass+`" id="`+id+`" `+requiredData+` type="checkbox" `+readonlyData+` `+disabledData+`/>
 </div>
 `;};

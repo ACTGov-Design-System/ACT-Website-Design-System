@@ -65,6 +65,25 @@ export const parameters = {
   actions: {
 		argTypesRegex: "^on[A-Z].*",
 	},
+	docs: {
+			components: {
+					p: "",
+					div: "",
+					span: "",
+					input: "",
+					h1: "",
+					h2: "",
+					h3: "",
+					h4: "",
+					h5: "",
+					h6: "",
+					ul: "",
+					ol: "",
+					li: "",
+					a: "",
+					i: "",
+			},
+	},
 	html: {
 		prettier: {
 			tabWidth: 2,
@@ -76,39 +95,65 @@ export const parameters = {
 		storySort: { // Set the order of stories/pages in the sidebar
 			method: "alphabetical",
 			order: [
-				"Overview",
-				[
-					"Introduction",
-					"Our ecosystem",
-					"Roles & responsibilities",
-					"Changes & updates",
-				],
-				"Guidelines",
-				[],
-				"Design Tokens",
-				[
-					"Overview",
-				],
-				"Layout",
-				[
-					"Overview",
-				],
-				"Components",
-				[
-					"Overview",
-					"Form Elements",
+				"System",
 					[
-						"Structure"
+						"Introduction",
+						"Our ecosystem",
+						"Roles & responsibilities",
+						"Changes & updates",
 					],
-				],
+				"Guidelines",
+					[],
+				"Design Tokens",
+					[
+						"Overview",
+					],
+				"Layout",
+					[
+						"Overview",
+					],
+				"Components",
+					[
+						"Overview",
+						"Accordion",
+						"Alerts",
+						"Buttons",
+						"Cards",
+						"Footers",
+							[
+								"Main",
+								"AoC",
+								"Feedback",
+							],
+						"Form Elements",
+							[
+								"Structure"
+							],
+						"Loaders",
+						"Logos",
+						"Popups",
+						"Tables",
+						"Tabs",
+						"Tags",
+						"Tooltips",
+						"Wayfinding",
+							[
+								"Masthead",
+								"Navbar",
+								"Sidebar",
+								"Pagination",
+								"Mega Menu",
+								"Breadcrumbs",
+							],
+					],
 				"Patterns",
-				[
-					"Overview",
-				],
+					[
+						"Overview",
+					],
 				"Previews",
-				[
-					"Overview",
-				],
+					[
+						"Overview",
+					],
 			],
 		},
 	},

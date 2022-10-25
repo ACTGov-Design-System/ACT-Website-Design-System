@@ -1,7 +1,7 @@
 import { createF12 } from "./component";
 
 export default {
-	title: "Components/Footers/Acknowledgement of Country",
+	title: "Components/Footers/AoC",
 	parameters: {
 		// More on Story layout: https://storybook.js.org/docs/html/configure/story-layout
 		layout: "fullscreen",

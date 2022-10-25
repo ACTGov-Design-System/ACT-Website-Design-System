@@ -23,7 +23,17 @@
 #docs-root {
 	.sbdocs {
 		&-content {
+			font-family: $sourcesanspro !important;
 			max-width: $act-page-max-width;
+			h1,
+			h2,
+			h3,
+			h4 {
+				font-family: $montserrat;
+			}
+			p {
+				font-family: $sourcesanspro;
+			}
 			table {
 				border: 1px solid $act-colour__middle-grey;
 				width: $act-page-full-width;
@@ -52,16 +62,19 @@
 					td {
 						border-radius: 0px !important;
 						border-color: $act-colour__middle-grey;
+						font-family: $sourcesanspro !important;
 						input,
 						select,
 						textarea {
 							border-radius: 0px;
+							font-family: $sourcesanspro !important;
 							&:focus {
 								box-shadow:$act-colour__purple 0 0 0 1px inset !important;
 							}
 						}
 						label {
 							border-radius: 0px;
+							font-family: $sourcesanspro !important;
 							input {
 								border-radius: 0px;
 							}
@@ -147,47 +160,14 @@
 	}
 }
 
-.act-docs-masthead {
-	align-items: center;
-	background-color: $act-colour__purple;
-	color: $act-colour__white;
-	display: flex;
-	font-size: 13px;
+.act-docs-container {
+	/* Allows the ACT Design System to run within the MDX docs pages */
+	background-color: $act-colour__violet;
 	font-family: $sourcesanspro;
-	justify-content: space-between;
-	padding: 8px 16px;
-	position: fixed;
+	left: 0px;
+	position: absolute;
+	min-height: 100%;
 	top: 0px;
 	width: 100%;
-	left: 0px;
-	&__content {
-		font-family: $sourcesanspro;
-		a.local {
-			color: $act-colour__white;
-			cursor: pointer;
-			display: inline-flex;
-			font-family: $sourcesanspro;
-			font-size: 13px;
-			font-weight: $act-font-weight__regular;
-			padding: 4px 8px;
-			text-decoration: none;
-			&:hover {
-				background-color: $act-colour__plum-purple;
-			}
-		}
-		a.feature {
-			background-color: $act-colour__plum-purple;
-			color: $act-colour__white;
-			cursor: pointer;
-			display: inline-flex;
-			font-family: $sourcesanspro;
-			font-size: 13px;
-			font-weight: $act-font-weight__semibold;
-			padding: 4px 12px;
-			text-decoration: none;
-			&:hover {
-				background-color: $act-colour__indigo;
-			}
-		}
-	}
+	z-index: 888;
 }

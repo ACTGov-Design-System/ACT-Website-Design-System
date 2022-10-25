@@ -26,11 +26,22 @@ form,
 		justify-content: flex-start;
 		margin: map-get($act-space, "desktop-2") 0px;
 		width: 100%;
+		legend {
+			font-family: $sourcesanspro;
+			font-size: $act-font-size__desktop-p;
+			font-weight: $act-font-weight__regular;
+			margin-bottom: map-get($act-space, "desktop-1");
+			span,
+			.required {
+				color: $act-colour__red;
+				padding-left: map-get($act-space, "desktop-0");
+			}
+		}
 	}
 }
 form p,
 .act-form p,
-.act-form__field {
+.act-form__container {
 	align-items: flex-start;
 	display: inline-flex;
 	flex-direction: column;
@@ -39,6 +50,11 @@ form p,
 		map-get($act-space, "desktop-1");
 	width: 50%;
 	flex-grow: 1;
+	&__checkbox,
+	&__radio {
+		flex-direction: row-reverse;
+		justify-content: flex-end;
+	}
 	&-sm-2 {
 		/* 2 Column */ /* 16.666% */ /* 50/33/16 */
 		@include devices(mobile) {
@@ -144,10 +160,13 @@ form p,
 			width: 100%;
 		}
 	}
+}
+.act-form__field {
 	label,
 	&__label {
 		color: $act-colour__black;
 		display: inline-flex;
+		font-family: $sourcesanspro;
 		font-size: $act-font-size__desktop-p;
 		line-height: $act-line-height__130;
 		margin-bottom: map-get($act-space, "desktop-0");
@@ -157,9 +176,13 @@ form p,
 			padding-left: map-get($act-space, "desktop-0");
 		}
 	}
-	input,
-	textarea,
 	&__input,
+	&__email,
+	&__password,
+	&__date,
+	&__tel,
+	&__text,
+	&__url,
 	&__textarea {
 		box-sizing: border-box;
 		border-color: $act-colour__grey;
@@ -167,6 +190,7 @@ form p,
 		border-radius: 0px;
 		border-style: solid;
 		color: $act-colour__black;
+		font-family: $sourcesanspro;
 		font-size: $act-font-size__desktop-p;
 		font-weight: $act-font-weight__regular;
 		height: map-get($act-space, "desktop-6");
@@ -222,6 +246,33 @@ form p,
 				border-color: $act-colour__light-grey;
 				box-shadow: none;
 			}
+		}
+	}
+	&__checkbox {
+		accent-color: $act-colour__purple;
+		color: $act-colour__purple;
+		height: 20px;
+		margin-right: map-get($act-space, "desktop-1");
+		margin-top: 1px;
+		width: 20px;
+		&.focus,
+		&:focus,
+		&__focus {
+			box-shadow: 0 0 0 1px $act-colour__white, 0 0 0 4px $act-colour__purple;
+		}
+	}
+	&__radio {
+		accent-color: $act-colour__purple;
+		color: $act-colour__purple;
+		height: 20px;
+		margin-right: map-get($act-space, "desktop-1");
+		margin-top: 1px;
+		width: 20px;
+		&.focus,
+		&:focus,
+		&__focus {
+			box-shadow: 0 0 0 1px $act-colour__white, 0 0 0 4px $act-colour__purple;
+			border-radius: 0px;
 		}
 	}
 }
