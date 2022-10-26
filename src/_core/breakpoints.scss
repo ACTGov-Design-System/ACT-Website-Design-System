@@ -25,4 +25,9 @@ $act-break__ultrawide-end: 99999px;
 			@content;
 		}
 	}
+	@if $breakpoint == ultrawide {
+		@media only screen and (min-width: $act-break__ultrawide-start) and (max-width: $act-break__ultrawide-end) {
+			@content;
+		}
+	}
 }

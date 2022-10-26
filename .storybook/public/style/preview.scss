@@ -15,6 +15,7 @@
 @import "../../../src/4-components/f1-footers/f12-footer-aoc/style.scss";
 @import "../../../src/4-components/f2-form-elements/style.scss";
 @import "../../../src/4-components/l2-logos/l21-logo-primary/style.scss";
+@import "../../../src/4-components/t1-tables/style.scss";
 @import "../../../src/4-components/w1-wayfinding/w11-masthead/style.scss";
 @import "../../../src/4-components/w1-wayfinding/w12-navbar/style.scss";
 @import "../../../src/4-components/w1-wayfinding/w16-breadcrumbs/style.scss";
@@ -33,6 +34,29 @@
 			}
 			p {
 				font-family: $sourcesanspro;
+			}
+			code {
+				display: inline-flex;
+				vertical-align: baseline;
+				line-height: 1em;
+				font-family: monospace;
+				margin: 2px 2px;
+				padding: 4px 8px;
+				white-space: nowrap;
+				border-radius: 2px;
+				font-size: 12px;
+				border: 1px solid #ADADAD50;
+				color: $act-colour__black;
+				background-color: #ADADAD10;
+				&.hex {
+					/* color: $act-colour__green; */
+				}
+				&.class {
+					color: $act-colour__green;
+				}
+				&.sass-var {
+					color: $act-colour__plum-purple;
+				}
 			}
 			table {
 				border: 1px solid $act-colour__middle-grey;
@@ -57,11 +81,8 @@
 					border-radius: 0px;
 				}
 				tr {
-					border-color: $act-colour__middle-grey;
 					th,
 					td {
-						border-radius: 0px !important;
-						border-color: $act-colour__middle-grey;
 						font-family: $sourcesanspro !important;
 						input,
 						select,
@@ -159,7 +180,33 @@
 		}
 		.docblock-colorpalette {
 			font-family: $sourcesanspro;
-			margin: map-get($act-space, "desktop-5") 0px;
+			margin-top: map-get($act-space, "desktop-5");
+			* {
+				/* Remove border radius from colour swatches */
+				border-radius: 0px;
+			}
+			.css-syxe49 {
+				/* Hide Title Row */
+				display: none;
+			}
+			.css-1cic1f4 {
+				/* Colour Name */
+				color: $act-colour__black;
+				font-size: $act-font-size__desktop-p;
+				font-weight: $act-font-weight__bold;
+				margin-bottom: map-get($act-space, "desktop-0");
+			}
+			.css-1nkxwxu {
+				/* Colour Description */
+				color: $act-colour__black;
+				font-size: $act-font-size__desktop-p-small;
+				font-weight: $act-font-weight__regular;
+			}
+			.css-2qy8by {
+				/* Create some whitespace for colour descriptions */
+				padding-right: map-get($act-space, "desktop-2");
+				margin-top: 0px;
+			}
 		}
 	}
 }
@@ -174,4 +221,21 @@
 	top: 0px;
 	width: 100%;
 	z-index: 888;
+}
+
+.act-img {
+	display: flex;
+	flex-direction: column;
+	margin: map-get($act-space, "desktop-5") 0px;
+	img,
+	&__image {
+		border: 1px solid $act-colour__middle-grey;
+	}
+	&__description {
+		margin-top: map-get($act-space, "desktop-1");
+		i {
+			color: $act-colour__plum-purple;
+			margin-right: map-get($act-space, "desktop-0");
+		}
+	}
 }

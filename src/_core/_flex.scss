@@ -32,25 +32,31 @@
 		display: flex;
 		justify-content: center;
 		width: $act-page-full-width;
-
 		@include devices(mobile) {
-			padding: calc(map-get($act-space, "desktop-5") - 4px)
-				calc(map-get($act-space, "desktop-2") - 4px);
+			padding: map-get($act-space, "desktop-3") map-get($act-space, "desktop-1");
 		}
 		@include devices(tablet) {
-			padding: calc(map-get($act-space, "desktop-5") - 8px)
-				calc(map-get($act-space, "desktop-3") + 4px);
+			padding: map-get($act-space, "desktop-4") map-get($act-space, "desktop-2");
 		}
 		@include devices(desktop) {
-			padding: calc(map-get($act-space, "desktop-5") - 12px)
-				calc(map-get($act-space, "desktop-4") + 4px);
+			padding: map-get($act-space, "desktop-5") map-get($act-space, "desktop-5");
 		}
+		// @include devices(mobile) {
+		// 	padding: calc(map-get($act-space, "desktop-5") - 4px)
+		// 		calc(map-get($act-space, "desktop-2") - 4px);
+		// }
+		// @include devices(tablet) {
+		// 	padding: calc(map-get($act-space, "desktop-5") - 8px)
+		// 		calc(map-get($act-space, "desktop-3") + 4px);
+		// }
+		// @include devices(desktop) {
+		// 	padding: calc(map-get($act-space, "desktop-5") - 12px)
+		// 		calc(map-get($act-space, "desktop-4") + 4px);
+		// }
 		&-padding-trim {
-			padding: 0px calc(map-get($act-space, "desktop-4") + 4px)
-				map-get($act-space, "desktop-0");
+			padding: 0px map-get($act-space, "desktop-4") map-get($act-space, "desktop-0");
 			@include devices(mobile) {
-				padding: map-get($act-space, "desktop-0")
-					calc(map-get($act-space, "desktop-2") + 4px);
+				padding: map-get($act-space, "desktop-0") map-get($act-space, "desktop-2");
 			}
 		}
 	}
@@ -178,15 +184,17 @@
 			}
 		}
 		.act-box {
-			padding: 10px;
 			@include devices(mobile) {
-				margin: calc(map-get($act-space, "desktop-1") / 2);
+				margin: map-get($act-space, "desktop-0");
+				padding: map-get($act-space, "desktop-0");
 			}
 			@include devices(tablet) {
-				margin: calc(map-get($act-space, "desktop-2") / 2);
+				margin: map-get($act-space, "desktop-1");
+				padding: map-get($act-space, "desktop-1");
 			}
 			@include devices(desktop) {
-				margin: calc(map-get($act-space, "desktop-3") / 2);
+				margin: map-get($act-space, "desktop-2");
+				padding: map-get($act-space, "desktop-2");
 			}
 		}
 	}

@@ -64,7 +64,52 @@ import LinkTo from "@storybook/addon-links/react";
 				<div className="act-flex__row">
 					<div className="act-col act-col-sm-12">
 						<div className="act-box">
-							<h2>Introduction</h2>
+							<p>A 'breakpoint' is a predefined viewport width. This Design System utilises four breakpoints.</p>
+							<p>At each breakpoint we make adjustments to the interface create a better user experience on devices within those widths.</p>
+							<div className="act-img">
+								<img src="/images/2-design-tokens-breakpoints-1.png"/>
+								<div className="act-img__description act-p-small" alt="Illustration of the available breakpoints">
+									<i class="fa-solid fa-circle-info"></i> Illustration of the available breakpoints
+								</div>
+							</div>
+							<div className="act-table-container">
+								<table className="act-table">
+									<thead>
+										<tr>
+											<th>Breakpoint</th>
+											<th>Start Width</th>
+											<th>End Width</th>
+											<th>Sass Mixin</th>
+										</tr>
+									</thead>
+									<tbody>
+										<tr>
+											<td>Mobile</td>
+											<td><code>0px</code><code className="sass-var">$act-break__mobile-start</code></td>
+											<td><code>478px</code><code className="sass-var">$act-break__mobile-end</code></td>
+											<td><code className="sass-var">devices(mobile)</code></td>
+										</tr>
+										<tr>
+											<td>Tablet</td>
+											<td><code>479px</code><code className="sass-var">$act-break__tablet-start</code></td>
+											<td><code>991px</code><code className="sass-var">$act-break__tablet-end</code></td>
+											<td><code className="sass-var">devices(tablet)</code></td>
+										</tr>
+										<tr>
+											<td>Desktop</td>
+											<td><code>992px</code><code className="sass-var">$act-break__desktop-start</code></td>
+											<td><code>1440px</code><code className="sass-var">$act-break__desktop-end</code></td>
+											<td><code className="sass-var">devices(desktop)</code></td>
+										</tr>
+										<tr>
+											<td>Ultrawide</td>
+											<td><code>1441px</code><code className="sass-var">$act-break__ultrawide-start</code></td>
+											<td><code>9999px</code><code className="sass-var">$act-break__ultrawide-end</code></td>
+											<td><code className="sass-var">devices(ultrawide)</code></td>
+										</tr>
+									</tbody>
+								</table>
+							</div>
 						</div>
 					</div>
 				</div>

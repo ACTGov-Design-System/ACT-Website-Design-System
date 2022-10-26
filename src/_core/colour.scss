@@ -19,13 +19,13 @@ $act-colour__region-belconnen: #377e7a;
 $act-colour__region-gungahlin: #90a630;
 $act-colour__region-innercity: #008fc5;
 $act-colour__region-tuggeranong: #c6b30b;
-$act-colour__region-wooden: #f15f50;
+$act-colour__region-woden: #f15f50;
 
 $act-colour__district-inner-north: $act-colour__region-innercity;
 $act-colour__district-inner-south: #004868;
 $act-colour__district-molonglo-valley: #93171b;
 $act-colour__district-weston-creek: #f14c76;
-$act-colour__district-wooden: $act-colour__region-wooden;
+$act-colour__district-woden: $act-colour__region-woden;
 
 $act-colour__health-dark-blue: #2c4eab;
 $act-colour__health-light-blue: #0076c8;
@@ -37,7 +37,7 @@ $act-colour: (
 	"district-inner-south": $act-colour__district-inner-south,
 	"district-molonglo-valley": $act-colour__district-molonglo-valley,
 	"district-weston-creek": $act-colour__district-weston-creek,
-	"district-wooden": $act-colour__district-wooden,
+	"district-woden": $act-colour__district-woden,
 	"green": $act-colour__green,
 	"grey": $act-colour__grey,
 	"health-dark-blue": $act-colour__health-dark-blue,
@@ -50,7 +50,7 @@ $act-colour: (
 	"region-gungahlin": $act-colour__region-gungahlin,
 	"region-innercity": $act-colour__region-innercity,
 	"region-tuggeranong": $act-colour__region-tuggeranong,
-	"region-wooden": $act-colour__region-wooden,
+	"region-woden": $act-colour__region-woden,
 	"white": $act-colour__white,
 	"yellow": $act-colour__yellow,
 );
