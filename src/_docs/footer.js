@@ -11,7 +11,11 @@ const Footer = () => {
 							<div className="act-col act-col-sm-3">
 								<div className="act-box">
 									<div className="act-footer-nav">
-										<h4>System</h4>
+										<h4>
+											<LinkTo className="act-breadcrumbs__crumb__link" kind="system-introduction--page">
+												System
+											</LinkTo>
+										</h4>
 										<ul>
 											<li>
 												<LinkTo className="act-breadcrumbs__crumb__link" kind="system-introduction--page">
@@ -45,7 +49,11 @@ const Footer = () => {
 							<div className="act-col act-col-sm-3">
 								<div className="act-box">
 									<div className="act-footer-nav">
-										<h4>Guidelines</h4>
+										<h4>
+											<LinkTo className="act-breadcrumbs__crumb__link" kind="guidelines-overview--page">
+												Guidelines
+											</LinkTo>
+										</h4>
 										<ul>
 											<li>
 												<LinkTo className="act-breadcrumbs__crumb__link" kind="guidelines-overview--page">
@@ -79,7 +87,11 @@ const Footer = () => {
 							<div className="act-col act-col-sm-3">
 								<div className="act-box">
 									<div className="act-footer-nav">
-										<h4>Design Tokens</h4>
+										<h4>
+											<LinkTo className="act-breadcrumbs__crumb__link" kind="design-tokens-overview--page">
+												Design Tokens
+											</LinkTo>
+										</h4>
 										<ul>
 											<li>
 												<LinkTo className="act-breadcrumbs__crumb__link" kind="design-tokens-overview--page">
@@ -128,7 +140,11 @@ const Footer = () => {
 							<div className="act-col act-col-sm-3">
 								<div className="act-box">
 									<div className="act-footer-nav">
-										<h4>Layout</h4>
+										<h4>
+											<LinkTo className="act-breadcrumbs__crumb__link" kind="layout-overview--page">
+												Layout
+											</LinkTo>
+										</h4>
 										<ul>
 											<li>
 												<LinkTo className="act-breadcrumbs__crumb__link" kind="layout-overview--page">
@@ -142,7 +158,11 @@ const Footer = () => {
 							<div className="act-col act-col-sm-3">
 								<div className="act-box">
 									<div className="act-footer-nav">
-										<h4>Components</h4>
+										<h4>
+											<LinkTo className="act-breadcrumbs__crumb__link" kind="components-overview--page">
+												Components
+											</LinkTo>
+										</h4>
 										<ul>
 											<li>
 												<LinkTo className="act-breadcrumbs__crumb__link" kind="components-accordion-details--page">
@@ -169,7 +189,11 @@ const Footer = () => {
 							<div className="act-col act-col-sm-3">
 								<div className="act-box">
 									<div className="act-footer-nav">
-										<h4>Patterns</h4>
+										<h4>
+											<LinkTo className="act-breadcrumbs__crumb__link" kind="patterns-overview--page">
+												Patterns
+											</LinkTo>
+										</h4>
 										<ul>
 											<li>Card Groups</li>
 											<li>Feature Rows</li>
@@ -186,7 +210,11 @@ const Footer = () => {
 							<div className="act-col act-col-sm-3">
 								<div className="act-box">
 									<div className="act-footer-nav">
-										<h4>Previews</h4>
+										<h4>
+											<LinkTo className="act-breadcrumbs__crumb__link" kind="previews-overview--page">
+												Previews
+											</LinkTo>
+										</h4>
 										<ul>
 											<li>Access Canberra</li>
 											<li>ACT Health</li>

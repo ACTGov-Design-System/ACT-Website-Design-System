@@ -82,6 +82,13 @@ export const parameters = {
 					li: "",
 					a: "",
 					i: "",
+					code: "",
+					table: "",
+					thead: "",
+					tbody: "",
+					tr: "",
+					th: "",
+					td: "",
 			},
 	},
 	html: {
