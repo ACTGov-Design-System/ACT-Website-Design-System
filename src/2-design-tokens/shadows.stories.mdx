@@ -64,7 +64,33 @@ import LinkTo from "@storybook/addon-links/react";
 				<div className="act-flex__row">
 					<div className="act-col act-col-sm-12">
 						<div className="act-box">
-							<h2>Introduction</h2>
+							<p>There is a single box-shadown option in this system. The default is no shadow for all components.</p>
+							<div className="act-img">
+								<img src="/images/2-design-tokens-shadow-1.png" alt="Illustration of the available shadow variable"/>
+								<div className="act-img__description act-p-small">
+									<i class="fa-solid fa-circle-info"></i> Illustration of the available shadow variable
+								</div>
+							</div>
+							<div className="act-table-container">
+								<table className="act-table">
+									<thead>
+										<tr>
+											<th>Token Name</th>
+											<th>Value</th>
+											<th>Sass Variable</th>
+											<th>Sass Map</th>
+										</tr>
+									</thead>
+									<tbody>
+										<tr>
+											<td>Shadow 1</td>
+											<td><code>0px 8px 20px rgba(0, 0, 0, 0.15)</code></td>
+											<td><code className="sass-var">$act-shadow__one</code></td>
+											<td><code className="sass-var">map-get($act-shadow, "one")</code></td>
+										</tr>
+									</tbody>
+								</table>
+							</div>
 						</div>
 					</div>
 				</div>
