@@ -64,7 +64,51 @@ import LinkTo from "@storybook/addon-links/react";
 				<div className="act-flex__row">
 					<div className="act-col act-col-sm-12">
 						<div className="act-box">
-							<h2>Introduction</h2>
+							<p>There are several border-radius options in this system. The default is Radius 0 for all components.</p>
+							<div className="act-img">
+								<img src="/images/2-design-tokens-radius-1.png" alt="Illustration of the available radius variables"/>
+								<div className="act-img__description act-p-small">
+									<i class="fa-solid fa-circle-info"></i> Illustration of the available radius variables
+								</div>
+							</div>
+							<div className="act-table-container">
+								<table className="act-table">
+									<thead>
+										<tr>
+											<th>Token Name</th>
+											<th>Value</th>
+											<th>Sass Variable</th>
+											<th>Sass Map</th>
+										</tr>
+									</thead>
+									<tbody>
+										<tr>
+											<td>Radius 0</td>
+											<td><code>0px</code></td>
+											<td><code className="sass-var">$act-radius__desktop-0</code></td>
+											<td><code className="sass-var">map-get($act-radius, "desktop-0")</code></td>
+										</tr>
+										<tr>
+											<td>Radius 4</td>
+											<td><code>4px</code></td>
+											<td><code className="sass-var">$act-radius__desktop-4</code></td>
+											<td><code className="sass-var">map-get($act-radius, "desktop-4")</code></td>
+										</tr>
+										<tr>
+											<td>Radius 16</td>
+											<td><code>16px</code></td>
+											<td><code className="sass-var">$act-radius__desktop-16</code></td>
+											<td><code className="sass-var">map-get($act-radius, "desktop-16")</code></td>
+										</tr>
+										<tr>
+											<td>Radius Full</td>
+											<td><code>50%</code></td>
+											<td><code className="sass-var">$act-radius__desktop-full</code></td>
+											<td><code className="sass-var">map-get($act-radius, "desktop-full")</code></td>
+										</tr>
+									</tbody>
+								</table>
+							</div>
 						</div>
 					</div>
 				</div>

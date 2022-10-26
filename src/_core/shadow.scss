@@ -1,1 +1,7 @@
 /* Box Shadow Variables */
+
+$act-shadow__one: 0px 8px 20px rgba(0, 0, 0, 0.15);
+
+$act-colour: (
+	"one": $act-shadow__one,
+);
