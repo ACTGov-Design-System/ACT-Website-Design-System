@@ -6,8 +6,18 @@
 	&-light-grey {
 		background-color: $act-colour__light-grey;
 		&-gradient {
-			background: linear-gradient(180deg, #dfdfdf 0%, #e6e5e5 0.01%, #f0f0f0 100%);
-			background-color: linear-gradient(180deg, #dfdfdf 0%, #e6e5e5 0.01%, #f0f0f0 100%);
+			background: linear-gradient(
+				180deg,
+				#dfdfdf 0%,
+				#e6e5e5 0.01%,
+				#f0f0f0 100%
+			);
+			background-color: linear-gradient(
+				180deg,
+				#dfdfdf 0%,
+				#e6e5e5 0.01%,
+				#f0f0f0 100%
+			);
 		}
 	}
 	&-purple {
@@ -44,9 +54,11 @@
 		// 		calc(map-get($act-space, "desktop-4") + 4px);
 		// }
 		&-padding-trim {
-			padding: 0px map-get($act-space, "desktop-4") map-get($act-space, "desktop-0");
+			padding: 0px map-get($act-space, "desktop-4")
+				map-get($act-space, "desktop-0");
 			@include devices(mobile) {
-				padding: map-get($act-space, "desktop-0") map-get($act-space, "desktop-2");
+				padding: map-get($act-space, "desktop-0")
+					map-get($act-space, "desktop-2");
 			}
 		}
 	}
