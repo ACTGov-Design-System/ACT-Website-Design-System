@@ -26,26 +26,17 @@ import LinkTo from "@storybook/addon-links/react";
 							<div className="act-breadcrumbs">
 								<ul className="act-breadcrumbs__container">
 									<li className="act-breadcrumbs__crumb act-h6">
-										<LinkTo
-											className="act-breadcrumbs__crumb__link"
-											kind="system-introduction--page"
-										>
+										<LinkTo className="act-breadcrumbs__crumb__link" kind="system-introduction--page">
 											Design System <i className="fa-solid fa-angle-right"></i>
 										</LinkTo>
 									</li>
 									<li className="act-breadcrumbs__crumb act-h6">
-										<LinkTo
-											className="act-breadcrumbs__crumb__link"
-											kind="design-tokens-overview--page"
-										>
+										<LinkTo className="act-breadcrumbs__crumb__link" kind="design-tokens-overview--page">
 											Design Tokens <i className="fa-solid fa-angle-right"></i>
 										</LinkTo>
 									</li>
 									<li className="act-breadcrumbs__crumb act-h6">
-										<LinkTo
-											className="act-breadcrumbs__crumb__link"
-											kind="design-tokens-breakpoints--page"
-										>
+										<LinkTo className="act-breadcrumbs__crumb__link" kind="design-tokens-breakpoints--page">
 											Breakpoints <i className="fa-solid fa-angle-right"></i>
 										</LinkTo>
 									</li>
@@ -67,8 +58,8 @@ import LinkTo from "@storybook/addon-links/react";
 							<p>A 'breakpoint' is a predefined viewport width. This Design System utilises four breakpoints.</p>
 							<p>At each breakpoint we make adjustments to the interface create a better user experience on devices within those widths.</p>
 							<div className="act-img">
-								<img src="/images/2-design-tokens-breakpoints-1.png"/>
-								<div className="act-img__description act-p-small" alt="Illustration of the available breakpoints">
+								<img src="/images/2-design-tokens-breakpoints-1.png" alt="Illustration of the available breakpoints" />
+								<div className="act-img__description act-p-small">
 									<i class="fa-solid fa-circle-info"></i> Illustration of the available breakpoints
 								</div>
 							</div>
@@ -85,27 +76,59 @@ import LinkTo from "@storybook/addon-links/react";
 									<tbody>
 										<tr>
 											<td>Mobile</td>
-											<td><code>0px</code><code className="sass-var">$act-break__mobile-start</code></td>
-											<td><code>478px</code><code className="sass-var">$act-break__mobile-end</code></td>
-											<td><code className="sass-var">devices(mobile)</code></td>
+											<td>
+												<code>0px</code>
+												<code className="sass-var">$act-break__mobile-start</code>
+											</td>
+											<td>
+												<code>478px</code>
+												<code className="sass-var">$act-break__mobile-end</code>
+											</td>
+											<td>
+												<code className="sass-var">devices(mobile)</code>
+											</td>
 										</tr>
 										<tr>
 											<td>Tablet</td>
-											<td><code>479px</code><code className="sass-var">$act-break__tablet-start</code></td>
-											<td><code>991px</code><code className="sass-var">$act-break__tablet-end</code></td>
-											<td><code className="sass-var">devices(tablet)</code></td>
+											<td>
+												<code>479px</code>
+												<code className="sass-var">$act-break__tablet-start</code>
+											</td>
+											<td>
+												<code>991px</code>
+												<code className="sass-var">$act-break__tablet-end</code>
+											</td>
+											<td>
+												<code className="sass-var">devices(tablet)</code>
+											</td>
 										</tr>
 										<tr>
 											<td>Desktop</td>
-											<td><code>992px</code><code className="sass-var">$act-break__desktop-start</code></td>
-											<td><code>1440px</code><code className="sass-var">$act-break__desktop-end</code></td>
-											<td><code className="sass-var">devices(desktop)</code></td>
+											<td>
+												<code>992px</code>
+												<code className="sass-var">$act-break__desktop-start</code>
+											</td>
+											<td>
+												<code>1440px</code>
+												<code className="sass-var">$act-break__desktop-end</code>
+											</td>
+											<td>
+												<code className="sass-var">devices(desktop)</code>
+											</td>
 										</tr>
 										<tr>
 											<td>Ultrawide</td>
-											<td><code>1441px</code><code className="sass-var">$act-break__ultrawide-start</code></td>
-											<td><code>9999px</code><code className="sass-var">$act-break__ultrawide-end</code></td>
-											<td><code className="sass-var">devices(ultrawide)</code></td>
+											<td>
+												<code>1441px</code>
+												<code className="sass-var">$act-break__ultrawide-start</code>
+											</td>
+											<td>
+												<code>9999px</code>
+												<code className="sass-var">$act-break__ultrawide-end</code>
+											</td>
+											<td>
+												<code className="sass-var">devices(ultrawide)</code>
+											</td>
 										</tr>
 									</tbody>
 								</table>

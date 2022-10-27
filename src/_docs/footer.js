@@ -56,11 +56,6 @@ const Footer = () => {
 										</h4>
 										<ul>
 											<li>
-												<LinkTo className="act-breadcrumbs__crumb__link" kind="guidelines-overview--page">
-													Overview
-												</LinkTo>
-											</li>
-											<li>
 												<LinkTo className="act-breadcrumbs__crumb__link" kind="guidelines-accessibility--page">
 													Accessibility
 												</LinkTo>
@@ -93,11 +88,6 @@ const Footer = () => {
 											</LinkTo>
 										</h4>
 										<ul>
-											<li>
-												<LinkTo className="act-breadcrumbs__crumb__link" kind="design-tokens-overview--page">
-													Overview
-												</LinkTo>
-											</li>
 											<li>
 												<LinkTo className="act-breadcrumbs__crumb__link" kind="design-tokens-breakpoints--page">
 													Breakpoints
@@ -218,6 +208,24 @@ const Footer = () => {
 										<ul>
 											<li>Access Canberra</li>
 											<li>ACT Health</li>
+										</ul>
+									</div>
+								</div>
+							</div>
+							<div className="act-col act-col-sm-3">
+								<div className="act-box">
+									<div className="act-footer-nav">
+										<h4>
+											<LinkTo className="act-breadcrumbs__crumb__link" kind="previews-overview--page">
+												Links
+											</LinkTo>
+										</h4>
+										<ul>
+											<li>
+												<a className="act-breadcrumbs__crumb__link" href="https://github.com/ACTGov-Design-System" target="_blank" title="ACT Government GitHub">
+													GitHub <i className="fa-solid fa-arrow-up-right-from-square"></i>
+												</a>
+											</li>
 										</ul>
 									</div>
 								</div>
