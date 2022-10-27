@@ -81,6 +81,9 @@ h5,
 	@include devices(mobile) {
 		font-size: $act-font-size__mobile-h5;
 	}
+	&:last-child {
+		margin-bottom: 0px;
+	}
 }
 
 /* H6 */
@@ -93,6 +96,9 @@ h6,
 	margin-bottom: map-get($act-space, "desktop-1");
 	@include devices(mobile) {
 		font-size: $act-font-size__mobile-h6;
+	}
+	&:last-child {
+		margin-bottom: 0px;
 	}
 }
 
@@ -145,6 +151,9 @@ p,
 			font-size: $act-font-size__desktop-p-xsmall;
 		}
 	}
+	&:last-child {
+		margin-bottom: 0px;
+	}
 }
 
 /* A */
@@ -155,6 +164,7 @@ a,
 	font-size: inherit;
 	font-weight: inherit;
 	line-height: inherit;
+	text-decoration: none;
 	.fa-arrow-up-right-from-square {
 		font-size: 80%;
 		margin-left: map-get($act-space, "desktop-0");

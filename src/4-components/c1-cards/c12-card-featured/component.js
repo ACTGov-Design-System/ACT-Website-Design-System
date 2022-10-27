@@ -1,7 +1,7 @@
-export const createC11 = ({
+export const createC12 = ({
   alt,
 }) => {
   return `
 <div></div>
-  `;
+`;
 };

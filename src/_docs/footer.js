@@ -216,13 +216,11 @@ const Footer = () => {
 								<div className="act-box">
 									<div className="act-footer-nav">
 										<h4>
-											<LinkTo className="act-breadcrumbs__crumb__link" kind="previews-overview--page">
-												Links
-											</LinkTo>
+											Links
 										</h4>
 										<ul>
 											<li>
-												<a className="act-breadcrumbs__crumb__link" href="https://github.com/ACTGov-Design-System" target="_blank" title="ACT Government GitHub">
+												<a className="act-breadcrumbs__crumb__link" href="https://github.com/ACTGov-Design-System" target="_blank" title="ACT Government GitHub" rel="noreferrer">
 													GitHub <i className="fa-solid fa-arrow-up-right-from-square"></i>
 												</a>
 											</li>

@@ -1,7 +1,7 @@
-import { createC11 } from "./component";
+import { createC12 } from "./component";
 
 export default {
-	title: "Components/Cards/Default",
+	title: "Components/Cards/Featured",
 	parameters: {
 		// More on Story layout: https://storybook.js.org/docs/html/configure/story-layout
 		layout: "fullscreen",
@@ -12,6 +12,6 @@ export default {
 	},
 };
 
-const Template = (args) => createC11(args);
+const Template = (args) => createC12(args);
 
-export const Default = Template.bind({});
+export const Featured = Template.bind({});

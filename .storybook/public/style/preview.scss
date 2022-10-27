@@ -10,6 +10,7 @@
 @import "../../../src/4-components/a1-accordion/a11-accordion/style.scss";
 @import "../../../src/4-components/a2-alerts/a21-alert-global/style.scss";
 @import "../../../src/4-components/a2-alerts/a22-alert-inpage/style.scss";
+@import "../../../src/4-components/c1-cards/style.scss";
 @import "../../../src/4-components/b1-buttons/b11-button-main/style.scss";
 @import "../../../src/4-components/f1-footers/f11-footer-main/style.scss";
 @import "../../../src/4-components/f1-footers/f12-footer-aoc/style.scss";
@@ -24,17 +25,7 @@
 #docs-root {
 	.sbdocs {
 		&-content {
-			font-family: $sourcesanspro !important;
 			max-width: $act-page-max-width;
-			h1,
-			h2,
-			h3,
-			h4 {
-				font-family: $montserrat;
-			}
-			p {
-				font-family: $sourcesanspro;
-			}
 			code {
 				display: inline-flex;
 				vertical-align: baseline;
