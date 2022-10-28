@@ -47,7 +47,7 @@
 		}
 	}
 	&__error {
-		background-color: map-get($act-colour, "red");
+		background-color: $act-colour__red;
 		color: $act-colour__white;
 		i,
 		.act-h6 {

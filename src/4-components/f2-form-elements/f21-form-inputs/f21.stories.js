@@ -13,12 +13,12 @@ export default {
 	argTypes: {
 		type: {
 			control: { type: "select", },
-			options: ["input","password","date","email","tel","text","url",],
+			options: ["text","password","date","email","tel","url",],
 			defaultValue: "input",
 			description: "Sets the input type",
 			table: {
 				defaultValue: {
-					summary: "input",
+					summary: "text",
 				},
 			},
 		},

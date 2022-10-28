@@ -7,7 +7,7 @@ export const createF25a = ({
 
   var requiredData;
   if ( required == true){
-    requiredData = `required="required" aria-required="true"`;
+    requiredData = `required="required"`;
   }
 
   var disabledData;

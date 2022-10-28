@@ -35,14 +35,14 @@ export const createPR1 = () => {
   const formHTML = createF20({
     formTitle: "Renewal Form",
     field1: {
-      type: "input",
+      type: "text",
       width: "50%",
       label: "First Name",
       required: true,
       value: "James",
     },
     field2: {
-      type: "input",
+      type: "text",
       width: "50%",
       label: "Last Name",
       required: true,

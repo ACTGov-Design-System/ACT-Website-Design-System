@@ -20,7 +20,7 @@ export const createF21 = ({
   var requiredData;
   if ( required == true){
     labelHTML = label + `<span class="required">*</span>`;
-    requiredData = `required="required" aria-required="true"`;
+    requiredData = `required="required"`;
   }
 
   var disabledData;

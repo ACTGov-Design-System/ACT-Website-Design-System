@@ -17,7 +17,7 @@ export const createF20 = ({
   }
   if (field1 == undefined){
     field1 = {
-      type: "input",
+      type: "text",
       width: "50%",
       label: "First Name",
       required: true,
@@ -26,7 +26,7 @@ export const createF20 = ({
   }
   if (field2 == undefined){
     field2 = {
-      type: "input",
+      type: "text",
       width: "50%",
       label: "Last Name",
       required: false,
