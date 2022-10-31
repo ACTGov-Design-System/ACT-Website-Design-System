@@ -12,33 +12,33 @@ const Footer = () => {
 								<div className="act-box">
 									<div className="act-footer-nav">
 										<h4>
-											<LinkTo className="act-breadcrumbs__crumb__link" kind="system-introduction--page">
+											<LinkTo kind="system-introduction--page">
 												System
 											</LinkTo>
 										</h4>
 										<ul>
 											<li>
-												<LinkTo className="act-breadcrumbs__crumb__link" kind="system-introduction--page">
+												<LinkTo kind="system-introduction--page">
 													Introduction
 												</LinkTo>
 											</li>
 											<li>
-												<LinkTo className="act-breadcrumbs__crumb__link" kind="system-our-ecosystem--page">
+												<LinkTo kind="system-our-ecosystem--page">
 													Our ecosystem
 												</LinkTo>
 											</li>
 											<li>
-												<LinkTo className="act-breadcrumbs__crumb__link" kind="system-roles-responsibilities--page">
+												<LinkTo kind="system-roles-responsibilities--page">
 													Roles & responsibilities
 												</LinkTo>
 											</li>
 											<li>
-												<LinkTo className="act-breadcrumbs__crumb__link" kind="system-changes-updates--page">
+												<LinkTo kind="system-changes-updates--page">
 													Changes & updates
 												</LinkTo>
 											</li>
 											<li>
-												<LinkTo className="act-breadcrumbs__crumb__link" kind="system-technical-info--page">
+												<LinkTo kind="system-technical-info--page">
 													Technical Info
 												</LinkTo>
 											</li>
@@ -50,28 +50,28 @@ const Footer = () => {
 								<div className="act-box">
 									<div className="act-footer-nav">
 										<h4>
-											<LinkTo className="act-breadcrumbs__crumb__link" kind="guidelines-overview--page">
+											<LinkTo kind="guidelines-overview--page">
 												Guidelines
 											</LinkTo>
 										</h4>
 										<ul>
 											<li>
-												<LinkTo className="act-breadcrumbs__crumb__link" kind="guidelines-accessibility--page">
+												<LinkTo kind="guidelines-accessibility--page">
 													Accessibility
 												</LinkTo>
 											</li>
 											<li>
-												<LinkTo className="act-breadcrumbs__crumb__link" kind="guidelines-branding--page">
+												<LinkTo kind="guidelines-branding--page">
 													Branding
 												</LinkTo>
 											</li>
 											<li>
-												<LinkTo className="act-breadcrumbs__crumb__link" kind="guidelines-content--page">
+												<LinkTo kind="guidelines-content--page">
 													Content
 												</LinkTo>
 											</li>
 											<li>
-												<LinkTo className="act-breadcrumbs__crumb__link" kind="guidelines-glossary--page">
+												<LinkTo kind="guidelines-glossary--page">
 													Glossary
 												</LinkTo>
 											</li>
@@ -83,43 +83,43 @@ const Footer = () => {
 								<div className="act-box">
 									<div className="act-footer-nav">
 										<h4>
-											<LinkTo className="act-breadcrumbs__crumb__link" kind="design-tokens-overview--page">
+											<LinkTo kind="design-tokens-overview--page">
 												Design Tokens
 											</LinkTo>
 										</h4>
 										<ul>
 											<li>
-												<LinkTo className="act-breadcrumbs__crumb__link" kind="design-tokens-breakpoints--page">
+												<LinkTo kind="design-tokens-breakpoints--page">
 													Breakpoints
 												</LinkTo>
 											</li>
 											<li>
-												<LinkTo className="act-breadcrumbs__crumb__link" kind="design-tokens-colours--page">
+												<LinkTo kind="design-tokens-colours--page">
 													Colours
 												</LinkTo>
 											</li>
 											<li>
-												<LinkTo className="act-breadcrumbs__crumb__link" kind="design-tokens-interactions--page">
+												<LinkTo kind="design-tokens-interactions--page">
 													Interactions
 												</LinkTo>
 											</li>
 											<li>
-												<LinkTo className="act-breadcrumbs__crumb__link" kind="design-tokens-radius--page">
+												<LinkTo kind="design-tokens-radius--page">
 													Radius
 												</LinkTo>
 											</li>
 											<li>
-												<LinkTo className="act-breadcrumbs__crumb__link" kind="design-tokens-shadows--page">
+												<LinkTo kind="design-tokens-shadows--page">
 													Shadows
 												</LinkTo>
 											</li>
 											<li>
-												<LinkTo className="act-breadcrumbs__crumb__link" kind="design-tokens-spacing--page">
+												<LinkTo kind="design-tokens-spacing--page">
 													Spacing
 												</LinkTo>
 											</li>
 											<li>
-												<LinkTo className="act-breadcrumbs__crumb__link" kind="design-tokens-typography--page">
+												<LinkTo kind="design-tokens-typography--page">
 													Typography
 												</LinkTo>
 											</li>
@@ -131,13 +131,13 @@ const Footer = () => {
 								<div className="act-box">
 									<div className="act-footer-nav">
 										<h4>
-											<LinkTo className="act-breadcrumbs__crumb__link" kind="layout-overview--page">
+											<LinkTo kind="layout-overview--page">
 												Layout
 											</LinkTo>
 										</h4>
 										<ul>
 											<li>
-												<LinkTo className="act-breadcrumbs__crumb__link" kind="layout-overview--page">
+												<LinkTo kind="layout-overview--page">
 													Overview
 												</LinkTo>
 											</li>
@@ -149,13 +149,13 @@ const Footer = () => {
 								<div className="act-box">
 									<div className="act-footer-nav">
 										<h4>
-											<LinkTo className="act-breadcrumbs__crumb__link" kind="components-overview--page">
+											<LinkTo kind="components-overview--page">
 												Components
 											</LinkTo>
 										</h4>
 										<ul>
 											<li>
-												<LinkTo className="act-breadcrumbs__crumb__link" kind="components-accordion-details--page">
+												<LinkTo kind="components-accordion-details--page">
 													Accordion
 												</LinkTo>
 											</li>
@@ -180,7 +180,7 @@ const Footer = () => {
 								<div className="act-box">
 									<div className="act-footer-nav">
 										<h4>
-											<LinkTo className="act-breadcrumbs__crumb__link" kind="patterns-overview--page">
+											<LinkTo kind="patterns-overview--page">
 												Patterns
 											</LinkTo>
 										</h4>
@@ -201,7 +201,7 @@ const Footer = () => {
 								<div className="act-box">
 									<div className="act-footer-nav">
 										<h4>
-											<LinkTo className="act-breadcrumbs__crumb__link" kind="previews-overview--page">
+											<LinkTo kind="previews-overview--page">
 												Previews
 											</LinkTo>
 										</h4>
@@ -220,12 +220,12 @@ const Footer = () => {
 										</h4>
 										<ul>
 											<li>
-												<a className="act-breadcrumbs__crumb__link" href="https://github.com/ACTGov-Design-System" target="_blank" title="ACT Government GitHub" rel="noreferrer">
+												<a href="https://github.com/ACTGov-Design-System" target="_blank" title="ACT Government GitHub" rel="noreferrer">
 													GitHub <i className="fa-solid fa-arrow-up-right-from-square"></i>
 												</a>
 											</li>
 											<li>
-												<a className="act-breadcrumbs__crumb__link" href="https://www.pollen.com.au" target="_blank" title="Pollen" rel="noreferrer">
+												<a href="https://www.pollen.com.au" target="_blank" title="Pollen" rel="noreferrer">
 													Pollen <i className="fa-solid fa-arrow-up-right-from-square"></i>
 												</a>
 											</li>

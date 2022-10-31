@@ -6,7 +6,7 @@ const Masthead = () => {
 		<div className="act-masthead">
 			<div className="act-masthead__container">
 				<div className="act-masthead__content left">
-					ACT Government Design System
+					ACT Government Website Design System
 				</div>
 				<div className="act-masthead__content right">
 					<div className="act-masthead__nav">

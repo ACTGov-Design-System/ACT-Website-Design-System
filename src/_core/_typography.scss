@@ -1,5 +1,5 @@
 /* ACT Design System */
-/* Design Tokens *//* Typography */
+/* Design Tokens */ /* Typography */
 /* Reference: /?path=/docs/design-tokens-typography--page */
 
 .act-montserrat {
@@ -159,11 +159,24 @@ p,
 	}
 }
 
+ol,
+ul {
+	font-family: $sourcesanspro;
+	font-size: $act-font-size__desktop-p;
+	font-weight: $act-font-weight__regular;
+	line-height: $act-line-height__150;
+	margin: map-get($act-space, "desktop-1") 0px;
+	li {
+		list-style-position: inside;
+	}
+}
+
 /* A */
 a,
 .act-a {
-	color: $act-colour__black;
+	color: inherit;
 	cursor: pointer;
+	font-family: $sourcesanspro;
 	font-size: inherit;
 	font-weight: inherit;
 	line-height: inherit;
