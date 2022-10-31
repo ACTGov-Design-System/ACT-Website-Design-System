@@ -1,6 +1,11 @@
+/* ACT Design System */
+/* Layout */
+/* Reference: /?path=/docs/layout-overview--page */
+
 .act-flex {
 	background-color: $act-colour__white;
 	display: flex;
+	flex-direction: column;
 	justify-content: center;
 	width: $act-page-full-width;
 	&-light-grey {
@@ -44,18 +49,6 @@
 		@include devices(desktop) {
 			padding: map-get($act-space, "desktop-5") map-get($act-space, "desktop-5");
 		}
-		// @include devices(mobile) {
-		// 	padding: calc(map-get($act-space, "desktop-5") - 4px)
-		// 		calc(map-get($act-space, "desktop-2") - 4px);
-		// }
-		// @include devices(tablet) {
-		// 	padding: calc(map-get($act-space, "desktop-5") - 8px)
-		// 		calc(map-get($act-space, "desktop-3") + 4px);
-		// }
-		// @include devices(desktop) {
-		// 	padding: calc(map-get($act-space, "desktop-5") - 12px)
-		// 		calc(map-get($act-space, "desktop-4") + 4px);
-		// }
 		&-padding-trim {
 			padding: 0px map-get($act-space, "desktop-4")
 				map-get($act-space, "desktop-0");
@@ -83,7 +76,7 @@
 	}
 	.act-col {
 		flex-grow: 1;
-		&-sm-2 {
+		&__cw-2 {
 			/* 2 Column */ /* 16.666% */ /* 50/33/16 */
 			@include devices(mobile) {
 				max-width: 50%;
@@ -98,7 +91,7 @@
 				width: 16.666%;
 			}
 		}
-		&-sm-3 {
+		&__cw-3 {
 			/* 3 Column */ /* 25% */ /* 100/50/25 */
 			@include devices(mobile) {
 				max-width: 100%;
@@ -113,7 +106,7 @@
 				width: 25%;
 			}
 		}
-		&-sm-4 {
+		&__cw-4 {
 			/* 4 Column */ /* 33.333% */ /* 100/33/33 */
 			@include devices(mobile) {
 				max-width: 100%;
@@ -128,7 +121,7 @@
 				width: 33.333%;
 			}
 		}
-		&-sm-6 {
+		&__cw-6 {
 			/* 6 Column */ /* 50% */ /* 100/50/50 */
 			@include devices(mobile) {
 				max-width: 100%;
@@ -143,7 +136,7 @@
 				width: 50%;
 			}
 		}
-		&-sm-8 {
+		&__cw-8 {
 			/* 8 Column */ /* 66.666% */ /* 100/66/66 */
 			@include devices(mobile) {
 				max-width: 100%;
@@ -158,7 +151,7 @@
 				width: 66.666%;
 			}
 		}
-		&-sm-9 {
+		&__cw-9 {
 			/* 9 Column */ /* 75% */ /* 100/100/75 */
 			@include devices(mobile) {
 				max-width: 100%;
@@ -173,7 +166,7 @@
 				width: 75%;
 			}
 		}
-		&-sm-12 {
+		&__cw-12 {
 			/* 12 Column */ /* 100% */ /* 100/100/100 */
 			@include devices(mobile) {
 				max-width: 100%;
@@ -188,19 +181,19 @@
 				width: 100%;
 			}
 		}
-		.act-box {
-			@include devices(mobile) {
-				margin: map-get($act-space, "desktop-0");
-				padding: map-get($act-space, "desktop-0");
-			}
-			@include devices(tablet) {
-				margin: map-get($act-space, "desktop-1");
-				padding: map-get($act-space, "desktop-1");
-			}
-			@include devices(desktop) {
-				margin: map-get($act-space, "desktop-2");
-				padding: map-get($act-space, "desktop-2");
-			}
+	}
+	.act-box {
+		@include devices(mobile) {
+			margin: map-get($act-space, "desktop-0");
+			padding: map-get($act-space, "desktop-0");
+		}
+		@include devices(tablet) {
+			margin: map-get($act-space, "desktop-1");
+			padding: map-get($act-space, "desktop-1");
+		}
+		@include devices(desktop) {
+			margin: map-get($act-space, "desktop-2");
+			padding: map-get($act-space, "desktop-2");
 		}
 	}
 }

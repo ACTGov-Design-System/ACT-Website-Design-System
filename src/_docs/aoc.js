@@ -7,7 +7,7 @@ const AoC = () => {
 			<div className="act-flex__container">
 				<div className="act-flex__grid">
 					<div className="act-flex__row">
-						<div className="act-col act-col-sm-12">
+						<div className="act-col__cw-12">
 							<div className="act-box">
 								<div className="act-footer-aoc">
 									<div className="act-footer-aoc__title">

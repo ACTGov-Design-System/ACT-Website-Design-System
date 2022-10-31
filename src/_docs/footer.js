@@ -8,7 +8,7 @@ const Footer = () => {
 				<div className="act-flex__container">
 					<div className="act-flex__grid">
 						<div className="act-flex__row">
-							<div className="act-col act-col-sm-3">
+							<div className="act-col__cw-3">
 								<div className="act-box">
 									<div className="act-footer-nav">
 										<h4>
@@ -46,7 +46,7 @@ const Footer = () => {
 									</div>
 								</div>
 							</div>
-							<div className="act-col act-col-sm-3">
+							<div className="act-col__cw-3">
 								<div className="act-box">
 									<div className="act-footer-nav">
 										<h4>
@@ -79,7 +79,7 @@ const Footer = () => {
 									</div>
 								</div>
 							</div>
-							<div className="act-col act-col-sm-3">
+							<div className="act-col__cw-3">
 								<div className="act-box">
 									<div className="act-footer-nav">
 										<h4>
@@ -127,7 +127,7 @@ const Footer = () => {
 									</div>
 								</div>
 							</div>
-							<div className="act-col act-col-sm-3">
+							<div className="act-col__cw-3">
 								<div className="act-box">
 									<div className="act-footer-nav">
 										<h4>
@@ -145,7 +145,7 @@ const Footer = () => {
 									</div>
 								</div>
 							</div>
-							<div className="act-col act-col-sm-3">
+							<div className="act-col__cw-3">
 								<div className="act-box">
 									<div className="act-footer-nav">
 										<h4>
@@ -176,7 +176,7 @@ const Footer = () => {
 									</div>
 								</div>
 							</div>
-							<div className="act-col act-col-sm-3">
+							<div className="act-col__cw-3">
 								<div className="act-box">
 									<div className="act-footer-nav">
 										<h4>
@@ -197,7 +197,7 @@ const Footer = () => {
 									</div>
 								</div>
 							</div>
-							<div className="act-col act-col-sm-3">
+							<div className="act-col__cw-3">
 								<div className="act-box">
 									<div className="act-footer-nav">
 										<h4>
@@ -212,7 +212,7 @@ const Footer = () => {
 									</div>
 								</div>
 							</div>
-							<div className="act-col act-col-sm-3">
+							<div className="act-col__cw-3">
 								<div className="act-box">
 									<div className="act-footer-nav">
 										<h4>
@@ -224,13 +224,18 @@ const Footer = () => {
 													GitHub <i className="fa-solid fa-arrow-up-right-from-square"></i>
 												</a>
 											</li>
+											<li>
+												<a className="act-breadcrumbs__crumb__link" href="https://www.pollen.com.au" target="_blank" title="Pollen" rel="noreferrer">
+													Pollen <i className="fa-solid fa-arrow-up-right-from-square"></i>
+												</a>
+											</li>
 										</ul>
 									</div>
 								</div>
 							</div>
 						</div>
 						<div className="act-flex__row">
-							<div className="act-col act-col-sm-12">
+							<div className="act-col__cw-12">
 								<div className="act-box">
 									<div className="act-footer-main">
 										<div className="act-footer-main__container">

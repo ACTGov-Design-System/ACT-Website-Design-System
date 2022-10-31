@@ -32,7 +32,7 @@ export const createPH12 = ({
   <div class="act-flex__container act-flex__container-padding-trim">
     <div class="act-flex__grid">
       <div class="act-flex__row">
-        <div class="act-col act-col-sm-12">
+        <div class="act-col__cw-12">
           <div class="act-box">
             `+breadcrumbsHTML+`
             <h1>`+heading1+`</h1>
