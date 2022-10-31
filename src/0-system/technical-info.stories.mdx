@@ -26,18 +26,12 @@ import LinkTo from "@storybook/addon-links/react";
 							<div className="act-breadcrumbs">
 								<ul className="act-breadcrumbs__container">
 									<li className="act-breadcrumbs__crumb act-h6">
-										<LinkTo
-											className="act-breadcrumbs__crumb__link"
-											kind="system-introduction--page"
-										>
+										<LinkTo className="act-breadcrumbs__crumb__link" kind="system-introduction--page">
 											Design System <i className="fa-solid fa-angle-right"></i>
 										</LinkTo>
 									</li>
 									<li className="act-breadcrumbs__crumb act-h6">
-										<LinkTo
-											className="act-breadcrumbs__crumb__link"
-											kind="system-technical-info--page"
-										>
+										<LinkTo className="act-breadcrumbs__crumb__link" kind="system-technical-info--page">
 											Technical Info <i className="fa-solid fa-angle-right"></i>
 										</LinkTo>
 									</li>
@@ -60,11 +54,7 @@ import LinkTo from "@storybook/addon-links/react";
 							<img src="https://img.shields.io/github/package-json/v/ACTGov-Design-System/ACTGov-Design-System?style=flat-square" />
 							<p>
 								The repo for this project is hosted on GitHub and can be found{" "}
-								<a
-									href="https://github.com/ACTGov-Design-System/ACTGov-Design-System"
-									target="_blank"
-									title="ACT Government GitHub"
-								>
+								<a href="https://github.com/ACTGov-Design-System/ACTGov-Design-System" target="_blank" title="ACT Government GitHub">
 									here
 								</a>
 							</p>
@@ -75,23 +65,15 @@ import LinkTo from "@storybook/addon-links/react";
 					<div className="act-col__cw-12">
 						<div className="act-box">
 							<h2>Source Code</h2>
-							<p>
-								The source code for this project is broken into three main
-								directories:
-							</p>
+							<p>The source code for this project is broken into three main directories:</p>
 							<ul>
 								<li>.storybook</li>
 								<li>src</li>
 								<li>storybook-static</li>
 							</ul>
+							<p>At the root of the repo there are also several configuration files for ESLint and Prettier.</p>
 							<p>
-								At the root of the repo there are also several configuration
-								files for ESLint and Prettier.
-							</p>
-							<p>
-								For more information including how to clone, modify and publish
-								changes to the Design System please refer to the{" "}
-								<code>README.md</code> in the root of the repo.
+								For more information including how to clone, modify and publish changes to the Design System please refer to the <code>README.md</code> in the root of the repo.
 							</p>
 						</div>
 					</div>
@@ -100,27 +82,16 @@ import LinkTo from "@storybook/addon-links/react";
 					<div className="act-col__cw-12">
 						<div className="act-box">
 							<h3>.storybook</h3>
-							<p>
-								This directory contains the configuration and settings for the
-								Storybook.js installation.
-							</p>
+							<p>This directory contains the configuration and settings for the Storybook.js installation.</p>
 							<h4>main.js</h4>
 							<p>
-								The main.js file contains the primary settings for Storybook.js,
-								it configures which file extensions to use for component pages,
-								which Storybook.js integrations (addons) to run and which
-								directory to serve public resources from.
+								The main.js file contains the primary settings for Storybook.js, it configures which file extensions to use for component pages, which Storybook.js integrations
+								(addons) to run and which directory to serve public resources from.
 							</p>
 							<h4>manager.js</h4>
-							<p>
-								The manager.js file controls the display and configuration of
-								elements within the Storybook.js sidebar
-							</p>
+							<p>The manager.js file controls the display and configuration of elements within the Storybook.js sidebar</p>
 							<h4>preview.js</h4>
-							<p>
-								The preview.js file is responsible for the display and
-								configuration of the Storybook.js preview window.
-							</p>
+							<p>The preview.js file is responsible for the display and configuration of the Storybook.js preview window.</p>
 						</div>
 					</div>
 				</div>
@@ -129,19 +100,13 @@ import LinkTo from "@storybook/addon-links/react";
 						<div className="act-box">
 							<h3>src</h3>
 							<p>
-								This directory contains the bulk of the design system - it
-								contains everything from documentation and design tokens,
-								through to components, patterns and complete page previews.
+								This directory contains the bulk of the design system - it contains everything from documentation and design tokens, through to components, patterns and complete
+								page previews.
 							</p>
 							<h4>_core</h4>
-							<p>
-								The _core folder contains the global SCSS of the design system
-							</p>
+							<p>The _core folder contains the global SCSS of the design system</p>
 							<h4>_docs</h4>
-							<p>
-								The _docs folder contains reusable components suitable for use
-								in documentation pages
-							</p>
+							<p>The _docs folder contains reusable components suitable for use in documentation pages</p>
 							<h4>0-system</h4>
 							<h4>1-guidelines</h4>
 							<h4>2-design-tokens</h4>
@@ -156,14 +121,8 @@ import LinkTo from "@storybook/addon-links/react";
 					<div className="act-col__cw-12">
 						<div className="act-box">
 							<h3>storybook-static</h3>
-							<p>
-								This directory is the build destination for Storybook.js. It's
-								contents are served via GitHub Pages as the complete design
-								system.
-							</p>
-							<p>
-								This directory is not version controlled - and ignored by git.
-							</p>
+							<p>This directory is the build destination for Storybook.js. It's contents are served via GitHub Pages as the complete design system.</p>
+							<p>This directory is not version controlled - and ignored by git.</p>
 						</div>
 					</div>
 				</div>
