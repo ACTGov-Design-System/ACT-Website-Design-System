@@ -4,7 +4,6 @@
 .nova
 .vscode
 .DS_*
-docs
 Thumbs.db
 
 # Logs
