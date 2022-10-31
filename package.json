@@ -16,7 +16,7 @@
     "fix-eslint": "npx eslint . --fix",
     "fix-prettier": "npx prettier --write .",
     "fix-all": "npm run fix-eslint && npm run fix-prettier",
-    "build-storybook": "build-storybook -o ./docs",
+    "build-storybook": "build-storybook -- -o ./docs",
     "build": "npm run fix-eslint && npm run fix-prettier && npm run build-storybook"
   },
   "repository": {
