@@ -46,8 +46,7 @@ form p,
 	display: inline-flex;
 	flex-direction: column;
 	justify-content: flex-start;
-	padding: calc(map-get($act-space, "desktop-1") + 4px)
-		map-get($act-space, "desktop-1");
+	padding: calc(map-get($act-space, "desktop-1") + 4px) map-get($act-space, "desktop-1");
 	width: 50%;
 	flex-grow: 1;
 	&__checkbox,

@@ -1,8 +1,6 @@
 # 🦢 ACT Government Website Design System
 
-[![storybook](https://shields.io/badge/storybook-white?logo=storybook&style=flat-square)](#)
-![GitHub commit activity](https://img.shields.io/github/commit-activity/m/ACTGov-Design-System/ACTGov-Design-System?style=flat-square)
-![GitHub contributors](https://img.shields.io/github/contributors/ACTGov-Design-System/ACTGov-Design-System?style=flat-square)
+[![storybook](https://shields.io/badge/storybook-white?logo=storybook&style=flat-square)](#) ![GitHub commit activity](https://img.shields.io/github/commit-activity/m/ACTGov-Design-System/ACTGov-Design-System?style=flat-square) ![GitHub contributors](https://img.shields.io/github/contributors/ACTGov-Design-System/ACTGov-Design-System?style=flat-square)
 
 | Directory          | Function  | Description                                                     |
 | ------------------ | --------- | --------------------------------------------------------------- |
@@ -12,74 +10,44 @@
 
 ## 🌏 Overview
 
-This repo contains both the documentation and components for the ACT Government Website Design System.
+This repo contains the documentation and components for the ACT Government Website Design System.
 
-In addition to the docs and source code you can also find assembled component patterns and even complete directorate page previews.
+In addition to the docs and source code, you will find assembled component patterns and complete directorate page previews.
 
-## Getting Started
+## ➡️ Getting started
 
-Installation is simple, with the project cloned to your local machine navigate to the root folder and run the following command to download and install this project's packages and dependencies:
+Installation is simple; with the project cloned to your local machine, navigate to the root folder and run the following command to download and install this project's packages and dependencies:
 
 ```sh
 npm install
 ```
 
+Allow the process to finish before proceeding.
+
 ## 🚀 Launch it
 
-### Launch locally
+With all of the packages and dependencies now installed, we can run the application locally in development mode:
 
-To open the design system in development mode run the following command from the root folder:
+Run the following command:
 
 ```console
 npm run dev
 ```
 
-This will start Storybook locally and output the address in the console.
+This will start Storybook locally and output the address in the console - this version hot-reloads when you make changes to the local files.
 
-This local copy will hot reload when you make changes.
+## 📦 Build it
 
-### Build the site for production
+Once you have completed your updates, you will need to generate the static files that are served to end users.
 
-To prepare the Storybook for deployment to production you will need to lint and build the latest version. Do this by running the following command:
+To build the application, run the following command:
 
 ```console
 npm run build
 ```
 
-This will build the static web application into `storybook-static`
+This command also runs ESLint and Prettier before the build; this ensures code standards and hygiene are maintained.
 
-## 🧼 Hygiene
+This static web application will build into the `storybook-static` directory.
 
-### Test all
-
-Run the project through ESLint and Prettier concurrently using:
-
-```console
-npm run test-all
-```
-
-### Fix all
-
-Fix all issues found by ESLint and Prettier concurrently using:
-
-```console
-npm run fix-all
-```
-
-#### ESLint
-
-Run ESLint through this project to ensure standards and hygiene are kept.
-
-```console
-npx eslint .
-npx eslint . --fix
-```
-
-#### Prettier
-
-Run Prettier through this project to ensure standards and hygiene are kept.
-
-```console
-npx prettier --check .
-npx prettier --write .
-```
+If the build pipelines are disabled, you will need to move the storybook-static directory to your hosting environment manually.

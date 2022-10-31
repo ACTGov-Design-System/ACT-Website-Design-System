@@ -231,9 +231,7 @@
 		[class*="__container"] {
 			border: none;
 			border-width: 0px;
-			box-shadow: inset 0 4px 0 0 $act-colour__light-purple,
-				inset 4px 0 0 0 $act-colour__light-purple,
-				inset -4px 0 0 0 $act-colour__light-purple, 0 4px 0 $act-colour__purple;
+			box-shadow: inset 0 4px 0 0 $act-colour__light-purple, inset 4px 0 0 0 $act-colour__light-purple, inset -4px 0 0 0 $act-colour__light-purple, 0 4px 0 $act-colour__purple;
 		}
 		[class*="__image"] {
 			display: none;
@@ -262,9 +260,7 @@
 			background-color: $act-colour__purple;
 			color: $act-colour__white;
 			[class*="__container"] {
-				box-shadow: inset 0 4px 0 0 $act-colour__purple,
-					inset 4px 0 0 0 $act-colour__purple,
-					inset -4px 0 0 0 $act-colour__purple, 0 4px 0 $act-colour__purple;
+				box-shadow: inset 0 4px 0 0 $act-colour__purple, inset 4px 0 0 0 $act-colour__purple, inset -4px 0 0 0 $act-colour__purple, 0 4px 0 $act-colour__purple;
 			}
 			[class*="__icon"],
 			[class*="__cta"] {
