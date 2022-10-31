@@ -28,7 +28,7 @@ export const createF25a = ({
   var id = "radio_" + makeid(5);
 
   return `
-  <div class="act-form__container act-form__container__radio act-form__container-sm-12" id="container_`+id+`">
+  <div class="act-form__container act-form__container__radio act-form__container__cw-12" id="container_`+id+`">
     <label class="act-form__field__label" for="`+id+`">
       `+label+`
     </label>

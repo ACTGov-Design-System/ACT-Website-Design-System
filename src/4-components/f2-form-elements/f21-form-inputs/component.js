@@ -8,13 +8,13 @@ export const createF21 = ({
   value,
 }) => {
 
-  var widthVal = "-sm-12";
-  if (width == "25%"){ widthVal = "-sm-3";}
-  if (width == "33%"){ widthVal = "-sm-4";}
-  if (width == "50%"){ widthVal = "-sm-6";}
-  if (width == "66%"){ widthVal = "-sm-8";}
-  if (width == "75%"){ widthVal = "-sm-9";}
-  if (width == "100%"){ widthVal = "-sm-12";}
+  var widthVal = "__cw-12";
+  if (width == "25%"){ widthVal = "__cw-3";}
+  if (width == "33%"){ widthVal = "__cw-4";}
+  if (width == "50%"){ widthVal = "__cw-6";}
+  if (width == "66%"){ widthVal = "__cw-8";}
+  if (width == "75%"){ widthVal = "__cw-9";}
+  if (width == "100%"){ widthVal = "__cw-12";}
 
   var labelHTML = label;
   var requiredData;

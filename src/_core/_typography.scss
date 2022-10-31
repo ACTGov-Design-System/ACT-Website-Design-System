@@ -1,4 +1,6 @@
-/* Typography */
+/* ACT Design System */
+/* Design Tokens *//* Typography */
+/* Reference: /?path=/docs/design-tokens-typography--page */
 
 .act-montserrat {
 	font-family: $montserrat;
@@ -37,6 +39,7 @@ h2,
 	font-weight: $act-font-weight__semibold;
 	line-height: $act-line-height__120;
 	margin-bottom: map-get($act-space, "desktop-2");
+	margin-top: map-get($act-space, "desktop-5");
 	@include devices(mobile) {
 		font-size: $act-font-size__mobile-h2;
 	}

@@ -4,7 +4,7 @@ export const createF13 = () => {
   <div class="act-flex__container">
     <div class="act-flex__grid">
       <div class="act-flex__row">
-        <div class="act-col act-col-sm-12">
+        <div class="act-col__cw-12">
           <div class="act-box">
 
             <div class="act-footer-feedback">

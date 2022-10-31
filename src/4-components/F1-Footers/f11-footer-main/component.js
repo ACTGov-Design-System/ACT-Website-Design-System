@@ -15,7 +15,7 @@ export const createF11 = () => {
       <div class="act-flex__grid">
 
         <div class="act-flex__row">
-          <div class="act-col act-col-sm-3">
+          <div class="act-col__cw-3">
             <div class="act-box">
               <div class="act-footer-nav">
               <h4>Bunburung</h4>
@@ -29,7 +29,7 @@ export const createF11 = () => {
               </div>
             </div>
           </div>
-          <div class="act-col act-col-sm-3">
+          <div class="act-col__cw-3">
             <div class="act-box">
               <div class="act-footer-nav">
                 <h4>Wirria</h4>
@@ -42,7 +42,7 @@ export const createF11 = () => {
               </div>
             </div>
           </div>
-          <div class="act-col act-col-sm-3">
+          <div class="act-col__cw-3">
             <div class="act-box">
               <div class="act-footer-nav">
                 <h4>Gurubun</h4>
@@ -54,7 +54,7 @@ export const createF11 = () => {
               </div>
             </div>
           </div>
-          <div class="act-col act-col-sm-3">
+          <div class="act-col__cw-3">
             <div class="act-box">
               <div class="act-footer-nav">
                 <h4>Karrugang</h4>
@@ -68,7 +68,7 @@ export const createF11 = () => {
         </div>
 
         <div class="act-flex__row">
-          <div class="act-col act-col-sm-12">
+          <div class="act-col__cw-12">
             <div class="act-box">
               <div class="act-footer-main">
                 <div class="act-footer-main__container">

@@ -1,6 +1,7 @@
 .act-table-container {
 	max-width: 100%;
 	overflow-x: scroll;
+	margin: map-get($act-space, "desktop-3") 0px;
 	@include devices(desktop) {
 		-ms-overflow-style: none;
 		scrollbar-width: none;
@@ -9,6 +10,7 @@
 		}
 	}
 }
+table,
 .act-table {
 	border-collapse: collapse;
 	thead {

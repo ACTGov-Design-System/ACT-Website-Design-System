@@ -55,7 +55,7 @@ form p,
 		flex-direction: row-reverse;
 		justify-content: flex-end;
 	}
-	&-sm-2 {
+	&__cw-2 {
 		/* 2 Column */ /* 16.666% */ /* 50/33/16 */
 		@include devices(mobile) {
 			max-width: 50%;
@@ -70,7 +70,7 @@ form p,
 			width: 16.666%;
 		}
 	}
-	&-sm-3 {
+	&__cw-3 {
 		/* 3 Column */ /* 25% */ /* 100/50/25 */
 		@include devices(mobile) {
 			max-width: 100%;
@@ -85,7 +85,7 @@ form p,
 			width: 25%;
 		}
 	}
-	&-sm-4 {
+	&__cw-4 {
 		/* 4 Column */ /* 33.333% */ /* 100/33/33 */
 		@include devices(mobile) {
 			max-width: 100%;
@@ -100,7 +100,7 @@ form p,
 			width: 33.333%;
 		}
 	}
-	&-sm-6 {
+	&__cw-6 {
 		/* 6 Column */ /* 50% */ /* 100/50/50 */
 		@include devices(mobile) {
 			max-width: 100%;
@@ -115,7 +115,7 @@ form p,
 			width: 50%;
 		}
 	}
-	&-sm-8 {
+	&__cw-8 {
 		/* 8 Column */ /* 66.666% */ /* 100/66/66 */
 		@include devices(mobile) {
 			max-width: 100%;
@@ -130,7 +130,7 @@ form p,
 			width: 66.666%;
 		}
 	}
-	&-sm-9 {
+	&__cw-9 {
 		/* 9 Column */ /* 75% */ /* 100/100/75 */
 		@include devices(mobile) {
 			max-width: 100%;
@@ -145,7 +145,7 @@ form p,
 			width: 75%;
 		}
 	}
-	&-sm-12 {
+	&__cw-12 {
 		/* 12 Column */ /* 100% */ /* 100/100/100 */
 		@include devices(mobile) {
 			max-width: 100%;
