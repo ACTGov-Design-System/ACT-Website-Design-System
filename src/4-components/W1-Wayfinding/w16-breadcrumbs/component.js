@@ -14,7 +14,7 @@ export const createW16 = ({
   function crumbHTML(label,link){
     // Indentation here needs to line up with code inside the return statement below
     var html = `
-    <li class="act-breadcrumbs__crumb act-h6">
+    <li class="act-breadcrumbs__crumb">
       <a class="act-breadcrumbs__crumb__link" href="`+link+`" target="_self" title="`+label+`">
         `+label+` <i class="fa-solid fa-angle-right"></i>
       </a>

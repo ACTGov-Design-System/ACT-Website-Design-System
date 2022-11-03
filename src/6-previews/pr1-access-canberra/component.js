@@ -1,9 +1,8 @@
 import { createL22 } from "../../4-components/l2-logos/l22-cobranded-logo/component";
 import { createA21 } from "../../4-components/a2-alerts/a21-alert-global/component";
 import { createF20 } from "../../4-components/f2-form-elements/f20-form-structure/component";
-import { createW11 } from "../../4-components/w1-wayfinding/w11-masthead/component";
-import { createW12 } from "../../4-components/w1-wayfinding/w12-navbar/component";
 import { createPH12 } from "../../5-patterns/ph1-hero-rows/ph12-inpage-row/component";
+import { createPT1 } from "../../5-patterns/pt1-topbar/component";
 import { createPF2 } from "../../5-patterns/pf2-footer-groups/component";
 
 
@@ -16,12 +15,9 @@ export const createPR1 = () => {
     icon: "icon-left",
     dismissible: true,
   });
-  const mastheadHTML = createW11({
+  const topbarHTML = createPT1({
     title: "An ACT Government Website",
     buttonText: "Log In",
-  });
-  const navbarHTML = createW12({
-    title: "An ACT Government Website1",
   });
   const inPageBannerHTML = createPH12({
     heading1: "Motor vehicle registration and renewal",
@@ -89,7 +85,12 @@ export const createPR1 = () => {
     crumb3link: "#",
   });
 
-  const accessCanberraHTML = alertHTML + mastheadHTML + navbarHTML + inPageBannerHTML + formHTML + footerHTML;
+  const accessCanberraHTML =
+  topbarHTML +
+  `<main class="act-body">`
+  + inPageBannerHTML + formHTML +
+  `</main>`
+  + footerHTML;
 
   const accessCanberra = document.createElement("div");
   accessCanberra.className = "sb-import-container";

@@ -1,3 +1,4 @@
+import React from 'react';
 import "./public/style/preview.scss"; 		// Custom styles for Storybook UI
 
 // Adds custom viewport sizes to Docs and Canvas
@@ -60,6 +61,8 @@ const customViewports = {
 	},
 
 };
+
+export const decorators = [(Story) => `<div class="act-body">${Story().outerHTML || Story()}</div>`];
 
 export const parameters = {
   actions: {

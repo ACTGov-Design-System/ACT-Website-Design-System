@@ -40,9 +40,14 @@
 			padding: map-get($act-space, "desktop-5") map-get($act-space, "desktop-5");
 		}
 		&-padding-trim {
-			padding: 0px map-get($act-space, "desktop-4") map-get($act-space, "desktop-0");
 			@include devices(mobile) {
-				padding: map-get($act-space, "desktop-0") map-get($act-space, "desktop-2");
+				padding: 0px map-get($act-space, "desktop-1");
+			}
+			@include devices(tablet) {
+				padding: 0px map-get($act-space, "desktop-2");
+			}
+			@include devices(desktop) {
+				padding: 0px map-get($act-space, "desktop-5");
 			}
 		}
 	}
