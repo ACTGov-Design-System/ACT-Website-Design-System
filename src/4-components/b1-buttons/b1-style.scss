@@ -177,6 +177,7 @@
 		}
 		&:hover,
 		&-hover {
+			border-color: transparent;
 			color: $act-colour__plum-purple;
 		}
 		&:active,

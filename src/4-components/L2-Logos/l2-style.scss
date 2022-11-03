@@ -16,8 +16,10 @@ $act-local-cobrand-text-height-desktop: calc(($act-local-logo-height-desktop/100
 		font-size: $act-font-size__alt-tags;
 		justify-content: flex-start;
 		.act-logo {
+			border: none !important;
 			display: flex;
 			&-horizontal {
+				border: inherit;
 				img {
 					display: block;
 					@include devices(mobile) {
@@ -35,7 +37,9 @@ $act-local-cobrand-text-height-desktop: calc(($act-local-logo-height-desktop/100
 				}
 			}
 			&-cobrand {
+				border: inherit;
 				&-logo {
+					border: inherit;
 					border-left: $act-local-logo-border;
 					margin-left: $act-local-logo-space;
 					padding-left: $act-local-logo-space;
@@ -57,6 +61,7 @@ $act-local-cobrand-text-height-desktop: calc(($act-local-logo-height-desktop/100
 				}
 				&-text {
 					align-items: center;
+					border: inherit;
 					border-left: $act-local-logo-border;
 					display: flex;
 					font-size: $act-font-size__desktop-p-large;

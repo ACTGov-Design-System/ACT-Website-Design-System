@@ -7,7 +7,10 @@ export const createPF2 = () => {
   const footerHTML = createF11({});
   const aocHTML = createF12({});
 
-  const bottombarHTML = aocHTML + footerHTML;
+  const bottombarHTML = `
+  <footer class="act-footer">`
+    + aocHTML + footerHTML +
+  `</footer>`;
 
   const bottombar = document.createElement("div");
   bottombar.className = "sb-act-bottom";

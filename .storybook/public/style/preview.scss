@@ -1,46 +1,27 @@
 /* ACT Design System */
 
-/* Design Token Import */
-@import "../../../src/_core/_tokens.scss";
-
-/* Core Style Import */
-@import "../../../src/_core/_reset.scss";
-@import "../../../src/_core/_flex.scss";
-@import "../../../src/_core/_typography.scss";
-
-/* Component Style Import */
-@import "../../../src/4-components/a1-accordion/a11-accordion/style.scss";
-@import "../../../src/4-components/a2-alerts/a21-alert-global/style.scss";
-@import "../../../src/4-components/a2-alerts/a22-alert-inpage/style.scss";
-@import "../../../src/4-components/c1-cards/style.scss";
-@import "../../../src/4-components/b1-buttons/b11-button-main/style.scss";
-@import "../../../src/4-components/f1-footers/f11-footer-main/style.scss";
-@import "../../../src/4-components/f1-footers/f12-footer-aoc/style.scss";
-@import "../../../src/4-components/f2-form-elements/style.scss";
-@import "../../../src/4-components/l2-logos/l21-logo-primary/style.scss";
-@import "../../../src/4-components/t1-tables/style.scss";
-@import "../../../src/4-components/w1-wayfinding/w11-masthead/style.scss";
-@import "../../../src/4-components/w1-wayfinding/w12-navbar/style.scss";
-@import "../../../src/4-components/w1-wayfinding/w16-breadcrumbs/style.scss";
+/* Run Core SASS File */
+@import "../../../src/_core/_core.scss";
 
 /* Documentation Styling */
+/* Modifies and improves Storybook.js UI/UX */
 #docs-root {
 	.sbdocs {
 		&-content {
 			max-width: $act-page-max-width;
 			code {
+				background-color: #ADADAD10;
+				border: 1px solid #ADADAD50;
+				border-radius: 2px;
+				color: $act-colour__black;
 				display: inline-flex;
-				vertical-align: baseline;
-				line-height: 1em;
 				font-family: monospace;
+				font-size: 12px;
+				line-height: 1em;
 				margin: 2px 2px;
 				padding: 4px 8px;
 				white-space: nowrap;
-				border-radius: 2px;
-				font-size: 12px;
-				border: 1px solid #ADADAD50;
-				color: $act-colour__black;
-				background-color: #ADADAD10;
+				vertical-align: baseline;
 				&.hex {
 					/* color: $act-colour__green; */
 				}

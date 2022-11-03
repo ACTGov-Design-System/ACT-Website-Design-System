@@ -5,7 +5,6 @@
 	flex-grow: 1;
 	justify-content: center;
 	padding: map-get($act-space, "desktop-1");
-
 	&__container {
 		display: flex;
 		flex-direction: row;
@@ -18,39 +17,52 @@
 		align-items: center;
 		display: flex;
 		flex-direction: row;
+		font-size: $act-font-size__desktop-h6;
 		min-height: map-get($act-space, "desktop-3");
-		.act-h6 {
+		a {
+			border-color: $act-colour__white;
 			font-weight: $act-font-weight__regular;
-			text-decoration: underline;
-			span {
-				font-weight: $act-font-weight__semibold;
-			}
+		}
+		span {
+			font-weight: $act-font-weight__bold;
 		}
 	}
-	&__title {
-	}
-
 	&__success {
 		background-color: $act-colour__green;
+		border-color: $act-colour__white;
 		color: $act-colour__white;
-		i,
-		.act-h6 {
+		a {
+			&:hover {
+				color: $act-colour__white;
+			}
+		}
+		i {
 			color: $act-colour__white;
 		}
 	}
 	&__warning {
 		background-color: $act-colour__yellow;
 		color: $act-colour__black;
-		i,
-		.act-h6 {
+		a {
+			border-color: $act-colour__black;
+			&:hover {
+				border-color: $act-colour__black;
+				color: $act-colour__black;
+			}
+		}
+		i {
 			color: $act-colour__black;
 		}
 	}
 	&__error {
 		background-color: $act-colour__red;
 		color: $act-colour__white;
-		i,
-		.act-h6 {
+		a {
+			&:hover {
+				color: $act-colour__white;
+			}
+		}
+		i {
 			color: $act-colour__white;
 		}
 	}
@@ -77,10 +89,30 @@
 	}
 	&__dismiss-true {
 		i.act-alert-global__dismiss {
+			cursor: pointer;
 			display: flex;
 			height: map-get($act-space, "desktop-3");
 			margin-right: 0px;
 			width: map-get($act-space, "desktop-3");
 		}
+	}
+}
+
+.act-alert-inpage {
+	background-color: $act-colour__purple;
+	display: flex;
+	flex-shrink: 1;
+	padding: map-get($act-space, "desktop-1");
+	&--success {
+		background-color: $act-colour__green;
+		color: $act-colour__white;
+	}
+	&--warning {
+		background-color: $act-colour__yellow;
+		color: $act-colour__black;
+	}
+	&--error {
+		background-color: $act-colour__red;
+		color: $act-colour__white;
 	}
 }
