@@ -1,15 +1,17 @@
-[class*="act-footer"]{
-	p a {
-		border-bottom: 1px solid $act-colour__white;
-		color: $act-colour__white;
-		cursor: pointer;
-		font-size: $act-font-size__desktop-p-small;
-		font-weight: $act-font-weight__regular;
-		line-height: $act-line-height__100;
-		text-decoration: none;
-		margin-right: map-get($act-space, "desktop-1");
-		&:hover {
-			border-bottom: 1px dashed $act-colour__middle-grey;
+[class*="act-footer"] {
+	p {
+		a {
+			border-bottom: 1px solid $act-colour__white;
+			color: $act-colour__white;
+			cursor: pointer;
+			font-size: $act-font-size__desktop-p-small;
+			font-weight: $act-font-weight__regular;
+			line-height: $act-line-height__100;
+			text-decoration: none;
+			margin-right: map-get($act-space, "desktop-1");
+			&:hover {
+				border-bottom: 1px dashed $act-colour__middle-grey;
+			}
 		}
 	}
 	ol,
@@ -36,23 +38,24 @@
 				}
 				&:hover {
 					border-bottom: 1px dashed $act-colour__middle-grey;
-					color: inherit;
+					color: $act-colour__middle-grey;
 				}
 			}
 		}
 	}
 	h4 {
 		a {
+			color: $act-colour__white;
+			border-bottom: 1px solid transparent;
 			&:hover {
 				border-bottom: 1px dashed $act-colour__middle-grey;
-				color: inherit;
+				color: $act-colour__middle-grey;
 			}
 		}
 	}
 }
 
 .act-footer-feedback {
-
 }
 
 .act-footer-aoc {
@@ -86,9 +89,7 @@
 	}
 }
 
-
 .act-footer-nav {
-
 }
 
 .act-footer-main {

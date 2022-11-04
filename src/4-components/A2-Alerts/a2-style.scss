@@ -30,8 +30,8 @@
 	&__success {
 		background-color: $act-colour__green;
 		border-color: $act-colour__white;
-		color: $act-colour__white;
 		a {
+			color: $act-colour__white;
 			&:hover {
 				color: $act-colour__white;
 			}
@@ -42,9 +42,9 @@
 	}
 	&__warning {
 		background-color: $act-colour__yellow;
-		color: $act-colour__black;
 		a {
 			border-color: $act-colour__black;
+			color: $act-colour__black;
 			&:hover {
 				border-color: $act-colour__black;
 				color: $act-colour__black;
@@ -56,8 +56,8 @@
 	}
 	&__error {
 		background-color: $act-colour__red;
-		color: $act-colour__white;
 		a {
+			color: $act-colour__white;
 			&:hover {
 				color: $act-colour__white;
 			}

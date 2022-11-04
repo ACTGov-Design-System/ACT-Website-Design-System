@@ -131,6 +131,9 @@ export const parameters = {
 						"Alerts",
 						"Buttons",
 						"Cards",
+							[
+								"Structure",
+							],
 						"Footers",
 							[
 								"Main",
