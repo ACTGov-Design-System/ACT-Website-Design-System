@@ -66,11 +66,11 @@ export default {
 		},
 		value: {
 			control: { type: "text", },
-			defaultValue: "User entered text",
+			defaultValue: "",
 			description: "Sets the input value",
 			table: {
 				defaultValue: {
-					summary: "User entered text",
+					summary: "",
 				},
 			},
 		},
