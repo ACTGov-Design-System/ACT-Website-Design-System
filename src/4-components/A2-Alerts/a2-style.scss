@@ -99,20 +99,114 @@
 }
 
 .act-alert-inpage {
+	align-items: center;
 	background-color: $act-colour__purple;
 	display: flex;
-	flex-shrink: 1;
-	padding: map-get($act-space, "desktop-1");
-	&--success {
-		background-color: $act-colour__green;
-		color: $act-colour__white;
+	flex-grow: 1;
+	justify-content: center;
+	padding: map-get($act-space, "desktop-2");
+	&__container {
+		display: flex;
+		flex-direction: row;
+		position: relative;
+		justify-content: flex-start;
+		max-width: 100%;
+		width: 100%;
+		@include devices(mobile) {
+			flex-direction: column;
+		}
 	}
-	&--warning {
-		background-color: $act-colour__yellow;
+	&__content {
+		align-items: flex-start;
+		display: flex;
+		flex-direction: column;
+		font-size: $act-font-size__desktop-h6;
+		min-height: map-get($act-space, "desktop-3");
+		.title {
+			font-size: $act-font-size__desktop-p-large;
+			font-weight: $act-font-weight__semibold;
+			padding-bottom: map-get($act-space, "desktop-0");
+			padding-top: map-get($act-space, "desktop-0");
+		}
+		.description {
+			border: none;
+			font-weight: $act-font-weight__regular;
+			font-size: $act-font-size__desktop-p;
+			line-height: $act-line-height__150;
+			text-decoration: none;
+		}
+		a {
+			text-decoration: underline !important;
+			&:hover {
+				text-decoration-style: dashed !important;
+			}
+		}
+	}
+	&__success {
+		background-color: $act-colour__azure;
+		box-shadow: inset 0 4px 0 0 $act-colour__azure, inset 4px 0 0 0 $act-colour__azure, inset -4px 0 0 0 $act-colour__azure, 0 4px 0 $act-colour__blue-crayola;
 		color: $act-colour__black;
+		a {
+			color: $act-colour__black;
+			&:hover {
+				color: $act-colour__black;
+			}
+		}
+		i {
+			color: $act-colour__blue-crayola;
+		}
 	}
-	&--error {
-		background-color: $act-colour__red;
-		color: $act-colour__white;
+	&__warning {
+		background-color: $act-colour__old-lace;
+		box-shadow: inset 0 4px 0 0 $act-colour__old-lace, inset 4px 0 0 0 $act-colour__old-lace, inset -4px 0 0 0 $act-colour__old-lace, 0 4px 0 $act-colour__yellow-orange;
+		color: $act-colour__black;
+		a {
+			border-color: $act-colour__black;
+			color: $act-colour__black;
+			&:hover {
+				border-color: $act-colour__black;
+				color: $act-colour__black;
+			}
+		}
+		i {
+			color: $act-colour__yellow-orange;
+		}
+	}
+	&__error {
+		background-color: $act-colour__misty-rose;
+		box-shadow: inset 0 4px 0 0 $act-colour__misty-rose, inset 4px 0 0 0 $act-colour__misty-rose, inset -4px 0 0 0 $act-colour__misty-rose, 0 4px 0 $act-colour__red;
+		color: $act-colour__black;
+		a {
+			color: $act-colour__black;
+			&:hover {
+				color: $act-colour__black;
+			}
+		}
+		i {
+			color: $act-colour__red;
+		}
+	}
+	&__no-icon {
+		&__icon {
+			display: none;
+		}
+		.title {
+			padding-top: 0px;
+		}
+		i {
+			display: none;
+		}
+	}
+	&__icon-left {
+		i {
+			display: flex;
+			font-size: $act-font-size__desktop-h3;
+			height: map-get($act-space, "desktop-4");
+			margin-right: map-get($act-space, "desktop-2");
+			width: map-get($act-space, "desktop-4");
+			@include devices(mobile) {
+				margin-bottom: map-get($act-space, "desktop-2");
+			}
+		}
 	}
 }

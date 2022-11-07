@@ -16,7 +16,9 @@ export const createW11 = ({
   <div class="act-masthead">
     <div class="act-masthead__container">
       <div class="act-masthead__content left">
-        `+title+`
+        <span class="sr-only">
+          `+title+`
+        </span>
       </div>
       <div class="act-masthead__content right">
         <div class="act-masthead__nav">

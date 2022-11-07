@@ -36,11 +36,11 @@ export default {
 		icon: {
 			control: { type: "radio", },
 			options: ["no-icon", "icon-left", "icon-right",],
-			defaultValue: "no-icon",
+			defaultValue: "icon-left",
 			description: "Sets the button icon position",
 			table: {
 				defaultValue: {
-					summary: "no-icon",
+					summary: "icon-left",
 				},
 			},
 		},
@@ -81,4 +81,4 @@ export default {
 
 const Template = (args) => createB11(args);
 
-export const Default = Template.bind({});
+export const Main = Template.bind({});
