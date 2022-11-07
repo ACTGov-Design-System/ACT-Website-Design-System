@@ -1,0 +1,12 @@
+{
+	"A21": {
+		"id": "A21",
+		"type": "Component",
+		"category": "Alerts",
+		"name": "Global Alert",
+		"status": [
+			"production",
+			"core"
+		]
+	}
+}

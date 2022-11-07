@@ -1,20 +1,61 @@
 import { createA21 } from "./component";
+import directory from "../../../_docs/directory.json";
 
 // Component Settings
 const component = {
-	id: "A2",
-	name: "Alerts",
+	id: "A21",
+	type: "Component",
+	category: "Alerts",
+	name: "Global Alert",
 	section: "-",
-	status: [
-		// Component Status First
-		"production",
-		// Component Style Second
-		"core",
-	],
+	status:	directory.A21.status,
 	version: "1",
+	description: "Used to draw attention to important information for the user globally",
+	usage: `
+		<ul>
+			<li>Do not stack Global Alerts, limit of one per page</li>
+			<li>Global Alert must be placed above the masthead</li>
+			<li>Use the relevant variant</li>
+			<li>Keep alert text short and succinct (should be no longer than one sentence)</li>
+			<li>Text should to relevant content</li>
+		</ul>
+	`,
 };
 const componentDescription = `
-	<button>` + component.id + `-` + component.version + `</button>
+<div class="act-table-container">
+	<table class="act-table-docs">
+		<tbody>
+			<tr>
+				<td>Component Category</td>
+				<td>`+component.category+`</td>
+			</tr>
+			<tr>
+				<td>Component ID</td>
+				<td><code>`+component.id+`</code></td>
+			</tr>
+			<tr>
+				<td>Component Version</td>
+				<td><code>`+component.version+`</code></td>
+			</tr>
+			<tr>
+				<td>Description</td>
+				<td>`+component.description+`</td>
+			</tr>
+			<tr>
+				<td>Usage</td>
+				<td>`+component.usage+`</td>
+			</tr>
+			<tr>
+				<td>Links</td>
+				<td>
+					<a href="" target="_blank">Figma</a>&nbsp;&nbsp;
+					<a href="" target="_blank">GitHub</a>
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+<h2>`+component.type+` Preview</h2>
 `;
 
 export default {
