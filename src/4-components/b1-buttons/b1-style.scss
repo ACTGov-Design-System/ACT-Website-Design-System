@@ -61,7 +61,7 @@
 		}
 		&:hover,
 		&-hover {
-			background-color: $act-colour__indigo;
+			background-color: $act-colour__violet;
 			color: $act-colour__white;
 		}
 		&:active,
@@ -91,14 +91,16 @@
 		}
 		&:hover,
 		&-hover {
-			border-color: $act-colour__indigo;
-			color: $act-colour__indigo;
+			background-color: $act-colour__light-purple;
+			border-color: $act-colour__violet;
+			color: $act-colour__violet;
 			i {
 				color: inherit;
 			}
 		}
 		&:active,
 		&-active {
+			background-color: $act-colour__light-purple;
 			border-color: $act-colour__violet;
 			color: $act-colour__violet;
 			i {
@@ -133,9 +135,9 @@
 		&:hover,
 		&-hover {
 			border-color: $act-colour__white;
-			color: $act-colour__indigo;
+			color: $act-colour__violet;
 			i {
-				color: $act-colour__indigo;
+				color: $act-colour__violet;
 			}
 		}
 		&:active,

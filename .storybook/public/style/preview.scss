@@ -32,55 +32,6 @@
 					color: $act-colour__plum-purple;
 				}
 			}
-			table {
-				border: 1px solid $act-colour__middle-grey;
-				width: $act-page-full-width;
-				thead {
-					background-color: $act-colour__middle-grey;
-					color: $act-colour__white;
-					th {
-						color: inherit;
-						button {
-							background-color: $act-colour__purple;
-							border-radius: 0px;
-							box-shadow: none;
-							color: $act-colour__white;
-							&:hover {
-								background-color: $act-colour__indigo;
-							}
-						}
-					}
-				}
-				tbody {
-					border-radius: 0px;
-				}
-				tr {
-					th,
-					td {
-						font-family: $sourcesanspro !important;
-						input,
-						select,
-						textarea {
-							border-radius: 0px;
-							font-family: $sourcesanspro !important;
-							&:focus {
-								box-shadow:$act-colour__purple 0 0 0 1px inset !important;
-							}
-						}
-						label {
-							border-radius: 0px;
-							font-family: $sourcesanspro !important;
-							input {
-								border-radius: 0px;
-							}
-							span {
-								border-radius: 0px !important;
-							}
-						}
-					}
-				}
-
-			}
 		}
 		.css-1vg6q84 {
 			display: none;

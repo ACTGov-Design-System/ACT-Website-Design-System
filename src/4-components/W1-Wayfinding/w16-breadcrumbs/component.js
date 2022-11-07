@@ -46,10 +46,10 @@ export const createW16 = ({
   }
 
   return `
-<div class="act-breadcrumbs">
+<nav class="act-breadcrumbs">
   <ul class="act-breadcrumbs__container">
     `+crumb1HTML+crumb2HTML+crumb3HTML+crumb4HTML+crumb5HTML+`
   </ul>
-</div>
+</nav>
 `;
 };

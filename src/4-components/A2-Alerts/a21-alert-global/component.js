@@ -25,5 +25,5 @@ export const createA21 = ({
     </div>
   </div>
 </div>
-	`;
+`;
 };
