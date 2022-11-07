@@ -153,6 +153,13 @@
 					color: $act-colour__white;
 				}
 			}
+			.act-tag {
+				border: 1px solid $act-colour__white;
+				&__filled {
+					background-color: $act-colour__black;
+					color: $act-colour__white;
+				}
+			}
 		}
 	}
 	&__secondary {
@@ -199,11 +206,20 @@
 					color: $act-colour__purple;
 				}
 			}
+			.act-tag {
+				border: 1px solid $act-colour__purple;
+				color: $act-colour__purple;
+				&__filled {
+					background-color: $act-colour__purple;
+					color: $act-colour__purple;
+				}
+			}
 		}
 	}
 	&__tertiary {
 		border: 0px solid transparent;
 		color: $act-colour__black;
+		.act-tag__container,
 		[class*="__image"] {
 			display: none;
 		}
@@ -265,6 +281,7 @@
 		[class*="__icon"] {
 			display: flex;
 		}
+		.act-tag__container,
 		[class*="__image"],
 		[class*="__timestamp"],
 		[class*="__description"],

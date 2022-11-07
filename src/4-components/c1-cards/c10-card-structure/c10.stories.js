@@ -53,6 +53,36 @@ export default {
 				},
 			},
 		},
+		tagVisible: {
+			control: { type: "boolean", },
+			defaultValue: true,
+			description: "Sets the card tag element",
+			table: {
+				defaultValue: {
+					summary: true,
+				},
+			},
+		},
+		tag1: {
+			control: { type: "text", },
+			defaultValue: "Gamburra",
+			description: "Flowers",
+			table: {
+				defaultValue: {
+					summary: "Gamburra",
+				},
+			},
+		},
+		tag2: {
+			control: { type: "text", },
+			defaultValue: "Mulleun",
+			description: "Eagle",
+			table: {
+				defaultValue: {
+					summary: "Mulleun",
+				},
+			},
+		},
 		header: {
 			control: { type: "text", },
 			defaultValue: "Card Header",
