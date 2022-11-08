@@ -1,9 +1,41 @@
 {
 	"A21": {
-		"id": "A21",
-		"type": "Component",
-		"category": "Alerts",
-		"name": "Global Alert",
+		"details": {
+			"id": "A21",
+			"category": "Alerts",
+			"name": "Global Alert",
+			"type": "Component"
+		},
+		"description": "Used to draw attention to important information for the user globally",
+		"usage": "<ul><li>Do not stack Global Alerts, limit of one per page</li><li>Global Alert must be placed above the masthead</li><li>Use the relevant variant</li><li>Keep alert text short and succinct (should be no longer than one sentence)</li><li>Text should link to relevant content</li></ul>",
+		"status": [
+			"production",
+			"core"
+		]
+	},
+	"A22": {
+		"details": {
+			"id": "A22",
+			"category": "Alerts",
+			"name": "In Page Alert",
+			"type": "Component"
+		},
+		"description": "Used to draw attention to important information for the user on the page",
+		"usage": "<ul><li>Limit of two In Page Alerts per page</li><li>In Page Alerts must be placed at the top of page content, but below the page banner and screen reader</li><li>Use the relevant variant</li><li>Keep alert text short and succinct (should be no longer than one sentence)</li><li>Text should link to relevant content</li></ul>",
+		"status": [
+			"production",
+			"core"
+		]
+	},
+	"B11": {
+		"details": {
+			"id": "B11",
+			"category": "Buttons",
+			"name": "Main",
+			"type": "Component"
+		},
+		"description": "Buttons are used to give the user the ability to interact with the website",
+		"usage": "<ul><li>Use the \"primary\" variant as the default option when creating pages</li><li>When buttons are grouped next to each other ensure there is a minimum 24px margin on desktop and 16px on tablet/mobile</li></ul>",
 		"status": [
 			"production",
 			"core"

@@ -15,16 +15,13 @@
 				border-radius: 2px;
 				color: $act-colour__black;
 				display: inline-flex;
-				font-family: monospace;
+				font-family: monospace !important;
 				font-size: 12px;
 				line-height: 1em;
 				margin: 2px 2px;
 				padding: 4px 8px;
 				white-space: nowrap;
 				vertical-align: baseline;
-				&.hex {
-					/* color: $act-colour__green; */
-				}
 				&.class {
 					color: $act-colour__green;
 				}

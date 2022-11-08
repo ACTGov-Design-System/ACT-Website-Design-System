@@ -1,49 +1,27 @@
+import React from 'react';
 import { createA21 } from "./component";
 import directory from "../../../_docs/directory.json";
 
 // Component Settings
-const component = {
-	id: "A21",
-	type: "Component",
-	category: "Alerts",
-	name: "Global Alert",
-	section: "-",
-	status:	directory.A21.status,
-	version: "1",
-	description: "Used to draw attention to important information for the user globally",
-	usage: `
-		<ul>
-			<li>Do not stack Global Alerts, limit of one per page</li>
-			<li>Global Alert must be placed above the masthead</li>
-			<li>Use the relevant variant</li>
-			<li>Keep alert text short and succinct (should be no longer than one sentence)</li>
-			<li>Text should to relevant content</li>
-		</ul>
-	`,
-};
 const componentDescription = `
 <div class="act-table-container">
 	<table class="act-table-docs">
 		<tbody>
 			<tr>
 				<td>Component Category</td>
-				<td>`+component.category+`</td>
+				<td>`+directory.A21.details.category+`</td>
 			</tr>
 			<tr>
 				<td>Component ID</td>
-				<td><code>`+component.id+`</code></td>
-			</tr>
-			<tr>
-				<td>Component Version</td>
-				<td><code>`+component.version+`</code></td>
+				<td><code>`+directory.A21.details.id+`</code></td>
 			</tr>
 			<tr>
 				<td>Description</td>
-				<td>`+component.description+`</td>
+				<td>`+directory.A21.description+`</td>
 			</tr>
 			<tr>
 				<td>Usage</td>
-				<td>`+component.usage+`</td>
+				<td>`+directory.A21.usage+`</td>
 			</tr>
 			<tr>
 				<td>Links</td>
@@ -55,7 +33,7 @@ const componentDescription = `
 		</tbody>
 	</table>
 </div>
-<h2>`+component.type+` Preview</h2>
+<h2>`+directory.A21.details.type+` Preview</h2>
 `;
 
 export default {
@@ -63,15 +41,14 @@ export default {
 	parameters: {
 		docs: {
 			description: {
-				component: "<div>" + componentDescription + "</div>",
+				component: componentDescription,
 			},
 		},
 		layout: "fullscreen",
 		status: {
-			type: component.status,
+			type: directory.A21.status,
 		},
 	},
-	// More on argTypes: https://storybook.js.org/docs/html/api/argtypes
 	argTypes: {
 		type: {
 			control: { type: "radio", },
