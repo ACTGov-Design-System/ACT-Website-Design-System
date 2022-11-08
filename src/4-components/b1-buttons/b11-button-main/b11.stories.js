@@ -1,14 +1,53 @@
+import React from 'react';
 import { createB11 } from "./component";
+import directory from "../../../_docs/directory.json";
+
+// Component Settings
+const componentDescription = `
+<div class="act-table-container">
+	<table class="act-table-docs">
+		<tbody>
+			<tr>
+				<td>Component Category</td>
+				<td>`+directory.B11.details.category+`</td>
+			</tr>
+			<tr>
+				<td>Component ID</td>
+				<td><code>`+directory.B11.details.id+`</code></td>
+			</tr>
+			<tr>
+				<td>Description</td>
+				<td>`+directory.B11.description+`</td>
+			</tr>
+			<tr>
+				<td>Usage</td>
+				<td>`+directory.B11.usage+`</td>
+			</tr>
+			<tr>
+				<td>Links</td>
+				<td>
+					<a href="" target="_blank">Figma</a>&nbsp;&nbsp;
+					<a href="" target="_blank">GitHub</a>
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+<h2>`+directory.B11.details.type+` Preview</h2>
+`;
 
 export default {
 	title: "Components/Buttons",
 	parameters: {
 		docs: {
 			description: {
-				component: "",
+				component: componentDescription,
 			},
 		},
 		layout: "fullscreen",
+		status: {
+			type: directory.B11.status,
+		},
 	},
 	argTypes: {
 		type: {

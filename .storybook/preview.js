@@ -130,6 +130,10 @@ export const parameters = {
 						"Accordion",
 						"Alerts",
 						"Buttons",
+							[
+								"Main",
+								"Inline",
+							],
 						"Cards",
 							[
 								"Structure",
