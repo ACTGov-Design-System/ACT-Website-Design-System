@@ -69,7 +69,7 @@ export const createPR1 = () => {
     field6: {
       type: "radio",
       width: "100%",
-      label: "E",
+      label: "Email Address",
       name: "email",
       required: false,
       value: "john@smith.com",

@@ -1,4 +1,4 @@
-import React from 'react';
+import React from "react";
 import { createB11 } from "./component";
 import directory from "../../../_docs/directory.json";
 

@@ -2,7 +2,7 @@ import { createT31 } from "./component";
 
 export default {
 	title: "Components/Tags",
-	decorators: [(Story) => `<div class="act-tag__container">${Story()}</div>`],
+	decorators: [(Story) => `<div class="act-tag__container">${Story()}</div>`,],
 	parameters: {
 		docs: {
 			description: {
@@ -25,7 +25,7 @@ export default {
 		},
 		style: {
 			control: { type: "radio", },
-			options: ["stroke", "filled"],
+			options: ["stroke", "filled",],
 			defaultValue: "stroke",
 			description: "Sets the tag style",
 			table: {

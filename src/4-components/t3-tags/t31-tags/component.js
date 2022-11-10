@@ -3,7 +3,7 @@ export const createT31 = ({
   style,
 }) => {
 
-return `
+  return `
 <div class="act-tag act-tag__`+style+`">
  `+tag1+`
 </div>
