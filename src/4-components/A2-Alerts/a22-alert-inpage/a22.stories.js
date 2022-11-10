@@ -1,4 +1,4 @@
-import React from 'react';
+import React from "react";
 import { createA22 } from "./component";
 import directory from "../../../_docs/directory.json";
 
