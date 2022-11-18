@@ -1,5 +1,5 @@
 export const createC23 = ({
-  content
+  content,
 }) => {
   return `
 <div class="act-quote">

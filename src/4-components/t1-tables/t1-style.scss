@@ -26,6 +26,7 @@ table,
 				border-right: 1px solid $act-colour__grey;
 				color: $act-colour__white !important;
 				font-size: $act-font-size__desktop-p-small;
+				font-weight: $act-font-weight__semibold;
 				line-height: $act-line-height__150;
 				padding: map-get($act-space, "desktop-2");
 				text-align: left;
