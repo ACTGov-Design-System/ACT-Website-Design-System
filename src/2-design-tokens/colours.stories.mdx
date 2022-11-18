@@ -251,23 +251,34 @@ import LinkTo from "@storybook/addon-links/react";
 								<ColorPalette>
 									<ColorItem
 										title="Green"
-										subtitle="Some of the purples"
+										subtitle="Some of the greens"
 										colors={{
 											Green: "#098660",
+											LightGreen: "#E7FFF8",
 										}}
 									/>
 									<ColorItem
 										title="Red"
-										subtitle="Some of the greys"
+										subtitle="Some of the reds"
 										colors={{
 											Red: "#BA2133",
+											MistyRose: "#FFE9EB",
 										}}
 									/>
 									<ColorItem
 										title="Yellow"
-										subtitle="Some of the greys"
+										subtitle="Some of the yellow"
 										colors={{
 											Yellow: "#F2C94C",
+											OldLace: "#FFF6E9",
+										}}
+									/>
+									<ColorItem
+										title="Blues"
+										subtitle="Some of the blues"
+										colors={{
+											BlueCrayola: "#01CEE8",
+											Azure: "#ECFDFF",
 										}}
 									/>
 								</ColorPalette>
@@ -299,6 +310,21 @@ import LinkTo from "@storybook/addon-links/react";
 											</tr>
 											<tr>
 												<td>
+													<span className="act-icon" style={{ backgroundColor: "#E7FFF8" }}></span>
+													<p className="act-p-small">Light Green</p>
+												</td>
+												<td>
+													<code className="hex">#E7FFF8</code>
+												</td>
+												<td>
+													<code className="sass-var">$act-colour__light-green</code>
+												</td>
+												<td>
+													<code>map-get($act-colour, "light-green")</code>
+												</td>
+											</tr>
+											<tr>
+												<td>
 													<span className="act-icon" style={{ backgroundColor: "#BA2133" }}></span>
 													<p className="act-p-small">Red</p>
 												</td>
@@ -314,6 +340,21 @@ import LinkTo from "@storybook/addon-links/react";
 											</tr>
 											<tr>
 												<td>
+													<span className="act-icon" style={{ backgroundColor: "#FFE9EB" }}></span>
+													<p className="act-p-small">Misty Rose</p>
+												</td>
+												<td>
+													<code className="hex">#FFE9EB</code>
+												</td>
+												<td>
+													<code className="sass-var">$act-colour__misty-rose</code>
+												</td>
+												<td>
+													<code>map-get($act-colour, "misty-rose")</code>
+												</td>
+											</tr>
+											<tr>
+												<td>
 													<span className="act-icon" style={{ backgroundColor: "#F2C94C" }}></span>
 													<p className="act-p-small">Yellow</p>
 												</td>
@@ -325,6 +366,51 @@ import LinkTo from "@storybook/addon-links/react";
 												</td>
 												<td>
 													<code>map-get($act-colour, "yellow")</code>
+												</td>
+											</tr>
+											<tr>
+												<td>
+													<span className="act-icon" style={{ backgroundColor: "#FFF6E9" }}></span>
+													<p className="act-p-small">Old Lace</p>
+												</td>
+												<td>
+													<code className="hex">#FFF6E9</code>
+												</td>
+												<td>
+													<code className="sass-var">$act-colour__old-lace</code>
+												</td>
+												<td>
+													<code>map-get($act-colour, "old-lace")</code>
+												</td>
+											</tr>
+											<tr>
+												<td>
+													<span className="act-icon" style={{ backgroundColor: "#01CEE8" }}></span>
+													<p className="act-p-small">Blue Crayola</p>
+												</td>
+												<td>
+													<code className="hex">#01CEE8</code>
+												</td>
+												<td>
+													<code className="sass-var">$act-colour__blue-crayola</code>
+												</td>
+												<td>
+													<code>map-get($act-colour, "blue-crayola")</code>
+												</td>
+											</tr>
+											<tr>
+												<td>
+													<span className="act-icon" style={{ backgroundColor: "#ECFDFF" }}></span>
+													<p className="act-p-small">Azure</p>
+												</td>
+												<td>
+													<code className="hex">#ECFDFF</code>
+												</td>
+												<td>
+													<code className="sass-var">$act-colour__azure</code>
+												</td>
+												<td>
+													<code>map-get($act-colour, "azure")</code>
 												</td>
 											</tr>
 										</tbody>

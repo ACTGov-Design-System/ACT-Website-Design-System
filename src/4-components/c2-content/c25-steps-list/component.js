@@ -1,5 +1,5 @@
 export const createC25 = ({
-  content
+  content,
 }) => {
   return `
 <div class="act-steps">

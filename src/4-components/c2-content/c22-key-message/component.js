@@ -1,5 +1,5 @@
 export const createC22 = ({
-  content
+  content,
 }) => {
   return `
 <div class="act-key-message">

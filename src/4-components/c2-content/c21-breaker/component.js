@@ -1,5 +1,5 @@
 export const createC21 = ({
-  content
+  content,
 }) => {
   return `
 <div class="act-breaker">
