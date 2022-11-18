@@ -138,6 +138,7 @@ export const parameters = {
 							[
 								"Structure",
 							],
+						"Content",
 						"Footers",
 							[
 								"Main",
