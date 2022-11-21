@@ -274,4 +274,36 @@ form p,
 			border-radius: 0px;
 		}
 	}
+	&__description {
+		color: $act-colour__grey;
+		font-size: $act-font-size__desktop-p-small;
+		font-weight: $act-font-weight__semibold;
+		line-height: $act-line-height__120;
+		margin-top: map-get($act-space, "desktop-0");
+	}
+	&__alert {
+		background-color: $act-colour__misty-rose;
+		color: $act-colour__black;
+		font-size: $act-font-size__desktop-p-small;
+		font-weight: $act-font-weight__semibold;
+		line-height: $act-line-height__120;
+		margin-top: map-get($act-space, "desktop-1");
+		padding: map-get($act-space, "desktop-1");
+		width: 100%;
+		i {
+			color: $act-colour__red;
+			margin-right: map-get($act-space, "desktop-1");
+		}
+	}
+}
+
+::placeholder {
+	color: $act-colour__black !important;
+	opacity: 1; /* Firefox */
+}
+:-ms-input-placeholder {
+	color: $act-colour__black !important;
+}
+::-ms-input-placeholder {
+	color: $act-colour__black !important;
 }
