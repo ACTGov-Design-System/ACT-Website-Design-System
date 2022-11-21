@@ -1,7 +1,7 @@
-import { createF21 } from "./component";
+import { createF27 } from "./component";
 
 export default {
-	title: "Components/Form Elements/Input",
+	title: "Components/Form Elements/Date Picker",
 	parameters: {
 		docs: {
 			description: {
@@ -14,18 +14,18 @@ export default {
 		type: {
 			control: { type: "select", },
 			options: ["text","password","date","email","tel","url",],
-			defaultValue: "text",
+			defaultValue: "date",
 			description: "Sets the input type",
 			table: {
 				defaultValue: {
-					summary: "text",
+					summary: "date",
 				},
 			},
 		},
 		width: {
 			control: { type: "select", },
 			options: ["25%","33%","50%","66%","75%","100%",],
-			defaultValue: "66%",
+			defaultValue: "33%",
 			description: "Sets the input width",
 			table: {
 				defaultValue: {
@@ -84,59 +84,9 @@ export default {
 				},
 			},
 		},
-		description: {
-			control: { type: "boolean", },
-			defaultValue: true,
-			description: "Sets the description visibility",
-			table: {
-				defaultValue: {
-					summary: true,
-				},
-			},
-		},
-		descriptionValue: {
-			control: { type: "text", },
-			defaultValue: "Field Description",
-			description: "Sets the description value",
-			table: {
-				defaultValue: {
-					summary: "Field Description",
-				},
-			},
-		},
-		alert: {
-			control: { type: "boolean", },
-			defaultValue: true,
-			description: "Sets the alert visibility",
-			table: {
-				defaultValue: {
-					summary: true,
-				},
-			},
-		},
-		alertIcon: {
-			control: { type: "text", },
-			defaultValue: "fa-face-laugh",
-			description: "Sets the alert icon",
-			table: {
-				defaultValue: {
-					summary: "fa-face-laugh",
-				},
-			},
-		},
-		alertValue: {
-			control: { type: "text", },
-			defaultValue: "Alert Description",
-			description: "Sets the alert value",
-			table: {
-				defaultValue: {
-					summary: "Alert Description",
-				},
-			},
-		},
 	},
 };
 
-const Template = (args) => createF21(args);
+const Template = (args) => createF27(args);
 
 export const Default = Template.bind({});

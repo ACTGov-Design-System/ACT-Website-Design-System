@@ -76,6 +76,9 @@ export const createF20 = ({
     label:    field1.label,
     required: field1.required,
     value:    field1.value,
+    alert: true,
+    alertIcon: "circle-exclamation",
+    alertValue: "As per your driver licence",
   });
   const field2HTML = createF21({
     type:     field2.type,
@@ -83,6 +86,8 @@ export const createF20 = ({
     label:    field2.label,
     required: field2.required,
     value:    field2.value,
+    description: true,
+    descriptionValue: "As per your driver licence",
   });
   const field3HTML = createF21({
     type:     field3.type,

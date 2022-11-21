@@ -1,4 +1,4 @@
-export const createF21 = ({
+export const createF27 = ({
   type,
   width,
   label,
@@ -6,11 +6,6 @@ export const createF21 = ({
   pseudoClass,
   placeholder,
   value,
-  description,
-  descriptionValue,
-  alert,
-  alertIcon,
-  alertValue,
 }) => {
 
   var widthVal = "__cw-12";
@@ -44,20 +39,6 @@ export const createF21 = ({
     valueData = "";
   }
 
-  var descriptionHTML;
-  if ( description == true){
-    descriptionHTML = `<span class="act-form__field__description" for="`+id+`">`+descriptionValue+`</span>`;
-  } else {
-    descriptionHTML = "";
-  }
-
-  var alertHTML;
-  if ( alert == true){
-    alertHTML = `<span class="act-form__field__alert" for="`+id+`"><i class="fa-solid fa-`+alertIcon+`"></i>`+alertValue+`</span>`;
-  } else {
-    alertHTML = "";
-  }
-
 
   function makeid(length) {
     var result           = "";
@@ -76,6 +57,5 @@ export const createF21 = ({
     `+labelHTML+`
   </label>
   <input class="act-form__field__`+type+` `+pseudoClass+`" id="`+id+`" `+requiredData+` type="`+type+`" value="`+valueData+`" `+placeholderData+` `+readonlyData+` `+disabledData+`/>
-  `+descriptionHTML+alertHTML+`
 </div>
 `;};
