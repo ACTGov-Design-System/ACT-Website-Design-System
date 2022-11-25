@@ -13,6 +13,17 @@ export const createF21 = ({
   alertValue,
 }) => {
 
+  function makeid(length) {
+    var result           = "";
+    var characters       = "ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789";
+    var charactersLength = characters.length;
+    for ( var i = 0; i < length; i++ ) {
+      result += characters.charAt(Math.floor(Math.random() * charactersLength));
+    }
+    return result;
+  }
+  var id = type + "_" + makeid(5);
+
   var widthVal = "__cw-12";
   if (width == "25%"){ widthVal = "__cw-3";}
   if (width == "33%"){ widthVal = "__cw-4";}
@@ -53,22 +64,10 @@ export const createF21 = ({
 
   var alertHTML;
   if ( alert == true){
-    alertHTML = `<span class="act-form__field__alert" for="`+id+`"><i class="fa-solid fa-`+alertIcon+`"></i>`+alertValue+`</span>`;
+    alertHTML = `<span class="act-form__field__alert" for="`+id+`"><i class="fa-solid `+alertIcon+`"></i>`+alertValue+`</span>`;
   } else {
     alertHTML = "";
   }
-
-
-  function makeid(length) {
-    var result           = "";
-    var characters       = "ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789";
-    var charactersLength = characters.length;
-    for ( var i = 0; i < length; i++ ) {
-      result += characters.charAt(Math.floor(Math.random() * charactersLength));
-    }
-    return result;
-  }
-  var id = type + "_" + makeid(5);
 
   return `
 <div class="act-form__container act-form__container`+widthVal+`" id="container_`+id+`">

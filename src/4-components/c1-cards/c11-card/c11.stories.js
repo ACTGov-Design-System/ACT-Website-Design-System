@@ -1,10 +1,62 @@
+import React from "react";
 import { createC11 } from "./component";
+import directory from "../../../_docs/directory.json";
+
+// Component Settings
+const componentDescription = `
+<div class="act-table-container">
+	<table class="act-table-docs">
+		<tbody>
+			<tr>
+				<td>Component Category</td>
+				<td>`+directory.C11.details.category+`</td>
+			</tr>
+			<tr>
+				<td>Component ID</td>
+				<td><code>`+directory.C11.details.id+`</code></td>
+			</tr>
+			<tr>
+				<td>Element</td>
+				<td>`+directory.C11.element+`</td>
+			</tr>
+			<tr>
+				<td>Description</td>
+				<td>`+directory.C11.description+`</td>
+			</tr>
+			<tr>
+				<td>Hierarchy</td>
+				<td>`+directory.C11.hierarchy+`</td>
+			</tr>
+			<tr>
+				<td>Usage</td>
+				<td>`+directory.C11.usage+`</td>
+			</tr>
+			<tr>
+				<td>Links</td>
+				<td>
+					<a href="" target="_blank">Figma</a>&nbsp;&nbsp;
+					<a href="" target="_blank">GitHub</a>
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+<h2>`+directory.C11.details.type+` Preview</h2>
+`;
 
 export default {
-	title: "Components/Cards/Default",
+	title: "Components/Cards/Standard Cards",
+	decorators: [(Story) => `<div class="act-card-grid">${Story()}</div>`,],
 	parameters: {
-		// More on Story layout: https://storybook.js.org/docs/html/configure/story-layout
+		docs: {
+			description: {
+				component: componentDescription,
+			},
+		},
 		layout: "fullscreen",
+		status: {
+			type: directory.C11.status,
+		},
 	},
 	// More on argTypes: https://storybook.js.org/docs/html/api/argtypes
 	argTypes: {
@@ -125,4 +177,4 @@ export default {
 
 const Template = (args) => createC11(args);
 
-export const Default = Template.bind({});
+export const StandardCards = Template.bind({});

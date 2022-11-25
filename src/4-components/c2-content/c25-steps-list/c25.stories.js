@@ -12,4 +12,4 @@ export default {
 
 const Template = (args) => createC25(args);
 
-export const Default = Template.bind({});
+export const StepsList = Template.bind({});

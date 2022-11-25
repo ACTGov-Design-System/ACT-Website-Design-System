@@ -16,6 +16,10 @@ const componentDescription = `
 				<td><code>`+directory.B11.details.id+`</code></td>
 			</tr>
 			<tr>
+				<td>Element</td>
+				<td>`+directory.B11.element+`</td>
+			</tr>
+			<tr>
 				<td>Description</td>
 				<td>`+directory.B11.description+`</td>
 			</tr>
@@ -37,7 +41,7 @@ const componentDescription = `
 `;
 
 export default {
-	title: "Components/Buttons",
+	title: "Components/Buttons/Standard Buttons",
 	parameters: {
 		docs: {
 			description: {
@@ -120,4 +124,4 @@ export default {
 
 const Template = (args) => createB11(args);
 
-export const Main = Template.bind({});
+export const StandardButtons = Template.bind({});

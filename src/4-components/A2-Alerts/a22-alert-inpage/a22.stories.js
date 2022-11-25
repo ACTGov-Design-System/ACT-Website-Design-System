@@ -16,6 +16,10 @@ const componentDescription = `
 				<td><code>`+directory.A22.details.id+`</code></td>
 			</tr>
 			<tr>
+				<td>Element</td>
+				<td>`+directory.A22.element+`</td>
+			</tr>
+			<tr>
 				<td>Description</td>
 				<td>`+directory.A22.description+`</td>
 			</tr>
@@ -97,4 +101,4 @@ export default {
 
 const Template = (args) => createA22(args);
 
-export const Default = Template.bind({});
+export const InPageAlert = Template.bind({});

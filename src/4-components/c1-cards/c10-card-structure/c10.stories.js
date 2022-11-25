@@ -1,14 +1,53 @@
+import React from "react";
 import { createC10 } from "./component";
+import directory from "../../../_docs/directory.json";
+
+// Component Settings
+const componentDescription = `
+<div class="act-table-container">
+	<table class="act-table-docs">
+		<tbody>
+			<tr>
+				<td>Component Category</td>
+				<td>`+directory.C10.details.category+`</td>
+			</tr>
+			<tr>
+				<td>Element ID</td>
+				<td><code>`+directory.C10.details.id+`</code></td>
+			</tr>
+			<tr>
+				<td>Element</td>
+				<td>`+directory.C10.element+`</td>
+			</tr>
+			<tr>
+				<td>Description</td>
+				<td>`+directory.C10.description+`</td>
+			</tr>
+			<tr>
+				<td>Links</td>
+				<td>
+					<a href="" target="_blank">Figma</a>&nbsp;&nbsp;
+					<a href="" target="_blank">GitHub</a>
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+<h2>`+directory.C10.details.type+` Preview</h2>
+`;
 
 export default {
-	title: "Components/Cards/Structure",
+	title: "Components/Cards/Card Grid",
 	parameters: {
 		docs: {
 			description: {
-				component: "",
+				component: componentDescription,
 			},
 		},
 		layout: "fullscreen",
+		status: {
+			type: directory.C10.status,
+		},
 	},
 	argTypes: {
 		type: {
@@ -128,4 +167,4 @@ export default {
 
 const Template = (args) => createC10(args);
 
-export const Default = Template.bind({});
+export const CardGrid = Template.bind({});

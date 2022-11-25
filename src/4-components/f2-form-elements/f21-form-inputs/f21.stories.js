@@ -1,14 +1,57 @@
+import React from "react";
 import { createF21 } from "./component";
+import directory from "../../../_docs/directory.json";
+
+// Component Settings
+const componentDescription = `
+<div class="act-table-container">
+	<table class="act-table-docs">
+		<tbody>
+			<tr>
+				<td>Component Category</td>
+				<td>`+directory.F21.details.category+`</td>
+			</tr>
+			<tr>
+				<td>Component ID</td>
+				<td><code>`+directory.F21.details.id+`</code></td>
+			</tr>
+			<tr>
+				<td>Element</td>
+				<td>`+directory.F21.element+`</td>
+			</tr>
+			<tr>
+				<td>Description</td>
+				<td>`+directory.F21.description+`</td>
+			</tr>
+			<tr>
+				<td>Hierarchy</td>
+				<td>`+directory.F21.hierarchy+`</td>
+			</tr>
+			<tr>
+				<td>Links</td>
+				<td>
+					<a href="" target="_blank">Figma</a>&nbsp;&nbsp;
+					<a href="" target="_blank">GitHub</a>
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+<h2>`+directory.F21.details.type+` Preview</h2>
+`;
 
 export default {
-	title: "Components/Form Elements/Input",
+	title: "Components/Form Elements/Input Fields",
 	parameters: {
 		docs: {
 			description: {
-				component: "",
+				component: componentDescription,
 			},
 		},
 		layout: "fullscreen",
+		status: {
+			type: directory.F21.status,
+		},
 	},
 	argTypes: {
 		type: {
@@ -139,4 +182,4 @@ export default {
 
 const Template = (args) => createF21(args);
 
-export const Default = Template.bind({});
+export const InputFields = Template.bind({});
