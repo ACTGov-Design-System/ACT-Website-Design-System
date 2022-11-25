@@ -131,23 +131,39 @@ export const parameters = {
 						"Alerts",
 						"Buttons",
 							[
-								"Main",
-								"Inline",
+								"Standard Buttons",
+								"Inline Links",
 							],
 						"Cards",
 							[
-								"Structure",
+								"Card Grid",
+								"Standard Cards",
+								"Featured",
 							],
 						"Content",
 						"Footers",
 							[
-								"Main",
-								"AoC",
-								"Feedback",
+								"Main Footer",
+								"Acknowledgement Footer",
+								"Feedback Footer",
 							],
 						"Form Elements",
 							[
-								"Structure"
+								"Form Structure",
+								"Input Fields",
+								"Checkboxes",
+									[
+										"Checkbox Group",
+										"Checkbox",
+									],
+								"Dropdowns",
+								"Toggles",
+								"Radio Buttons",
+									[
+										"Radio Group",
+										"Radio Button",
+									],
+								"Form Progress"
 							],
 						"Loaders",
 						"Logos",

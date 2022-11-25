@@ -1,7 +1,7 @@
 import { createF25a } from "./component";
 
 export default {
-	title: "Components/Form Elements/Radio Buttons",
+	title: "Components/Form Elements/Radio Buttons/Radio Button",
 	parameters: {
 		docs: {
 			description: {
@@ -57,4 +57,4 @@ export default {
 
 const Template = (args) => createF25a(args);
 
-export const Component = Template.bind({});
+export const RadioButton = Template.bind({});

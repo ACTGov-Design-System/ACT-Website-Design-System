@@ -1,7 +1,7 @@
-import { createF13 } from "./component";
+import { createW15 } from "./component.js";
 
 export default {
-	title: "Components/Footers/Feedback Footer",
+	title: "Components/Wayfinding/Mega Menu",
 	parameters: {
 		// More on Story layout: https://storybook.js.org/docs/html/configure/story-layout
 		layout: "fullscreen",
@@ -12,6 +12,6 @@ export default {
 	},
 };
 
-const Template = (args) => createF13(args);
+const Template = (args) => createW15(args);
 
-export const FeedbackFooter = Template.bind({});
+export const MegaMenu = Template.bind({});

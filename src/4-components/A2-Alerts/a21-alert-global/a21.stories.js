@@ -16,6 +16,10 @@ const componentDescription = `
 				<td><code>`+directory.A21.details.id+`</code></td>
 			</tr>
 			<tr>
+				<td>Element</td>
+				<td>`+directory.A21.element+`</td>
+			</tr>
+			<tr>
 				<td>Description</td>
 				<td>`+directory.A21.description+`</td>
 			</tr>
@@ -33,7 +37,7 @@ const componentDescription = `
 		</tbody>
 	</table>
 </div>
-<h2>`+directory.A21.details.type+` Preview</h2>
+<h2>`+directory.A22.details.type+` Preview</h2>
 `;
 
 export default {
@@ -102,4 +106,4 @@ export default {
 
 const Template = (args) => createA21(args);
 
-export const Default = Template.bind({});
+export const GlobalAlert = Template.bind({});

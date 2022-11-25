@@ -47,6 +47,6 @@ export const createC10 = ({
 
   return `
 <div class="act-card-grid">
-  `+card1HTML+card1HTML+card1HTML+card1HTML+card1HTML+card1HTML+`
+  `+card1HTML+card1HTML+card1HTML+card1HTML+`
 </div>
 `;};

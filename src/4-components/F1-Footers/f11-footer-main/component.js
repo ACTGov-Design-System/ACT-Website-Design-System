@@ -72,13 +72,13 @@ export const createF11 = () => {
             <div class="act-footer-main">
               <div class="act-footer-main__container">
                 <div class="act-footer-main__content">
-                <p>
-                  <a class="" href="#" target="_blank" title="Accessibility">Accessibility</a>
-                  <a class="" href="#" target="_blank" title="Privacy">Privacy</a>
-                  <a class="" href="#" target="_blank" title="Disclaimer">Disclaimer</a>
-                  <a class="" href="#" target="_blank" title="Copyright">Copyright</a>
-                  <a class="" href="#" target="_blank" title="Sitemap">Sitemap</a>
-                </p>
+                  <p>
+                    <a class="" href="#" target="_blank" title="Accessibility">Accessibility</a>
+                    <a class="" href="#" target="_blank" title="Privacy">Privacy</a>
+                    <a class="" href="#" target="_blank" title="Disclaimer">Disclaimer</a>
+                    <a class="" href="#" target="_blank" title="Copyright">Copyright</a>
+                    <a class="" href="#" target="_blank" title="Sitemap">Sitemap</a>
+                  </p>
                 </div>
                 <div class="act-footer-main__content">
                   <div class="act-footer-main__socials">

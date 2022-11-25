@@ -9,7 +9,7 @@ export const createB12 = ({
 
   if ( external == "external link"){
     externalATTR = "_blank";
-    externalICON = `<i class="fa-solid fa-arrow-up-right-from-square"></i>`;
+    externalICON = `<i class="fa-solid fa-up-right-from-square"></i>`;
   } else {
     externalATTR = "_self";
     externalICON = "";
