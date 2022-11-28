@@ -1,7 +1,7 @@
 import { createPT1 } from "./component";
 
 export default {
-	title: "Patterns/Wayfinding/TopBar",
+	title: "Patterns/Wayfinding/Top Bar",
 	parameters: {
 		// More on Story layout: https://storybook.js.org/docs/html/configure/story-layout
 		layout: "fullscreen",
@@ -14,4 +14,4 @@ export default {
 
 const Template = (args) => createPT1(args);
 
-export const Default = Template.bind({});
+export const TopBar = Template.bind({});

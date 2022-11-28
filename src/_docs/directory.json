@@ -1,4 +1,19 @@
 {
+	"A11": {
+		"details": {
+			"id": "A11",
+			"category": "🪗 Accordion",
+			"name": "Accordion",
+			"type": "Component"
+		},
+		"description": "A stack of interactve headings, used to display further information when opened, each item has a closed and open state",
+		"element": "<code>&lt;div class=\"act-accordion\"&gt;</code>",
+		"usage": "<ul><li>Do not mix styles of accordions on a page e.g. use all variants with a background or all variants with an outline</li><li>Max width on desktop 934px</li><li>Link variants do not expand</li></ul>",
+		"status": [
+			"production",
+			"core"
+		]
+	},
 	"A21": {
 		"details": {
 			"id": "A21",
@@ -59,12 +74,12 @@
 			"core"
 		]
 	},
-	"C10": {
+	"PC1": {
 		"details": {
-			"id": "C10",
+			"id": "PC1",
 			"category": "🃏 Cards",
 			"name": "Card Grid",
-			"type": "Container"
+			"type": "Pattern"
 		},
 		"description": "Container element that holds rows of individual cards",
 		"element": "<code>&lt;div class=\"act-card-grid\"&gt;</code>",
@@ -214,8 +229,8 @@
 		"details": {
 			"id": "PF2",
 			"category": "👟 Footers",
-			"name": "Acknowledgement Footer",
-			"type": "Component"
+			"name": "All Footers",
+			"type": "Pattern"
 		},
 		"description": "Acknowledgment of Country footer to used at the bottom of all pages",
 		"element": "<code>&lt;footer class=\"act-footer\"&gt;</code>",

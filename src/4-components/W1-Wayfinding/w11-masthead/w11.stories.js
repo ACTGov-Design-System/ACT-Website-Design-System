@@ -14,8 +14,8 @@ export default {
 
 const Template = (args) => createW11(args);
 
-export const Default = Template.bind({});
-Default.args = {
+export const Masthead = Template.bind({});
+Masthead.args = {
 	title: "An ACT Government Website",
 	buttonText: "Login",
 };

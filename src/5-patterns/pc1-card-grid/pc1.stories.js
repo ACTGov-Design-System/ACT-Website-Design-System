@@ -1,6 +1,6 @@
 import React from "react";
-import { createC10 } from "./component";
-import directory from "../../../_docs/directory.json";
+import { createPC1 } from "./component";
+import directory from "../../_docs/directory.json";
 
 // Component Settings
 const componentDescription = `
@@ -8,20 +8,20 @@ const componentDescription = `
 	<table class="act-table-docs">
 		<tbody>
 			<tr>
-				<td>Component Category</td>
-				<td>`+directory.C10.details.category+`</td>
+				<td>Pattern Category</td>
+				<td>`+directory.PC1.details.category+`</td>
 			</tr>
 			<tr>
-				<td>Element ID</td>
-				<td><code>`+directory.C10.details.id+`</code></td>
+				<td>Pattern ID</td>
+				<td><code>`+directory.PC1.details.id+`</code></td>
 			</tr>
 			<tr>
 				<td>Element</td>
-				<td>`+directory.C10.element+`</td>
+				<td>`+directory.PC1.element+`</td>
 			</tr>
 			<tr>
 				<td>Description</td>
-				<td>`+directory.C10.description+`</td>
+				<td>`+directory.PC1.description+`</td>
 			</tr>
 			<tr>
 				<td>Links</td>
@@ -33,11 +33,11 @@ const componentDescription = `
 		</tbody>
 	</table>
 </div>
-<h2>`+directory.C10.details.type+` Preview</h2>
+<h2>`+directory.PC1.details.type+` Preview</h2>
 `;
 
 export default {
-	title: "Components/Cards/Card Grid",
+	title: "Patterns/Card Grid",
 	parameters: {
 		docs: {
 			description: {
@@ -46,7 +46,7 @@ export default {
 		},
 		layout: "fullscreen",
 		status: {
-			type: directory.C10.status,
+			type: directory.PC1.status,
 		},
 	},
 	argTypes: {
@@ -165,6 +165,6 @@ export default {
 	},
 };
 
-const Template = (args) => createC10(args);
+const Template = (args) => createPC1(args);
 
 export const CardGrid = Template.bind({});
