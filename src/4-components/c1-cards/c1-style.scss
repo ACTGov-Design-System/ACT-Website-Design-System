@@ -2,6 +2,7 @@
 	display: grid;
 	column-gap: map-get($act-space, "desktop-3");
 	row-gap: map-get($act-space, "desktop-3");
+	margin: map-get($act-space, "desktop-3") 0px;
 	@include devices(mobile) {
 		grid-template-columns: repeat(1, minmax(0, 1fr));
 	}

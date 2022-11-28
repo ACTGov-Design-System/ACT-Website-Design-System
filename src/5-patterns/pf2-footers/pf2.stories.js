@@ -41,7 +41,7 @@ const componentDescription = `
 `;
 
 export default {
-	title: "Patterns/Footers/All Footers",
+	title: "Patterns/Footers",
 	parameters: {
 		docs: {
 			description: {
@@ -60,4 +60,4 @@ export default {
 
 const Template = (args) => createPF2(args);
 
-export const AllFooters = Template.bind({});
+export const Footers = Template.bind({});
