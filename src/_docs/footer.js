@@ -158,19 +158,76 @@ const Footer = () => {
 												Accordion
 											</LinkTo>
 										</li>
-										<li>Alerts</li>
-										<li>Buttons</li>
-										<li>Cards</li>
-										<li>Footers</li>
-										<li>Form Elements</li>
-										<li>Loaders</li>
-										<li>Logos</li>
-										<li>Popups</li>
-										<li>Tables</li>
-										<li>Tabs</li>
-										<li>Tags</li>
-										<li>Tooltips</li>
-										<li>Wayfinding</li>
+										<li>
+											<LinkTo kind="components-alerts-global-alert--global-alert">
+												Alerts
+											</LinkTo>
+										</li>
+										<li>
+											<LinkTo kind="components-buttons-standard-buttons--standard-buttons">
+												Buttons
+											</LinkTo>
+										</li>
+										<li>
+											<LinkTo kind="components-cards-standard-cards--standard-cards">
+												Cards
+											</LinkTo>
+										</li>
+										<li>
+											<LinkTo kind="components-content-breaker--breaker">
+												Content
+											</LinkTo>
+										</li>
+										<li>
+											<LinkTo kind="components-footers-main-footer--main-footer">
+												Footers
+											</LinkTo>
+										</li>
+										<li>
+											<LinkTo kind="components-form-elements-input-fields--input-fields">
+												Form Elements
+											</LinkTo>
+										</li>
+										<li>
+											<LinkTo kind="components-form-elements-input-fields--input-fields">
+												Loaders
+											</LinkTo>
+										</li>
+										<li>
+											<LinkTo kind="components-logos-act-government--horizontal">
+												Logos
+											</LinkTo>
+										</li>
+										<li>
+											<LinkTo kind="components-logos-act-government--horizontal">
+												Popups
+											</LinkTo>
+										</li>
+										<li>
+											<LinkTo kind="components-tables--table">
+												Tables
+											</LinkTo>
+										</li>
+										<li>
+											<LinkTo kind="components-tags--default">
+												Tabs
+											</LinkTo>
+										</li>
+										<li>
+											<LinkTo kind="components-tags--default">
+												Tags
+											</LinkTo>
+										</li>
+										<li>
+											<LinkTo kind="components-tags--default">
+												Tooltips
+											</LinkTo>
+										</li>
+										<li>
+											<LinkTo kind="components-wayfinding-masthead--masthead">
+												Wayfinding
+											</LinkTo>
+										</li>
 									</ul>
 								</div>
 							</div>
@@ -226,6 +283,11 @@ const Footer = () => {
 										<li>
 											<a href="https://www.pollen.com.au" target="_blank" title="Pollen" rel="noreferrer">
 												Pollen <i className="fa-solid fa-arrow-up-right-from-square"></i>
+											</a>
+										</li>
+										<li>
+											<a href="https://www.act.gov.au/branding" target="_blank" title="ACT Government Brand Guardian" rel="noreferrer">
+												Brand Guardian
 											</a>
 										</li>
 									</ul>

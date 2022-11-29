@@ -56,6 +56,51 @@
 }
 
 .act-footer-feedback {
+	align-items: flex-start;
+	justify-content: flex-start;
+	&__title {
+		align-items: center;
+		display: flex;
+		flex-direction: row;
+		justify-content: flex-start;
+		margin-bottom: map-get($act-space, "desktop-2");
+		padding: map-get($act-space, "desktop-1");
+	}
+	&__text {
+		align-items: center;
+		display: flex;
+		flex-direction: row;
+		justify-content: flex-start;
+		padding: map-get($act-space, "desktop-1");
+	}
+	&__block {
+		align-items: center;
+		display: flex;
+		flex-direction: row;
+		justify-content: flex-start;
+		.act-h4 {
+			margin-bottom: 0px;
+			margin-right: map-get($act-space, "desktop-1");
+		}
+		&__button {
+			align-items: center;
+			background-color: $act-colour__purple;
+			border-radius: 50%;
+			color: $act-colour__white;
+			cursor: pointer;
+			display: flex;
+			justify-content: center;
+			height: map-get($act-space, "desktop-4");
+			margin: 0px map-get($act-space, "desktop-1");
+			width: map-get($act-space, "desktop-4");
+			i {
+				font-size: map-get($act-space, "desktop-2");
+			}
+			&:last-child {
+				background-color: $act-colour__middle-grey;
+			}
+		}
+	}
 }
 
 .act-footer-aoc {

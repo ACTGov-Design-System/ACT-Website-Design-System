@@ -44,7 +44,6 @@ const componentDescription = `
 <h2>`+directory.F12.details.type+` Preview</h2>
 `;
 
-
 export default {
 	title: "Components/Footers/Acknowledgement Footer",
 	parameters: {

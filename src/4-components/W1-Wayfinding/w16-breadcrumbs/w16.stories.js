@@ -1,15 +1,62 @@
+import React from "react";
 import { createW16 } from "./component";
+import directory from "../../../_docs/directory.json";
+
+// Component Settings
+const componentDescription = `
+<div class="act-table-container">
+	<table class="act-table-docs">
+		<tbody>
+			<tr>
+				<td>Component Category</td>
+				<td>`+directory.W16.details.category+`</td>
+			</tr>
+			<tr>
+				<td>Component ID</td>
+				<td><code>`+directory.W16.details.id+`</code></td>
+			</tr>
+			<tr>
+				<td>Element</td>
+				<td>`+directory.W16.element+`</td>
+			</tr>
+			<tr>
+				<td>Description</td>
+				<td>`+directory.W16.description+`</td>
+			</tr>
+			<tr>
+				<td>Hierarchy</td>
+				<td>`+directory.W16.hierarchy+`</td>
+			</tr>
+			<tr>
+				<td>Usage</td>
+				<td>`+directory.W16.usage+`</td>
+			</tr>
+			<tr>
+				<td>Links</td>
+				<td>
+					<a href="" target="_blank">Figma</a>&nbsp;&nbsp;
+					<a href="" target="_blank">GitHub</a>
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+<h2>`+directory.W16.details.type+` Preview</h2>
+`;
 
 export default {
 	title: "Components/Wayfinding/Breadcrumbs",
 	parameters: {
-		// More on Story layout: https://storybook.js.org/docs/html/configure/story-layout
-		layout: "fullscreen",
 		docs: {
-			description: "Test",
+			description: {
+				component: componentDescription,
+			},
+		},
+		layout: "fullscreen",
+		status: {
+			type: directory.W16.status,
 		},
 	},
-	// More on argTypes: https://storybook.js.org/docs/html/api/argtypes
 	argTypes: {
 		crumb1: {
 			control: { type: "text", },

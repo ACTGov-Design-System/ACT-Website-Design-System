@@ -195,6 +195,22 @@
 			"core"
 		]
 	},
+	"F13": {
+		"details": {
+			"id": "F12",
+			"category": "👟 Footers",
+			"name": "Feedback Footer",
+			"type": "Component"
+		},
+		"description": "Used on content pages to receive feedback to help continually improve ACT pages and components",
+		"element": "<code>&lt;div class=\"act-flex\"&gt;</code>",
+		"hierarchy": "Footers must always be rendered inside a <code>&lt;footer class=\"act-footer\"&gt;</code>",
+		"usage": "<ul><li>Always place above the Acknowledgement Footer</li><li>Used on content pages</li><li>Do not modify the colours</li></ul>",
+		"status": [
+			"production",
+			"core"
+		]
+	},
 	"F21": {
 		"details": {
 			"id": "F21",
@@ -235,6 +251,82 @@
 		"description": "Acknowledgment of Country footer to used at the bottom of all pages",
 		"element": "<code>&lt;footer class=\"act-footer\"&gt;</code>",
 		"usage": "<ul><li>Footers should always be the last elements on the page</li></ul>",
+		"status": [
+			"production",
+			"core"
+		]
+	},
+	"T11": {
+		"details": {
+			"id": "T11",
+			"category": "🏓 Tables",
+			"name": "Table",
+			"type": "Component"
+		},
+		"description": "Used to structure data in columns and rows, helpful when a user needs to compare a large amount of content",
+		"element": "<code>&lt;table class=\"act-table\"&gt;</code>",
+		"hierarchy": "Tables must always be rendered inside a <code>&lt;div class=\"act-table-container\"&gt;</code>",
+		"usage": "<ul><li>Only use tables as neccesary</li><li>Tables to scroll horizontally on smaller screens</li><li>Column widths can be adjusted to best fit content</li><li>Avoid using tables where possible, only use when necessary to present data</li></ul>",
+		"status": [
+			"production",
+			"core"
+		]
+	},
+	"W11": {
+		"details": {
+			"id": "W11",
+			"category": "🌎 Wayfinding",
+			"name": "Masthead",
+			"type": "Component"
+		},
+		"description": "Used as a place for secondary links and to show unity within ACT websites",
+		"element": "<code>&lt;div class=\"act-masthead\"&gt;</code>",
+		"usage": "<ul><li>Max limit of 1 button</li><li>Max limit of 3 links</li><li>Skip to content button to be hidden, only being shown here  as a visual example</li><li>Do not change the background colour</li><li>Can change the button colour based on it’s needs</li></ul>",
+		"status": [
+			"production",
+			"core"
+		]
+	},
+	"W12": {
+		"details": {
+			"id": "W12",
+			"category": "🌎 Wayfinding",
+			"name": "Nav Bar",
+			"type": "Component"
+		},
+		"description": "Used to help users navigate the website through the menu button",
+		"element": "<code>&lt;div class=\"act-navbar\"&gt;</code>",
+		"usage": "<ul><li>ACT Government logo to link to ‘https://www.act.gov.au/’</li><li>Secondary logo to link to current websites homepage e.g. Access Canberra logo in this example</li><li>Default Menu Button purple, can be changed with approval from design system team</li></ul>",
+		"status": [
+			"production",
+			"core"
+		]
+	},
+	"W15": {
+		"details": {
+			"id": "W15",
+			"category": "🌎 Wayfinding",
+			"name": "Mega Menu",
+			"type": "Component"
+		},
+		"description": "Used to help users navigate the website via a collection of links",
+		"element": "<code>&lt;div class=\"act-megamenu\"&gt;</code>",
+		"usage": "<ul><li>Do not change the colour of this component</li></ul>",
+		"status": [
+			"production",
+			"core"
+		]
+	},
+	"W16": {
+		"details": {
+			"id": "W16",
+			"category": "🌎 Wayfinding",
+			"name": "Breadcrumbs",
+			"type": "Component"
+		},
+		"description": "A list of links, showing current page in the website hierarchy, used to help the user navigate a website",
+		"element": "<code>&lt;div class=\"act-breadcrumbs\"&gt;</code>",
+		"usage": "<ul><li>Split breadcrumbs over multiple rows when it becomes too long</li></ul>",
 		"status": [
 			"production",
 			"core"

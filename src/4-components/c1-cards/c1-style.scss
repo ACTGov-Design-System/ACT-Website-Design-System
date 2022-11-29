@@ -2,7 +2,7 @@
 	display: grid;
 	column-gap: map-get($act-space, "desktop-3");
 	row-gap: map-get($act-space, "desktop-3");
-	margin: map-get($act-space, "desktop-3") 0px;
+	margin: map-get($act-space, "desktop-5") 0px;
 	@include devices(mobile) {
 		grid-template-columns: repeat(1, minmax(0, 1fr));
 	}
@@ -312,6 +312,42 @@
 					color: $act-colour__white;
 				}
 			}
+		}
+	}
+	&__featured {
+		border: 0px solid transparent;
+		background-image: url("/images/purple.jpg");
+		background-color: #cccccc;
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: cover;
+		grid-column: span 2;
+		grid-row: span 2;
+		[class*="__container"] {
+			border: 0px solid transparent;
+			justify-content: flex-end;
+			padding: map-get($act-space, "desktop-3");
+			[class*="__content"] {
+				align-items: flex-start;
+				background-color: $act-colour__white;
+				display: flex;
+				flex-direction: column;
+				flex-grow: 0;
+				height: fit-content;
+				justify-content: flex-end;
+				[class*="__cta"] {
+					flex-grow: 0;
+					span {
+						display: none;
+					}
+				}
+			}
+			&:hover {
+				border: 0px solid transparent;
+			}
+		}
+		&:hover {
+			border: 0px solid transparent;
 		}
 	}
 }
