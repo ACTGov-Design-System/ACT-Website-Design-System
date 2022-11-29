@@ -58,7 +58,6 @@ export default {
 			type: directory.C11.status,
 		},
 	},
-	// More on argTypes: https://storybook.js.org/docs/html/api/argtypes
 	argTypes: {
 		type: {
 			control: { type: "radio", },

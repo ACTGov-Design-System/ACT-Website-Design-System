@@ -59,7 +59,26 @@ export default {
 		},
 	},
 	argTypes: {
-
+		header: {
+			control: { type: "text", },
+			defaultValue: "Card Header",
+			description: "Sets the card headline",
+			table: {
+				defaultValue: {
+					summary: "Card Header",
+				},
+			},
+		},
+		description: {
+			control: { type: "text", },
+			defaultValue: "Quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam",
+			description: "Sets the card description",
+			table: {
+				defaultValue: {
+					summary: "Quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam",
+				},
+			},
+		},
 	},
 };
 
