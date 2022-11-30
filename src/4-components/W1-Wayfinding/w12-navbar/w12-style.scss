@@ -61,7 +61,7 @@
 		cursor: pointer;
 		&__container {
 			align-items: center;
-			background: $act-colour__health-light-blue;
+			background: $act-colour__purple;
 			color: $act-colour__white;
 			display: flex;
 			justify-content: center;
@@ -75,7 +75,7 @@
 			}
 			&:hover,
 			&-hover {
-				background-color: $act-colour__health-dark-blue;
+				background-color: $act-colour__indigo;
 			}
 		}
 		@include devices(mobile) {

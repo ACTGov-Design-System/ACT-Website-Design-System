@@ -10,10 +10,10 @@ export const createA11 = ({
         <h5>Title</h5>
         <i class="fa-solid fa-xmark"></i>
       </div>
-      <div class="act-accordion__section__content">ABC</div>
-      <div class="act-accordion__section__content">ABC</div>
-      <div class="act-accordion__section__content">ABC</div>
-      <div class="act-accordion__section__content">ABC</div>
+      <div class="act-accordion__section__content">Content</div>
+      <div class="act-accordion__section__content">Content</div>
+      <div class="act-accordion__section__content">Content</div>
+      <div class="act-accordion__section__content">Content</div>
     </div>
   </div>
 </div>

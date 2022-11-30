@@ -5,15 +5,15 @@ export const createF25a = ({
   pseudoClass,
 }) => {
 
-  var requiredData;
+  var requiredData = "";
   if ( required == true){
     requiredData = `required="required"`;
   }
 
-  var disabledData;
+  var disabledData = "";
   if (pseudoClass == "disabled"){disabledData = "disabled";} else {disabledData = "";}
 
-  var readonlyData;
+  var readonlyData = "";
   if (pseudoClass == "read-only"){readonlyData = "readonly";}
 
   function makeid(length) {
