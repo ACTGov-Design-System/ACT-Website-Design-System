@@ -33,36 +33,36 @@ export const createF21 = ({
   if (width == "100%"){ widthVal = "__cw-12";}
 
   var labelHTML = label;
-  var requiredData;
+  var requiredData = "";
   if ( required == true){
     labelHTML = label + `<span class="required">*</span>`;
     requiredData = `required="required"`;
   }
 
-  var disabledData;
+  var disabledData = "";
   if (pseudoClass == "disabled"){disabledData = "disabled";}
 
-  var readonlyData;
+  var readonlyData = "";
   if (pseudoClass == "read-only"){readonlyData = "readonly";}
 
-  var placeholderData;
+  var placeholderData = "";
   if (placeholder != "" && placeholder != undefined ){placeholderData = `placeholder="`+placeholder+`"`;}
 
-  var valueData;
+  var valueData = "";
   if (value != "" && value != undefined ){
     valueData = value;
   } else {
     valueData = "";
   }
 
-  var descriptionHTML;
+  var descriptionHTML = "";
   if ( description == true){
     descriptionHTML = `<span class="act-form__field__description" for="`+id+`">`+descriptionValue+`</span>`;
   } else {
     descriptionHTML = "";
   }
 
-  var alertHTML;
+  var alertHTML = "";
   if ( alert == true){
     alertHTML = `<span class="act-form__field__alert" for="`+id+`"><i class="fa-solid `+alertIcon+`"></i>`+alertValue+`</span>`;
   } else {

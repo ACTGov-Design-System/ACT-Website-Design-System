@@ -189,4 +189,17 @@
 			padding: map-get($act-space, "desktop-2");
 		}
 	}
+	&__demo {
+		[class*="__row"] {
+			border: 1px solid black;
+		}
+		[class*="act-col"] {
+			background-color: $act-colour__light-grey;
+			border: 1px solid $act-colour__green;
+		}
+		[class*="act-box"] {
+			background-color: $act-colour__middle-grey;
+			border: 1px solid black;
+		}
+	}
 }

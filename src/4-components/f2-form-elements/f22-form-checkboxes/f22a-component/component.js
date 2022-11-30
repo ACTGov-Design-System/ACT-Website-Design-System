@@ -1,4 +1,4 @@
-export const createF22 = ({
+export const createF22a = ({
   type,
   width,
   label,
@@ -15,16 +15,16 @@ export const createF22 = ({
   if (width == "100%"){ widthVal = "__cw-12";}
 
   var labelHTML = label;
-  var requiredData;
+  var requiredData = "";
   if ( required == true){
     labelHTML = label + `<span class="required">*</span>`;
     requiredData = `required="required"`;
   }
 
-  var disabledData;
+  var disabledData = "";
   if (pseudoClass == "disabled"){disabledData = "disabled";} else {disabledData = "";}
 
-  var readonlyData;
+  var readonlyData = "";
   if (pseudoClass == "read-only"){readonlyData = "readonly";}
 
   function makeid(length) {
@@ -41,7 +41,7 @@ export const createF22 = ({
   return `
 <div class="act-form__container act-form__container__checkbox act-form__container`+widthVal+`" id="container_`+id+`">
   <label class="act-form__field__label" for="`+id+`">
-    `+labelHTML+`
+    `+label+`
   </label>
   <input class="act-form__field__checkbox `+pseudoClass+`" id="`+id+`" `+requiredData+` type="checkbox" `+readonlyData+` `+disabledData+`/>
 </div>

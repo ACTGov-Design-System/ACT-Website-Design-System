@@ -1,5 +1,5 @@
 import { createF21 } from "../../../4-components/f2-form-elements/f21-form-inputs/component";
-import { createF22 } from "../../../4-components/f2-form-elements/f22-form-checkboxes/component";
+import { createF22a } from "../../../4-components/f2-form-elements/f22-form-checkboxes/f22a-component/component";
 import { createF25a } from "../../../4-components/f2-form-elements/f25-form-radio-buttons/f25a-component/component";
 
 export const createF20 = ({
@@ -96,7 +96,7 @@ export const createF20 = ({
     required: field3.required,
     value:    field3.value,
   });
-  const field4HTML = createF22({
+  const field4HTML = createF22a({
     type:     field4.type,
     width:    field4.width,
     label:    field4.label,

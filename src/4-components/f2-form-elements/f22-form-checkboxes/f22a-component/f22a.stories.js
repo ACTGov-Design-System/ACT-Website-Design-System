@@ -1,6 +1,6 @@
 import React from "react";
-import { createF22 } from "./component";
-import directory from "../../../_docs/directory.json";
+import { createF22a } from "./component";
+import directory from "../../../../_docs/directory.json";
 
 // Component Settings
 const componentDescription = `
@@ -40,7 +40,7 @@ const componentDescription = `
 <h2>`+directory.F22.details.type+` Preview</h2>
 `;
 export default {
-	title: "Components/Form Elements/Checkboxes",
+	title: "Components/Form Elements/Checkboxes/Checkbox",
 	parameters: {
 		docs: {
 			description: {
@@ -109,6 +109,6 @@ export default {
 	},
 };
 
-const Template = (args) => createF22(args);
+const Template = (args) => createF22a(args);
 
-export const Checkboxes = Template.bind({});
+export const Checkbox = Template.bind({});

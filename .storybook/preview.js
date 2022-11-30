@@ -129,6 +129,9 @@ export const parameters = {
 						"Overview",
 						"Accordion",
 						"Alerts",
+							[
+								"Overview"
+							],
 						"Buttons",
 							[
 								"Standard Buttons",
