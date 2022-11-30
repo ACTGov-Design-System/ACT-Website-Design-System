@@ -56,6 +56,7 @@ export default {
 		status: {
 			type: directory.W15.status,
 		},
+		viewMode: "story",
 	},
 	argTypes: {
 

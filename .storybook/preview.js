@@ -128,30 +128,41 @@ export const parameters = {
 					[
 						"Overview",
 						"Accordion",
+							[
+								"Overview",
+								"Accordion",
+							],
 						"Alerts",
 							[
-								"Overview"
+								"Overview",
 							],
 						"Buttons",
 							[
+								"Overview",
 								"Standard Buttons",
 								"Inline Links",
 							],
 						"Cards",
 							[
+								"Overview",
 								"Card Grid",
 								"Standard Cards",
 								"Featured",
 							],
 						"Content",
+							[
+								"Overview",
+							],
 						"Footers",
 							[
+								"Overview",
 								"Main Footer",
 								"Acknowledgement Footer",
 								"Feedback Footer",
 							],
 						"Form Elements",
 							[
+								"Overview",
 								"Form Structure",
 								"Input Fields",
 								"Checkboxes",
@@ -177,8 +188,9 @@ export const parameters = {
 						"Tooltips",
 						"Wayfinding",
 							[
+								"Overview",
 								"Masthead",
-								"Navbar",
+								"Nav Bar",
 								"Sidebar",
 								"Pagination",
 								"Mega Menu",
