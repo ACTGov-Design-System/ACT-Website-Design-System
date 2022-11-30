@@ -154,32 +154,32 @@ const Footer = () => {
 									</h4>
 									<ul>
 										<li>
-											<LinkTo kind="components-accordion-details--page">
+											<LinkTo kind="components-accordion-overview--page">
 												Accordion
 											</LinkTo>
 										</li>
 										<li>
-											<LinkTo kind="components-alerts-global-alert--global-alert">
+											<LinkTo kind="components-alerts-overview--page">
 												Alerts
 											</LinkTo>
 										</li>
 										<li>
-											<LinkTo kind="components-buttons-standard-buttons--standard-buttons">
+											<LinkTo kind="components-buttons-overview--page">
 												Buttons
 											</LinkTo>
 										</li>
 										<li>
-											<LinkTo kind="components-cards-standard-cards--standard-cards">
+											<LinkTo kind="components-cards-overview--page">
 												Cards
 											</LinkTo>
 										</li>
 										<li>
-											<LinkTo kind="components-content-breaker--breaker">
+											<LinkTo kind="components-content-overview--page">
 												Content
 											</LinkTo>
 										</li>
 										<li>
-											<LinkTo kind="components-footers-main-footer--main-footer">
+											<LinkTo kind="components-footers-overview--page">
 												Footers
 											</LinkTo>
 										</li>

@@ -81,4 +81,4 @@ export default {
 
 const Template = (args) => createA11(args);
 
-export const Default = Template.bind({});
+export const Accordion = Template.bind({});
