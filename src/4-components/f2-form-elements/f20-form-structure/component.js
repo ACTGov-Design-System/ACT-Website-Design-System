@@ -122,7 +122,7 @@ export const createF20 = ({
     type: "primary",
     size: "default",
     icon: "no-icon",
-    label: "Submit"
+    label: "Submit",
   });
 
   return `
