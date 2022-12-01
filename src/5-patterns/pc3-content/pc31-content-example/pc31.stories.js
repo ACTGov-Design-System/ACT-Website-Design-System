@@ -1,7 +1,7 @@
 import { createPC31 } from "./component";
 
 export default {
-	title: "Patterns/Content/Example 1",
+	title: "Patterns/Content/ContentArticle",
 	parameters: {
 		layout: "fullscreen",
 	},
@@ -12,4 +12,4 @@ export default {
 
 const Template = (args) => createPC31(args);
 
-export const Example1 = Template.bind({});
+export const ContentArticle = Template.bind({});

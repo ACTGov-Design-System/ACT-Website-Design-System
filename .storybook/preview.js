@@ -176,6 +176,15 @@ export const parameters = {
 									],
 								"Form Progress"
 							],
+						"Hero Rows",
+							[
+								"Overview",
+								"Home Card Row",
+								"Home Link Row",
+								"Home Widget Row",
+								"Home Search Row",
+								"Page Title Row",
+							],
 						"Loaders",
 						"Logos",
 						"Popups",

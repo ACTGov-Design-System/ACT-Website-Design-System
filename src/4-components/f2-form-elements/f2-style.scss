@@ -46,7 +46,7 @@ form p,
 	display: inline-flex;
 	flex-direction: column;
 	justify-content: flex-start;
-	padding: calc(map-get($act-space, "desktop-1") + 4px) map-get($act-space, "desktop-1");
+	padding: map-get($act-space, "desktop-1");
 	width: 50%;
 	flex-grow: 1;
 	&__checkbox,
@@ -191,7 +191,9 @@ form p,
 	&__date,
 	&__tel,
 	&__url,
+	&__select,
 	&__textarea {
+		background-color: $act-colour__white;
 		box-sizing: border-box;
 		border-color: $act-colour__grey;
 		border-width: 2px;

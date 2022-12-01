@@ -1,3 +1,4 @@
+import { createB11 } from "../../../4-components/b1-buttons/b11-button-main/component";
 import { createF21 } from "../../../4-components/f2-form-elements/f21-form-inputs/component";
 import { createF22a } from "../../../4-components/f2-form-elements/f22-form-checkboxes/f22a-component/component";
 import { createF25a } from "../../../4-components/f2-form-elements/f25-form-radio-buttons/f25a-component/component";
@@ -117,6 +118,12 @@ export const createF20 = ({
     required: field6.required,
     value:    field6.value,
   });
+  const buttonHTML = createB11({
+    type: "primary",
+    size: "default",
+    icon: "no-icon",
+    label: "Submit"
+  });
 
   return `
 <div class="act-flex">
@@ -128,7 +135,7 @@ export const createF20 = ({
             <form class="act-form">
               <h2 class="act-form__title">`+formTitle+`</h2>
               <fieldset class="act-form__section">
-                `+field1HTML+field2HTML+field3HTML+field4HTML+field5HTML+field6HTML+`
+                `+field1HTML+field2HTML+field3HTML+field4HTML+field5HTML+field6HTML+buttonHTML+`
               </fieldset>
             </form>
           </div>

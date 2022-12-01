@@ -194,6 +194,11 @@ const Footer = () => {
 											</LinkTo>
 										</li>
 										<li>
+											<LinkTo kind="components-hero-rows-overview--page">
+												Hero Rows
+											</LinkTo>
+										</li>
+										<li>
 											<LinkTo kind="components-form-elements-input-fields--input-fields">
 												Loaders
 											</LinkTo>
@@ -251,14 +256,41 @@ const Footer = () => {
 										</LinkTo>
 									</h4>
 									<ul>
-										<li>Card Groups</li>
-										<li>Feature Rows</li>
-										<li>Footer Groups</li>
-										<li>Forms</li>
-										<li>Filtering</li>
-										<li>Hero Rows</li>
-										<li>List Groups</li>
-										<li>Topbar</li>
+										<li>
+											<LinkTo kind="patterns-card-grids-default-card-grid--default-card-grid">
+												Default Card Grid
+											</LinkTo>
+										</li>
+										<li>
+											<LinkTo kind="patterns-card-grids-feature-card-grid--feature-card-grid">
+												Featured Card Grid
+											</LinkTo>
+										</li>
+										<li>
+											<LinkTo kind="patterns-content-contentarticle--content-article">
+												Content Article
+											</LinkTo>
+										</li>
+										<li>
+											<LinkTo kind="patterns-footers--footers">
+												Footers
+											</LinkTo>
+										</li>
+										<li>
+											<LinkTo kind="patterns-search-basic-search--basic-search">
+												Basic Search
+											</LinkTo>
+										</li>
+										<li>
+											<LinkTo kind="patterns-search-filtered-search--filtered-search">
+												Filtered Search
+											</LinkTo>
+										</li>
+										<li>
+											<LinkTo kind="patterns-wayfinding-top-bar--top-bar">
+												Top Bar
+											</LinkTo>
+										</li>
 									</ul>
 								</div>
 							</div>
@@ -272,8 +304,11 @@ const Footer = () => {
 										</LinkTo>
 									</h4>
 									<ul>
-										<li>Access Canberra</li>
-										<li>ACT Health</li>
+										<li>
+											<LinkTo kind="previews-access-canberra--access-canberra">
+												Access Canberra
+											</LinkTo>
+										</li>
 									</ul>
 								</div>
 							</div>

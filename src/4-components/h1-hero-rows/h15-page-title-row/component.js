@@ -1,6 +1,6 @@
 import { createW16 } from "../../../4-components/w1-wayfinding/w16-breadcrumbs/component";
 
-export const createPH12 = ({
+export const createH15 = ({
   heading1,
   crumb1,
   crumb1link,
