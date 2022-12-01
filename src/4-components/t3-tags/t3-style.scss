@@ -1,6 +1,7 @@
 .act-tag__container {
 	display: flex;
 	flex-direction: row;
+	flex-wrap: wrap;
 	margin-bottom: map-get($act-space, "desktop-1");
 	.act-tag {
 		align-items: center;
@@ -13,6 +14,7 @@
 		justify-content: center;
 		line-height: $act-line-height__120;
 		margin-right: map-get($act-space, "desktop-1");
+		margin-bottom: map-get($act-space, "desktop-0");
 		padding: 0px map-get($act-space, "desktop-1");
 		width: fit-content;
 		&__stroke {

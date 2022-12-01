@@ -1,7 +1,7 @@
 import { createL22 } from "../../4-components/l2-logos/l22-cobranded-logo/component";
 import { createA21 } from "../../4-components/a2-alerts/a21-alert-global/component";
 import { createF20 } from "../../4-components/f2-form-elements/f20-form-structure/component";
-import { createPH12 } from "../../5-patterns/ph1-hero-rows/ph12-inpage-row/component";
+import { createH15 } from "../../4-components/h1-hero-rows/h15-page-title-row/component";
 import { createPT1 } from "../../5-patterns/pt1-topbar/component";
 import { createPF2 } from "../../5-patterns/pf2-footers/component";
 
@@ -19,7 +19,7 @@ export const createPR1 = () => {
     title: "An ACT Government Website",
     buttonText: "Log In",
   });
-  const inPageBannerHTML = createPH12({
+  const inPageBannerHTML = createH15({
     heading1: "Motor vehicle registration and renewal",
     crumb1: "Home",
     crumb1link: "#",

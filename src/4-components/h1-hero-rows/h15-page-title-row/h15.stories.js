@@ -1,12 +1,10 @@
-import { createPH12 } from "./component";
+import { createH15 } from "./component";
 
 export default {
-	title: "Patterns/Hero Rows/In Page Row",
+	title: "Components/Hero Rows/Page Title Row",
 	parameters: {
-		// More on Story layout: https://storybook.js.org/docs/html/configure/story-layout
 		layout: "fullscreen",
 	},
-	// More on argTypes: https://storybook.js.org/docs/html/api/argtypes
 	argTypes: {
 		heading1: {
 			control: { type: "text", },
@@ -66,6 +64,6 @@ export default {
 	},
 };
 
-const Template = (args) => createPH12(args);
+const Template = (args) => createH15(args);
 
-export const Default = Template.bind({});
+export const PageTitleRow = Template.bind({});

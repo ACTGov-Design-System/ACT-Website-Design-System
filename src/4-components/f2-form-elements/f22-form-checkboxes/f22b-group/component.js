@@ -17,18 +17,18 @@ export const createF22b = ({
   const field1HTML = createF22a({
     type:     "radio",
     width:    "100%",
-    label:    "Radio 1",
-    name:    "Radio",
+    label:    "Checkbox 1",
+    name:    "Checkbox",
     required: required,
-    value:    "Option 1",
+    value:    "Checkbox 1",
   });
   const field2HTML = createF22a({
     type:     "radio",
     width:    "100%",
-    label:    "Radio 1",
-    name:    "Radio",
+    label:    "Checkbox 2",
+    name:    "Checkbox",
     required: required,
-    value:    "Option 1",
+    value:    "Checkbox 2",
   });
 
   return `

@@ -270,6 +270,21 @@
 			"core"
 		]
 	},
+	"F23": {
+		"details": {
+			"id": "F23",
+			"category": "⌨️ Form Elements",
+			"name": "Dropdowns",
+			"type": "Component"
+		},
+		"description": "To give users the ability to choose from predefined choices, or when used single to have user check/ uncheck an option",
+		"element": "<code>&lt;div class=\"act-form__container\"&gt;</code>",
+		"hierarchy": "Checkboxes must always be rendered inside a <code>&lt;form class=\"act-form\"&gt;</code>",
+		"status": [
+			"production",
+			"core"
+		]
+	},
 	"F27": {
 		"details": {
 			"id": "F27",
@@ -329,11 +344,43 @@
 			"core"
 		]
 	},
+	"S12": {
+		"details": {
+			"id": "S12",
+			"category": "🏓 Search Elements",
+			"name": "Search Bar",
+			"type": "Component"
+		},
+		"description": "Used to structure data in columns and rows, helpful when a user needs to compare a large amount of content",
+		"element": "<code>&lt;table class=\"act-table\"&gt;</code>",
+		"hierarchy": "Tables must always be rendered inside a <code>&lt;div class=\"act-table-container\"&gt;</code>",
+		"usage": "<ul><li>Only use tables as neccesary</li><li>Tables to scroll horizontally on smaller screens</li><li>Column widths can be adjusted to best fit content</li><li>Avoid using tables where possible, only use when necessary to present data</li></ul>",
+		"status": [
+			"production",
+			"core"
+		]
+	},
 	"S13": {
 		"details": {
 			"id": "S13",
 			"category": "🏓 Search Elements",
 			"name": "Search Stats",
+			"type": "Component"
+		},
+		"description": "Used to structure data in columns and rows, helpful when a user needs to compare a large amount of content",
+		"element": "<code>&lt;table class=\"act-table\"&gt;</code>",
+		"hierarchy": "Tables must always be rendered inside a <code>&lt;div class=\"act-table-container\"&gt;</code>",
+		"usage": "<ul><li>Only use tables as neccesary</li><li>Tables to scroll horizontally on smaller screens</li><li>Column widths can be adjusted to best fit content</li><li>Avoid using tables where possible, only use when necessary to present data</li></ul>",
+		"status": [
+			"production",
+			"core"
+		]
+	},
+	"S14": {
+		"details": {
+			"id": "S14",
+			"category": "🏓 Search Elements",
+			"name": "Search Filter",
 			"type": "Component"
 		},
 		"description": "Used to structure data in columns and rows, helpful when a user needs to compare a large amount of content",
@@ -405,6 +452,20 @@
 			"core"
 		]
 	},
+	"W13": {
+		"details": {
+			"id": "W13",
+			"category": "🌎 Wayfinding",
+			"name": "Sidebar",
+			"type": "Component"
+		},
+		"description": "Used for linking between related content on the side of content pages",
+		"element": "<code>&lt;div class=\"act-sidebar\"&gt;</code>",
+		"status": [
+			"production",
+			"core"
+		]
+	},
 	"W14": {
 		"details": {
 			"id": "W14",
@@ -460,8 +521,8 @@
 		"element": "<code>&lt;div class=\"act-index\"&gt;</code>",
 		"restrictions": "This component can only be used by ACT Health",
 		"status": [
-			"production",
-			"health"
+			"health",
+			"production"
 		]
 	}
 }

@@ -46,14 +46,58 @@
 		}
 		&__main {
 			align-items: flex-start;
+			flex-direction: row;
 			flex-grow: 1;
 			justify-content: flex-start;
 			padding: map-get($act-space, "desktop-6") map-get($act-space, "desktop-2");
+		}
+		&__block {
+			width: 30%;
+			margin-right: map-get($act-space, "desktop-6");
 		}
 		&__footer {
 			align-items: center;
 			flex-direction: row;
 			justify-content: space-between;
+		}
+	}
+	&__link {
+		align-items: center;
+		color: $act-colour__white;
+		cursor: pointer;
+		display: flex;
+		justify-content: space-between;
+		padding: map-get($act-space, "desktop-2");
+		width: 100%;
+		&__text {
+			font-size: $act-font-size__desktop-h4;
+			font-weight: $act-font-weight__semibold;
+			line-height: $act-line-height__130;
+		}
+		&__icon {
+			font-size: $act-font-size__desktop-h4;
+			font-weight: $act-font-weight__semibold;
+			line-height: $act-line-height__130;
+		}
+		&:hover &__text{
+			text-decoration: underline;
+		}
+	}
+	&__sublink {
+		align-items: center;
+		color: $act-colour__white;
+		cursor: pointer;
+		display: flex;
+		justify-content: space-between;
+		padding: map-get($act-space, "desktop-2");
+		width: 100%;
+		&__text {
+			font-size: $act-font-size__desktop-h6;
+			font-weight: $act-font-weight__regular;
+			line-height: $act-line-height__130;
+		}
+		&:hover &__text{
+			text-decoration: underline;
 		}
 	}
 	&__close {

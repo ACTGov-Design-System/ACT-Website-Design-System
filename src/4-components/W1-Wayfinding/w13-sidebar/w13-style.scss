@@ -1,0 +1,36 @@
+.act-sidebar {
+	align-items: flex-start;
+	background-color: $act-colour__light-purple;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	&__title {
+		color: $act-colour__black;
+		font-size: $act-font-size__desktop-h5;
+		font-weight: $act-font-weight__semibold;
+		padding: map-get($act-space, "desktop-2");
+		width: 100%;
+	}
+	&__link {
+		border-top: 1px solid $act-colour__white;
+		color: $act-colour__black;
+		cursor: pointer;
+		font-size: $act-font-size__desktop-h6;
+		font-weight: $act-font-weight__semibold;
+		padding: map-get($act-space, "desktop-2");
+		width: 100%;
+		&:hover {
+			background-color: $act-colour__medium-purple;
+			color: $act-colour__white;
+			text-decoration: underline;
+		}
+		&__selected {
+			background-color: $act-colour__purple;
+			color: $act-colour__white;
+			&:hover {
+				background-color: $act-colour__purple;
+				color: $act-colour__white;
+			}
+		}
+	}
+}

@@ -1,6 +1,7 @@
 import { createC22 } from "../../../4-components/c2-content/c22-key-message/component";
 import { createC23 } from "../../../4-components/c2-content/c23-quote/component";
 import { createC24 } from "../../../4-components/c2-content/c24-service-card/component";
+import { createW13 } from "../../../4-components/w1-wayfinding/w13-sidebar/component";
 
 export const createPC31 = () => {
 
@@ -9,6 +10,7 @@ export const createPC31 = () => {
     content: "Some quote"
   });
   const serviceCardHTML = createC24({});
+  const sidebarHTML = createW13({});
 
   const contentHTML = `
 <div class="act-flex">
@@ -33,6 +35,11 @@ export const createPC31 = () => {
             `+ serviceCardHTML +`
             <p>Death cap mushrooms can grow anywhere in our region, at any time. All parts of the death cap mushroom are poisonous. Eating even a small amount of a death cap mushroom can kill you. Death cap mushrooms remain potentially lethal, even if cooked.</p>
             <p>Death cap mushrooms can grow anywhere in our region, at any time. All parts of the death cap mushroom are poisonous. Eating even a small amount of a death cap mushroom can kill you. Death cap mushrooms remain potentially lethal, even if cooked.</p>
+          </div>
+        </div>
+        <div class="act-col__cw-4">
+          <div class="act-box">
+          `+ sidebarHTML +`
           </div>
         </div>
       </div>

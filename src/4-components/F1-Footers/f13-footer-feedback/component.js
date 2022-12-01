@@ -1,6 +1,7 @@
-import { createF21 } from "../../../4-components/f2-form-elements/f21-form-inputs/component";
+import { createB11 } from "../../../4-components/b1-buttons/b11-button-main/component";
+import { createF27 } from "../../../4-components/f2-form-elements/f27-form-textarea/component";
 
-const formHTML = createF21({
+const formHTML = createF27({
   type: "text",
   width: "50%",
   label: "How could we improve this page?",
@@ -9,6 +10,14 @@ const formHTML = createF21({
 });
 
 export const createF13 = () => {
+
+  const buttonHTML = createB11({
+    type: "primary",
+    size: "default",
+    icon: "no-icon",
+    label: "Submit"
+  });
+
   return `
 <div class="act-flex act-flex-light-purple">
   <div class="act-flex__container">
@@ -31,7 +40,10 @@ export const createF13 = () => {
                 <p>If you want to hear back, please contact us</p>
               </div>
               <div class="act-footer-feedback__form">
-                `+formHTML+`
+                <form class="act-form">
+                  `+formHTML+`
+                  `+buttonHTML+`
+                </form>
               </div>
             </div>
 

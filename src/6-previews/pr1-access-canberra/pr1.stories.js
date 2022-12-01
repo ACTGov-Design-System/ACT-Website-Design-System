@@ -15,4 +15,4 @@ export default {
 
 const Template = (args) => createPR1(args);
 
-export const Default = Template.bind({});
+export const AccessCanberra = Template.bind({});
