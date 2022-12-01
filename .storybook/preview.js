@@ -112,10 +112,7 @@ export const parameters = {
 						"Roles & responsibilities",
 						"Changes & updates",
 					],
-				"Guidelines",
-					[
-						"Overview",
-					],
+
 				"Design Tokens",
 					[
 						"Overview",
@@ -182,6 +179,10 @@ export const parameters = {
 						"Loaders",
 						"Logos",
 						"Popups",
+						"Search Elements",
+							[
+								"Overview",
+							],
 						"Tables",
 						"Tabs",
 						"Tags",
@@ -205,6 +206,10 @@ export const parameters = {
 					[
 						"Overview",
 					],
+				"Guidelines",
+				[
+					"Overview",
+				],
 			],
 		},
 	},
@@ -245,6 +250,11 @@ export const parameters = {
 				background: "#BA2133",
 				color: "#FFFFFF",
 				description: "This is an obsolete component and should be removed from sites",
+			},
+			health: {
+				background: "#0076c8",
+				color: "#FFFFFF",
+				description: "This component can only be used by ACT Health",
 			},
 		},
 	},

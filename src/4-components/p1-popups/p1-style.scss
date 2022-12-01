@@ -1,0 +1,42 @@
+.act-popup {
+	align-items: center;
+	background-color: #11111150;
+	display: flex;
+	flex-direction: column;
+	height: 100vh;
+	justify-content: center;
+	left: 0px;
+	position: fixed;
+	top: 0px;
+	width: 100vw;
+	z-index: 99999;
+	&__container {
+		max-width: calc($act-page-max-width/2);
+		padding: map-get($act-space, "desktop-2");
+		width: 100%;
+	}
+	&__content {
+		background-color: $act-colour__white;
+		display: flex;
+		flex-direction: column;
+		padding: map-get($act-space, "desktop-4");
+		width: 100%;
+	}
+	&__block {
+		display: flex;
+		&:first-of-type {
+			align-items: flex-start;
+			flex-direction: row;
+			justify-content: space-between;
+			margin-bottom: map-get($act-space, "desktop-1");
+		}
+		&:last-of-type {
+			align-items: flex-start;
+			flex-direction: column;
+			justify-content: flex-start;
+		}
+		i {
+			font-size: $act-font-size__desktop-h4;
+		}
+	}
+}

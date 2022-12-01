@@ -1,5 +1,5 @@
 import React from "react";
-import { createF20 } from "./component";
+import { createC24 } from "./component";
 import directory from "../../../_docs/directory.json";
 
 // Component Settings
@@ -9,19 +9,23 @@ const componentDescription = `
 		<tbody>
 			<tr>
 				<td>Component Category</td>
-				<td>`+directory.F20.details.category+`</td>
+				<td>`+directory.C24.details.category+`</td>
 			</tr>
 			<tr>
 				<td>Component ID</td>
-				<td><code>`+directory.F20.details.id+`</code></td>
+				<td><code>`+directory.C24.details.id+`</code></td>
 			</tr>
 			<tr>
 				<td>Element</td>
-				<td>`+directory.F20.element+`</td>
+				<td>`+directory.C24.element+`</td>
 			</tr>
 			<tr>
 				<td>Description</td>
-				<td>`+directory.F20.description+`</td>
+				<td>`+directory.C24.description+`</td>
+			</tr>
+			<tr>
+				<td>Usage</td>
+				<td>`+directory.C24.usage+`</td>
 			</tr>
 			<tr>
 				<td>Links</td>
@@ -33,11 +37,11 @@ const componentDescription = `
 		</tbody>
 	</table>
 </div>
-<h2>`+directory.F20.details.type+` Preview</h2>
+<h2>`+directory.C24.details.type+` Preview</h2>
 `;
 
 export default {
-	title: "Components/Form Elements/Form Structure",
+	title: "Components/Content/Service Card",
 	parameters: {
 		docs: {
 			description: {
@@ -46,7 +50,7 @@ export default {
 		},
 		layout: "fullscreen",
 		status: {
-			type: directory.F20.status,
+			type: directory.C24.status,
 		},
 	},
 	argTypes: {
@@ -54,6 +58,6 @@ export default {
 	},
 };
 
-const Template = (args) => createF20(args);
+const Template = (args) => createC24(args);
 
-export const FormStructure = Template.bind({});
+export const ServiceCard = Template.bind({});

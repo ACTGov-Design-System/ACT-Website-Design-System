@@ -1,5 +1,5 @@
 import React from "react";
-import { createF20 } from "./component";
+import { createT21 } from "./component";
 import directory from "../../../_docs/directory.json";
 
 // Component Settings
@@ -9,19 +9,19 @@ const componentDescription = `
 		<tbody>
 			<tr>
 				<td>Component Category</td>
-				<td>`+directory.F20.details.category+`</td>
+				<td>`+directory.T21.details.category+`</td>
 			</tr>
 			<tr>
 				<td>Component ID</td>
-				<td><code>`+directory.F20.details.id+`</code></td>
+				<td><code>`+directory.T21.details.id+`</code></td>
 			</tr>
 			<tr>
 				<td>Element</td>
-				<td>`+directory.F20.element+`</td>
+				<td>`+directory.T21.element+`</td>
 			</tr>
 			<tr>
 				<td>Description</td>
-				<td>`+directory.F20.description+`</td>
+				<td>`+directory.T21.description+`</td>
 			</tr>
 			<tr>
 				<td>Links</td>
@@ -33,11 +33,11 @@ const componentDescription = `
 		</tbody>
 	</table>
 </div>
-<h2>`+directory.F20.details.type+` Preview</h2>
+<h2>`+directory.T21.details.type+` Preview</h2>
 `;
 
 export default {
-	title: "Components/Form Elements/Form Structure",
+	title: "Components/Tabs/Tabs",
 	parameters: {
 		docs: {
 			description: {
@@ -46,7 +46,7 @@ export default {
 		},
 		layout: "fullscreen",
 		status: {
-			type: directory.F20.status,
+			type: directory.T21.status,
 		},
 	},
 	argTypes: {
@@ -54,6 +54,6 @@ export default {
 	},
 };
 
-const Template = (args) => createF20(args);
+const Template = (args) => createT21(args);
 
-export const FormStructure = Template.bind({});
+export const Tabs = Template.bind({});

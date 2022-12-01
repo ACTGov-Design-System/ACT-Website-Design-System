@@ -1,7 +1,7 @@
 import { createT31 } from "./component";
 
 export default {
-	title: "Components/Tags",
+	title: "Components/Tags/Tags",
 	decorators: [(Story) => `<div class="act-tag__container">${Story()}</div>`,],
 	parameters: {
 		docs: {
@@ -39,4 +39,4 @@ export default {
 
 const Template = (args) => createT31(args);
 
-export const Default = Template.bind({});
+export const Tags = Template.bind({});

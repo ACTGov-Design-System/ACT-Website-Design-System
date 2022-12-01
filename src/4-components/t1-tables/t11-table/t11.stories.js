@@ -45,7 +45,7 @@ const componentDescription = `
 `;
 
 export default {
-	title: "Components/Tables",
+	title: "Components/Tables/Table",
 	parameters: {
 		docs: {
 			description: {
