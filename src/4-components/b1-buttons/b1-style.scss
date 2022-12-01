@@ -9,7 +9,7 @@
 	font-weight: $act-font-weight__bold;
 	justify-content: center;
 	line-height: $act-line-height__110;
-	margin: map-get($act-space, "desktop-1");
+	margin: map-get($act-space, "desktop-1") map-get($act-space, "desktop-1") map-get($act-space, "desktop-1") 0px;
 	text-decoration: none;
 	outline: none;
 	width: fit-content;

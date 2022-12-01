@@ -140,6 +140,11 @@ const Footer = () => {
 												Overview
 											</LinkTo>
 										</li>
+										<li>
+											<LinkTo kind="layout-page-layout--grid">
+												Grid
+											</LinkTo>
+										</li>
 									</ul>
 								</div>
 							</div>
@@ -184,7 +189,7 @@ const Footer = () => {
 											</LinkTo>
 										</li>
 										<li>
-											<LinkTo kind="components-form-elements-input-fields--input-fields">
+											<LinkTo kind="components-form-elements-overview--page">
 												Form Elements
 											</LinkTo>
 										</li>
@@ -201,6 +206,11 @@ const Footer = () => {
 										<li>
 											<LinkTo kind="components-logos-act-government--horizontal">
 												Popups
+											</LinkTo>
+										</li>
+										<li>
+											<LinkTo kind="components-search-elements-overview--page">
+												Search Elements
 											</LinkTo>
 										</li>
 										<li>
@@ -276,6 +286,16 @@ const Footer = () => {
 									</h4>
 									<ul>
 										<li>
+											<a href="https://www.act.gov.au" target="_blank" title="ACT Government" rel="noreferrer">
+												ACT Government
+											</a>
+										</li>
+										<li>
+											<a href="https://www.act.gov.au/branding" target="_blank" title="ACT Government Brand Guardian" rel="noreferrer">
+												ACT Brand Guardian
+											</a>
+										</li>
+										<li>
 											<a href="https://github.com/ACTGov-Design-System" target="_blank" title="ACT Government GitHub" rel="noreferrer">
 												GitHub <i className="fa-solid fa-arrow-up-right-from-square"></i>
 											</a>
@@ -283,11 +303,6 @@ const Footer = () => {
 										<li>
 											<a href="https://www.pollen.com.au" target="_blank" title="Pollen" rel="noreferrer">
 												Pollen <i className="fa-solid fa-arrow-up-right-from-square"></i>
-											</a>
-										</li>
-										<li>
-											<a href="https://www.act.gov.au/branding" target="_blank" title="ACT Government Brand Guardian" rel="noreferrer">
-												Brand Guardian
 											</a>
 										</li>
 									</ul>

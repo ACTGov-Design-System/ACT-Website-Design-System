@@ -163,6 +163,21 @@
 			"core"
 		]
 	},
+	"C24": {
+		"details": {
+			"id": "C24",
+			"category": "📘 Content",
+			"name": "Service Card",
+			"type": "Component"
+		},
+		"description": "Are used to display up to date information for helpful services",
+		"element": "<code>&lt;div class=\"act-service-card\"&gt;</code>",
+		"usage": "<ul><li>Desktop and tablet to use ‘large’ variant and mobile to use ‘smal’ variant</li><li>Paragraph length should only be one sentence</li><li>Phone number is optional</li></ul>",
+		"status": [
+			"production",
+			"core"
+		]
+	},
 	"F11": {
 		"details": {
 			"id": "F11",
@@ -211,6 +226,20 @@
 			"core"
 		]
 	},
+	"F20": {
+		"details": {
+			"id": "F20",
+			"category": "⌨️ Form Elements",
+			"name": "Form Structure",
+			"type": "Pattern"
+		},
+		"description": "Forms allow people to enter data for use by the application, or to configure options",
+		"element": "<code>&lt;form class=\"act-form\"&gt;</code>",
+		"status": [
+			"production",
+			"core"
+		]
+	},
 	"F21": {
 		"details": {
 			"id": "F21",
@@ -241,6 +270,34 @@
 			"core"
 		]
 	},
+	"F27": {
+		"details": {
+			"id": "F27",
+			"category": "⌨️ Form Elements",
+			"name": "Checkboxes",
+			"type": "Component"
+		},
+		"description": "Allow users to input long form text, normally will spand over multiple lines",
+		"element": "<code>&lt;div class=\"act-form__container\"&gt;</code>",
+		"hierarchy": "Text areas must always be rendered inside a <code>&lt;form class=\"act-form\"&gt;</code>",
+		"status": [
+			"production",
+			"core"
+		]
+	},
+	"P11": {
+		"details": {
+			"id": "P11",
+			"category": "⌨️ Popups",
+			"name": "Popup",
+			"type": "Component"
+		},
+		"description": "Used to alert users by appearing over the top of other content.",
+		"status": [
+			"production",
+			"core"
+		]
+	},
 	"PF2": {
 		"details": {
 			"id": "PF2",
@@ -251,6 +308,38 @@
 		"description": "Acknowledgment of Country footer to used at the bottom of all pages",
 		"element": "<code>&lt;footer class=\"act-footer\"&gt;</code>",
 		"usage": "<ul><li>Footers should always be the last elements on the page</li></ul>",
+		"status": [
+			"production",
+			"core"
+		]
+	},
+	"S11": {
+		"details": {
+			"id": "S11",
+			"category": "🏓 Search Elements",
+			"name": "Search Result",
+			"type": "Component"
+		},
+		"description": "Used to structure data in columns and rows, helpful when a user needs to compare a large amount of content",
+		"element": "<code>&lt;table class=\"act-table\"&gt;</code>",
+		"hierarchy": "Tables must always be rendered inside a <code>&lt;div class=\"act-table-container\"&gt;</code>",
+		"usage": "<ul><li>Only use tables as neccesary</li><li>Tables to scroll horizontally on smaller screens</li><li>Column widths can be adjusted to best fit content</li><li>Avoid using tables where possible, only use when necessary to present data</li></ul>",
+		"status": [
+			"production",
+			"core"
+		]
+	},
+	"S13": {
+		"details": {
+			"id": "S13",
+			"category": "🏓 Search Elements",
+			"name": "Search Stats",
+			"type": "Component"
+		},
+		"description": "Used to structure data in columns and rows, helpful when a user needs to compare a large amount of content",
+		"element": "<code>&lt;table class=\"act-table\"&gt;</code>",
+		"hierarchy": "Tables must always be rendered inside a <code>&lt;div class=\"act-table-container\"&gt;</code>",
+		"usage": "<ul><li>Only use tables as neccesary</li><li>Tables to scroll horizontally on smaller screens</li><li>Column widths can be adjusted to best fit content</li><li>Avoid using tables where possible, only use when necessary to present data</li></ul>",
 		"status": [
 			"production",
 			"core"
@@ -267,6 +356,20 @@
 		"element": "<code>&lt;table class=\"act-table\"&gt;</code>",
 		"hierarchy": "Tables must always be rendered inside a <code>&lt;div class=\"act-table-container\"&gt;</code>",
 		"usage": "<ul><li>Only use tables as neccesary</li><li>Tables to scroll horizontally on smaller screens</li><li>Column widths can be adjusted to best fit content</li><li>Avoid using tables where possible, only use when necessary to present data</li></ul>",
+		"status": [
+			"production",
+			"core"
+		]
+	},
+	"T21": {
+		"details": {
+			"id": "T21",
+			"category": "🏓 Tabs",
+			"name": "Tabs",
+			"type": "Component"
+		},
+		"description": "Tabs are used to help organise content, between panels to reduce page length",
+		"element": "<code>&lt;div class=\"act-tabs-container\"&gt;</code>",
 		"status": [
 			"production",
 			"core"
@@ -302,6 +405,20 @@
 			"core"
 		]
 	},
+	"W14": {
+		"details": {
+			"id": "W14",
+			"category": "🌎 Wayfinding",
+			"name": "Pagination",
+			"type": "Component"
+		},
+		"description": "Used for splitting information across multiple pages, instead of showing all content on one very long page",
+		"element": "<code>&lt;div class=\"act-pagination\"&gt;</code>",
+		"status": [
+			"production",
+			"core"
+		]
+	},
 	"W15": {
 		"details": {
 			"id": "W15",
@@ -330,6 +447,21 @@
 		"status": [
 			"production",
 			"core"
+		]
+	},
+	"W17": {
+		"details": {
+			"id": "W17",
+			"category": "🌎 Wayfinding",
+			"name": "Index",
+			"type": "Component"
+		},
+		"description": "Used for showing alphabetical index links",
+		"element": "<code>&lt;div class=\"act-index\"&gt;</code>",
+		"restrictions": "This component can only be used by ACT Health",
+		"status": [
+			"production",
+			"health"
 		]
 	}
 }

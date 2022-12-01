@@ -1,6 +1,6 @@
-import { createC11 } from "../../4-components/c1-cards/c11-card/component";
+import { createC11 } from "../../../4-components/c1-cards/c11-card/component";
 
-export const createPC1 = ({
+export const createPC11 = ({
   type,
   feature,
   icon,

@@ -1,6 +1,6 @@
 import React from "react";
-import { createPC1 } from "./component";
-import directory from "../../_docs/directory.json";
+import { createPC11 } from "./component";
+import directory from "../../../_docs/directory.json";
 
 // Component Settings
 const componentDescription = `
@@ -37,7 +37,7 @@ const componentDescription = `
 `;
 
 export default {
-	title: "Patterns/Card Grid",
+	title: "Patterns/Card Grids/Default Card Grid",
 	parameters: {
 		docs: {
 			description: {
@@ -165,6 +165,6 @@ export default {
 	},
 };
 
-const Template = (args) => createPC1(args);
+const Template = (args) => createPC11(args);
 
-export const CardGrid = Template.bind({});
+export const DefaultCardGrid = Template.bind({});

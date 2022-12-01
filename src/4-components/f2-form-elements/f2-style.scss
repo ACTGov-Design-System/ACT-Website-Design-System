@@ -256,6 +256,9 @@ form p,
 			}
 		}
 	}
+	&__textarea {
+		height: unset;
+	}
 	&__checkbox {
 		accent-color: $act-colour__purple;
 		color: $act-colour__purple;
