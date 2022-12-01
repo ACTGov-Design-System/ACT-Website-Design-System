@@ -7,7 +7,7 @@ export const createPC31 = () => {
 
   const keyMessageHTML = createC22({});
   const quoteHTML = createC23({
-    content: "Some quote"
+    content: "Some quote",
   });
   const serviceCardHTML = createC24({});
   const sidebarHTML = createW13({});

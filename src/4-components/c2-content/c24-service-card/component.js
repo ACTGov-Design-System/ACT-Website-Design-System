@@ -8,13 +8,13 @@ export const createC24 = ({
     type: "primary",
     size: "small",
     icon: "no-icon",
-    label: "Action 1"
+    label: "Action 1",
   });
   const button2HTML = createB11({
     type: "secondary",
     size: "small",
     icon: "no-icon",
-    label: "Action 2"
+    label: "Action 2",
   });
 
   return `

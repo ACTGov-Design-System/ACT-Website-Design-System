@@ -8,7 +8,7 @@ export const createP11 = ({
     type: "primary",
     size: "default",
     icon: "no-icon",
-    label: "Button"
+    label: "Button",
   });
 
   return `
