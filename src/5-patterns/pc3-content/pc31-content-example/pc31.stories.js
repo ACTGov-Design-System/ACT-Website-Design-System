@@ -1,7 +1,7 @@
 import { createPC31 } from "./component";
 
 export default {
-	title: "Patterns/Content/ContentArticle",
+	title: "Patterns/Content/Content Article",
 	parameters: {
 		layout: "fullscreen",
 	},
