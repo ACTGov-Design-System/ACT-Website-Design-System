@@ -267,7 +267,7 @@ const Footer = () => {
 											</LinkTo>
 										</li>
 										<li>
-											<LinkTo kind="patterns-content-contentarticle--content-article">
+											<LinkTo kind="patterns-content-content-article--content-article">
 												Content Article
 											</LinkTo>
 										</li>
