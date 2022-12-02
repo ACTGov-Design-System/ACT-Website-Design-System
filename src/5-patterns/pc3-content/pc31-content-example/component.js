@@ -18,7 +18,7 @@ export const createPC31 = () => {
     <div class="act-flex__grid">
       <div class="act-flex__row">
         <div class="act-col__cw-8">
-          <div class="act-box">
+          <div class="act-box act-box__content">
             `+ keyMessageHTML +`
             <h1>Heading 1</h1>
             <p>The death cap mushroom (amanita phalloides) is a deadly fungus that is found across the Canberra region.</p>

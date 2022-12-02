@@ -204,3 +204,25 @@ a,
 		color: $act-colour__plum-purple;
 	}
 }
+
+/* Text Spacing *//* Content Blocks */
+.act-box {
+	&__content {
+		h1,
+		h2,
+		h3,
+		.act-h1,
+		.act-h2,
+		.act-h3 {
+			margin-bottom: map-get($act-space, "desktop-3");
+		}
+		h4,
+		h5,
+		h6,
+		.act-h4,
+		.act-h5,
+		.act-h6 {
+			margin-bottom: map-get($act-space, "desktop-2");
+		}
+	}
+}
