@@ -23,13 +23,6 @@ const componentDescription = `
 				<td>Description</td>
 				<td>`+directory.F20.description+`</td>
 			</tr>
-			<tr>
-				<td>Links</td>
-				<td>
-					<a href="" target="_blank">Figma</a>&nbsp;&nbsp;
-					<a href="" target="_blank">GitHub</a>
-				</td>
-			</tr>
 		</tbody>
 	</table>
 </div>

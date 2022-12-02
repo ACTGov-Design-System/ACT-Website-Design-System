@@ -285,6 +285,36 @@
 			"core"
 		]
 	},
+	"F24": {
+		"details": {
+			"id": "F24",
+			"category": "⌨️ Form Elements",
+			"name": "Toggles",
+			"type": "Component"
+		},
+		"description": "To give users the ability to switch between on and off state",
+		"element": "<code>&lt;div class=\"act-form__container\"&gt;</code>",
+		"hierarchy": "Checkboxes must always be rendered inside a <code>&lt;form class=\"act-form\"&gt;</code>",
+		"status": [
+			"production",
+			"core"
+		]
+	},
+	"F25": {
+		"details": {
+			"id": "F25",
+			"category": "⌨️ Form Elements",
+			"name": "Radio Buttons",
+			"type": "Component"
+		},
+		"description": "Allow users to select a single option from a list of options",
+		"element": "<code>&lt;div class=\"act-form__container\"&gt;</code>",
+		"hierarchy": "Checkboxes must always be rendered inside a <code>&lt;form class=\"act-form\"&gt;</code>",
+		"status": [
+			"production",
+			"core"
+		]
+	},
 	"F27": {
 		"details": {
 			"id": "F27",
@@ -293,6 +323,21 @@
 			"type": "Component"
 		},
 		"description": "Allow users to input long form text, normally will spand over multiple lines",
+		"element": "<code>&lt;div class=\"act-form__container\"&gt;</code>",
+		"hierarchy": "Text areas must always be rendered inside a <code>&lt;form class=\"act-form\"&gt;</code>",
+		"status": [
+			"production",
+			"core"
+		]
+	},
+	"F28": {
+		"details": {
+			"id": "F28",
+			"category": "⌨️ Form Elements",
+			"name": "Textarea",
+			"type": "Component"
+		},
+		"description": "Allow users to input long form text, normally will expand over multiple lines",
 		"element": "<code>&lt;div class=\"act-form__container\"&gt;</code>",
 		"hierarchy": "Text areas must always be rendered inside a <code>&lt;form class=\"act-form\"&gt;</code>",
 		"status": [
@@ -331,14 +376,12 @@
 	"S11": {
 		"details": {
 			"id": "S11",
-			"category": "🏓 Search Elements",
+			"category": "🔎 Search Elements",
 			"name": "Search Result",
 			"type": "Component"
 		},
-		"description": "Used to structure data in columns and rows, helpful when a user needs to compare a large amount of content",
-		"element": "<code>&lt;table class=\"act-table\"&gt;</code>",
-		"hierarchy": "Tables must always be rendered inside a <code>&lt;div class=\"act-table-container\"&gt;</code>",
-		"usage": "<ul><li>Only use tables as neccesary</li><li>Tables to scroll horizontally on smaller screens</li><li>Column widths can be adjusted to best fit content</li><li>Avoid using tables where possible, only use when necessary to present data</li></ul>",
+		"description": "Search results to be displayed on search results page",
+		"element": "<code>&lt;div class=\"act-search-result\"&gt;</code>",
 		"status": [
 			"production",
 			"core"
@@ -347,14 +390,12 @@
 	"S12": {
 		"details": {
 			"id": "S12",
-			"category": "🏓 Search Elements",
+			"category": "🔎 Search Elements",
 			"name": "Search Bar",
 			"type": "Component"
 		},
-		"description": "Used to structure data in columns and rows, helpful when a user needs to compare a large amount of content",
-		"element": "<code>&lt;table class=\"act-table\"&gt;</code>",
-		"hierarchy": "Tables must always be rendered inside a <code>&lt;div class=\"act-table-container\"&gt;</code>",
-		"usage": "<ul><li>Only use tables as neccesary</li><li>Tables to scroll horizontally on smaller screens</li><li>Column widths can be adjusted to best fit content</li><li>Avoid using tables where possible, only use when necessary to present data</li></ul>",
+		"description": "Allows users to find content by inputting search terms",
+		"element": "<code>&lt;div class=\"act-search-bar\"&gt;</code>",
 		"status": [
 			"production",
 			"core"
@@ -363,14 +404,12 @@
 	"S13": {
 		"details": {
 			"id": "S13",
-			"category": "🏓 Search Elements",
+			"category": "🔎 Search Elements",
 			"name": "Search Stats",
 			"type": "Component"
 		},
-		"description": "Used to structure data in columns and rows, helpful when a user needs to compare a large amount of content",
-		"element": "<code>&lt;table class=\"act-table\"&gt;</code>",
-		"hierarchy": "Tables must always be rendered inside a <code>&lt;div class=\"act-table-container\"&gt;</code>",
-		"usage": "<ul><li>Only use tables as neccesary</li><li>Tables to scroll horizontally on smaller screens</li><li>Column widths can be adjusted to best fit content</li><li>Avoid using tables where possible, only use when necessary to present data</li></ul>",
+		"description": "Search stats to be located underneath Search Bar on results page",
+		"element": "<code>&lt;div class=\"act-search-stats\"&gt;</code>",
 		"status": [
 			"production",
 			"core"
@@ -379,14 +418,12 @@
 	"S14": {
 		"details": {
 			"id": "S14",
-			"category": "🏓 Search Elements",
+			"category": "🔎 Search Elements",
 			"name": "Search Filter",
 			"type": "Component"
 		},
-		"description": "Used to structure data in columns and rows, helpful when a user needs to compare a large amount of content",
-		"element": "<code>&lt;table class=\"act-table\"&gt;</code>",
-		"hierarchy": "Tables must always be rendered inside a <code>&lt;div class=\"act-table-container\"&gt;</code>",
-		"usage": "<ul><li>Only use tables as neccesary</li><li>Tables to scroll horizontally on smaller screens</li><li>Column widths can be adjusted to best fit content</li><li>Avoid using tables where possible, only use when necessary to present data</li></ul>",
+		"description": "-",
+		"element": "<code>&lt;div class=\"act-search-filter\"&gt;</code>",
 		"status": [
 			"production",
 			"core"
@@ -411,12 +448,26 @@
 	"T21": {
 		"details": {
 			"id": "T21",
-			"category": "🏓 Tabs",
+			"category": "🔖 Tabs",
 			"name": "Tabs",
 			"type": "Component"
 		},
 		"description": "Tabs are used to help organise content, between panels to reduce page length",
 		"element": "<code>&lt;div class=\"act-tabs-container\"&gt;</code>",
+		"status": [
+			"production",
+			"core"
+		]
+	},
+	"T31": {
+		"details": {
+			"id": "T31",
+			"category": "🏷️ Tags",
+			"name": "Tags",
+			"type": "Component"
+		},
+		"description": "Used for tagging content to help categorise",
+		"element": "<code>&lt;div class=\"act-tags\"&gt;</code>",
 		"status": [
 			"production",
 			"core"

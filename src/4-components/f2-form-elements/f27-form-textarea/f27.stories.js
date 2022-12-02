@@ -27,13 +27,6 @@ const componentDescription = `
 				<td>Hierarchy</td>
 				<td>`+directory.F27.hierarchy+`</td>
 			</tr>
-			<tr>
-				<td>Links</td>
-				<td>
-					<a href="" target="_blank">Figma</a>&nbsp;&nbsp;
-					<a href="" target="_blank">GitHub</a>
-				</td>
-			</tr>
 		</tbody>
 	</table>
 </div>

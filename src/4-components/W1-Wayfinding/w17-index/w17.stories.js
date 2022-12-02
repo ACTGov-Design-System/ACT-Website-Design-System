@@ -27,13 +27,6 @@ const componentDescription = `
 				<td>Restrictions</td>
 				<td><b>`+directory.W17.restrictions+`</b></td>
 			</tr>
-			<tr>
-				<td>Links</td>
-				<td>
-					<a href="" target="_blank">Figma</a>&nbsp;&nbsp;
-					<a href="" target="_blank">GitHub</a>
-				</td>
-			</tr>
 		</tbody>
 	</table>
 </div>
