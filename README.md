@@ -1,6 +1,6 @@
 # 🦢 ACT Government Website Design System
 
-[![storybook](https://shields.io/badge/storybook-white?logo=storybook&style=flat-square)](#) ![GitHub commit activity](https://img.shields.io/github/commit-activity/m/ACTGov-Design-System/ACTGov-Design-System?style=flat-square) ![GitHub contributors](https://img.shields.io/github/contributors/ACTGov-Design-System/ACTGov-Design-System?style=flat-square)
+![GitHub commit activity](https://img.shields.io/github/commit-activity/m/ACTGov-Design-System/ACT-Website-Design-System?style=flat-square) ![GitHub contributors](https://img.shields.io/github/contributors/ACTGov-Design-System/ACT-Website-Design-System?style=flat-square)
 
 | Directory          | Function  | Description                                                     |
 | ------------------ | --------- | --------------------------------------------------------------- |
