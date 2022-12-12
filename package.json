@@ -4,7 +4,7 @@
 		"email": "tom@pollen.com.au",
 		"url": "https://pollen.com.au"
 	},
-	"name": "design-system--act",
+	"name": "ACT-Website-Design-System",
 	"version": "1.0.0",
 	"description": "",
 	"main": "index.js",
@@ -21,14 +21,14 @@
 	},
 	"repository": {
 		"type": "git",
-		"url": "git+https://github.com/pollen-digital/design-system--act.git"
+		"url": "git+https://github.com/ACTGov-Design-System/ACT-Website-Design-System.git"
 	},
 	"keywords": [],
 	"license": "ISC",
 	"bugs": {
-		"url": "https://github.com/pollen-digital/design-system--act/issues"
+		"url": "https://github.com/ACTGov-Design-System/ACT-Website-Design-System/issues"
 	},
-	"homepage": "https://github.com/pollen-digital/design-system--act#readme",
+	"homepage": "https://github.com/ACTGov-Design-System/ACT-Website-Design-System#readme",
 	"devDependencies": {
 		"@babel/core": "^7.19.3",
 		"@storybook/addon-actions": "^6.5.12",
