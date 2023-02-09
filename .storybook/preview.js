@@ -132,6 +132,11 @@ export const parameters = {
 						"Alerts",
 							[
 								"Overview",
+								"Global Alert",
+									[
+										"Docs",
+										"Global Alert",
+									],
 							],
 						"Buttons",
 							[
