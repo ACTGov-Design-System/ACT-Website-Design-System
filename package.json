@@ -17,7 +17,8 @@
 		"fix-prettier": "npx prettier --write .",
 		"fix-all": "npm run fix-eslint && npm run fix-prettier",
 		"build-storybook": "build-storybook",
-		"build": "npm run fix-eslint && npm run fix-prettier && npm run build-storybook"
+		"build": "npm run fix-eslint && npm run fix-prettier && npm run build-storybook",
+		"serve": "npx http-server ./storybook-static -p 2600"
 	},
 	"repository": {
 		"type": "git",
