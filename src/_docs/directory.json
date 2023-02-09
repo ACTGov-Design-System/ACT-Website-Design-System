@@ -358,6 +358,19 @@
 			"core"
 		]
 	},
+	"P12": {
+		"details": {
+			"id": "P12",
+			"category": "⌨️ Popups",
+			"name": "Cookie Consent Popup",
+			"type": "Component"
+		},
+		"description": "Used to alert users to cookie consent options over the top of other content. Rendered at bottom of viewport.",
+		"status": [
+			"production",
+			"core"
+		]
+	},
 	"PF2": {
 		"details": {
 			"id": "PF2",
