@@ -4,11 +4,17 @@ export const createP12 = ({
   type,
 }) => {
 
-  const buttonHTML = createB11({
+  const buttonPrimaryHTML = createB11({
     type: "primary",
     size: "default",
     icon: "no-icon",
-    label: "Button",
+    label: "Accept",
+  });
+  const buttonSecondaryHTML = createB11({
+    type: "secondary",
+    size: "default",
+    icon: "no-icon",
+    label: "Secondary Button",
   });
 
   return `
@@ -16,15 +22,15 @@ export const createP12 = ({
   <div class="act-popup__container act-cookie-consent">
     <div class="act-popup__content">
       <div class="act-popup__block ">
-        <div class="act-h4">Heading</div>
+        <div class="act-h4">Cookie Consent Banner</div>
         <div class="act-popup__close">
           <i class="fa-solid fa-xmark"></i>
         </div>
       </div>
       <div class="act-popup__block">
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+        <p>This is a cookie consent banner where you can explain why you are using cookies here.</p>
         <div class="act-button-group">
-        `+buttonHTML+``+buttonHTML+`
+        `+buttonPrimaryHTML+``+buttonSecondaryHTML+`
         </div>
       </div>
     </div>
