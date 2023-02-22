@@ -3,7 +3,7 @@ export const createS13 = () => {
   return `
 <div class="act-search-stats">
   <div class="act-search-stats__block">
-    <span>x</span> of <span>y</span> results for <span>search term</span>
+    <span>x</span>-<span>y</span> of approximately <span>z</span> Search results for <span>search term</span>
   </div>
   <div class="act-search-stats__block">
     Display
