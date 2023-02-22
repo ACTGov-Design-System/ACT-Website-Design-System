@@ -1,8 +1,8 @@
 import { Meta, ColorPalette, ColorItem } from "@storybook/addon-docs";
 import { themes, ThemeProvider, convert, ensure } from "@storybook/theming";
-import Masthead from "../../../_docs/masthead";
-import AoC from "../../../_docs/aoc";
-import Footer from "../../../_docs/footer";
+import Masthead from "../../_docs/masthead";
+import AoC from "../../_docs/aoc";
+import Footer from "../../_docs/footer";
 import LinkTo from "@storybook/addon-links/react";
 
 <Meta
@@ -37,12 +37,7 @@ import LinkTo from "@storybook/addon-links/react";
 											</LinkTo>
 										</li>
 										<li className="act-breadcrumbs__crumb act-h6">
-											<LinkTo className="act-breadcrumbs__crumb__link" kind="components-alerts-overview--page">
-												Tags <i className="fa-solid fa-angle-right"></i>
-											</LinkTo>
-										</li>
-										<li className="act-breadcrumbs__crumb act-h6">
-											<LinkTo className="act-breadcrumbs__crumb__link" kind="components-alerts-global-alert-docs--page">
+											<LinkTo className="act-breadcrumbs__crumb__link" kind="components-tags-overview--page">
 												Tags <i className="fa-solid fa-angle-right"></i>
 											</LinkTo>
 										</li>
@@ -92,53 +87,7 @@ import LinkTo from "@storybook/addon-links/react";
 							</div>
 						</div>
 					</div>
-					<div className="act-flex__row">
-						<div className="act-col__cw-12">
-							<div className="act-box">
-								<h3>Collapse all/Expand all</h3>
-								<p>
-    								The optional collapse all expand all functionality allows users to perform the action to all accordions, reducing time and clicks to reach the required
-    								information. It can be removed or added as required.
-    							</p>
-    							<p>
-    								This function should not be used to help users locate information within accordions. If a user is expanding multiple accordions because they are unsure of the
-    								content they contain, consider more descriptive titles or removing accordions all together and displaying the content separated by headings.
-    							</p>
-    						</div>
-    					</div>
-    				</div>
-    				<div className="act-flex__row">
-    					<div className="act-col__cw-12">
-    						<div className="act-box">
-    							<h3>Principles</h3>
-    							<h4>Use clear labels</h4>
-    							<p>
-    								Accordions hide content, so the labels need to be clear. Ensure the headings used are brief and explicit about what is contained in the hidden panel. Intuitive headings help the user build a clear mental model of the content.
-    							</p>
-    							<h4>Do not disable sections</h4>
-    							<p>
-    								This function should not be used to help users locate information within accordions. If a user is expanding multiple accordions because they are unsure of the
-    								content they contain, consider more descriptive titles or removing accordions all together and displaying the content separated by headings.
-    							</p>
-    							<p>Disabling controls is normally confusing for users. If there is no content for a section, either remove the section or, if this would be confusing for your users, explain why there is no content when the section is opened.</p>
-    							<p>Consider tabs if the user would likely need to flick between content sections.</p>
-    						</div>
-    					</div>
-    				</div>
-    				<div className="act-flex__row">
-    					<div className="act-col__cw-12">
-    						<div className="act-box">
-    							<LinkTo
-    								className="act-button act-button__primary act-button__default act-button__icon-left act-button__primary-undefined"
-    								kind="components-tags-tags--tags"
-    							>
-    								View Component
-    								<i class="fa-solid fa-eye"></i>
-    							</LinkTo>
-    						</div>
-    					</div>
-    				</div>
-    			</div>
+				</div>
     		</div>
     	</div>
     </main>

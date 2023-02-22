@@ -14,7 +14,7 @@
 	&__item {
 		color: $act-colour__black;
 		font-size: $act-font-size__desktop-h5;
-		
+
 		width: 100%;
 		&:active {
 			background-color: $act-colour__purple;
@@ -63,14 +63,14 @@
 			&__item {
 				padding: map-get($act-space, "desktop-2");
 				border-bottom: 1px solid $act-colour__white;
-				
+
 				&:hover {
 					background-color: $act-colour__medium-purple;
 					color: $act-colour__white;
 				}
 			}
 			&__item:last-of-type {
-				border:none
+				border: none;
 			}
 			&__closed {
 				display: none;
@@ -80,7 +80,7 @@
 			}
 		}
 	}
-	
+
 	//handles the custom icon for the details element
 	details {
 		summary {
