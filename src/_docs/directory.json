@@ -74,6 +74,21 @@
 			"core"
 		]
 	},
+	"B13": {
+		"details": {
+			"id": "B13",
+			"category": "🟣 Buttons",
+			"name": "Back to top",
+			"type": "Component"
+		},
+		"description": "A button that takes the user to the top of the page",
+		"element": "<code>&lt;button&gt;</code>",
+		"usage": "",
+		"status": [
+			"production",
+			"core"
+		]
+	},
 	"PC1": {
 		"details": {
 			"id": "PC1",
@@ -349,11 +364,11 @@
 		"details": {
 			"id": "M11",
 			"category": "🃏 Multi Step",
-			"name": "Multi Step Component",
+			"name": "Multi Step",
 			"type": "Component"
 		},
 		"description": "Used to break up a long form into multiple steps",
-		"element": "",
+		"element": "<code>&lt;div class=\"act-multi-step\"&gt;</code>",
 		"hierarchy": "",
 		"usage": "",
 		"status": [
