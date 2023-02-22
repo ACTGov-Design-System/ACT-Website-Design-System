@@ -1,0 +1,85 @@
+.act-multi-step {
+	@include devices(ultrawide) {
+		max-width: $act-page-max-width;
+	}
+	&__container {
+		display: flex;
+		flex-direction: column;
+		padding: map-get($act-space, "desktop-4");
+	}
+	&__header {
+		display: flex;
+		flex-direction: column;
+		gap: map-get($act-space, "desktop-1");
+	}
+	&__content {
+		display: flex;
+		flex-direction: column;
+		margin-top: map-get($act-space, "desktop-2");
+		margin-bottom: map-get($act-space, "desktop-2");
+		&__step {
+			display: none;
+			&.active {
+				display: flex;
+			}
+		}
+		
+	}
+	&__navigation {
+		align-items: center;
+		display: flex;
+		flex-direction: row;
+		@include devices(mobile) {
+			flex-direction: column;
+			gap: map-get($act-space, "mobile-1");
+		}
+		justify-content: space-around;
+		&__progress { 
+			display: flex;
+			flex-direction: row;
+			justify-content: start;
+			@include devices(mobile) {
+				justify-content: center;
+				display: grid;
+				grid-template-columns: repeat(3, 1fr);
+			}
+			gap: 1rem;
+			width: 100%;
+			&__step {
+				align-items: center;
+				display: flex;
+				flex-direction: row;
+				gap: 0.5rem;
+				&__icon {
+					align-items: center;
+					border: 1px solid map-get($act-colour, "grey-2");
+					border-radius: 50%;
+					display: flex;
+					height: map-get($act-space, "desktop-5");
+					justify-content: center;
+					width: map-get($act-space, "desktop-5");
+    				
+				}
+				&.complete > &__icon {
+					background-color: map-get($act-colour, "green");
+					border: 1px solid map-get($act-colour, "green");
+					color: map-get($act-colour, "white");
+				}
+			}
+		}
+		&__buttons {
+			display: inline-flex;
+			flex-direction: row;
+			@include devices(mobile) {
+				justify-content: center;
+				margin-top: map-get($act-space, "desktop-2");
+				margin-bottom: map-get($act-space, "desktop-2");
+				width: 100%;
+				button {
+					width: 100%;
+				}
+			}
+		}
+	}
+
+}

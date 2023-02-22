@@ -345,6 +345,22 @@
 			"core"
 		]
 	},
+	"M11": {
+		"details": {
+			"id": "M11",
+			"category": "🃏 Multi Step",
+			"name": "Multi Step Component",
+			"type": "Component"
+		},
+		"description": "Used to break up a long form into multiple steps",
+		"element": "",
+		"hierarchy": "",
+		"usage": "",
+		"status": [
+			"production",
+			"core"
+		]
+	},
 	"P11": {
 		"details": {
 			"id": "P11",
