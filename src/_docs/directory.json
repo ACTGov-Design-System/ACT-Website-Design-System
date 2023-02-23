@@ -517,6 +517,22 @@
 			"core"
 		]
 	},
+	"T42": {
+		"details": {
+			"id": "T42",
+			"category": "Tooltips",
+			"name": "Utility Set",
+			"type": "Component"
+		},
+		"description": "Click over a component to display a utility tooltip - for example, click on a Share button and display a list of Share options such as Social Media and Email",
+		"element": "<code>&lt;table class=\"act-utility-set\"&gt;</code>",
+		"hierarchy": "",
+		"usage": "Apply the .active class to <code>&lt;table class=\"act-utility-set\"&gt;</code> to display the utility set",
+		"status": [
+			"production",
+			"core"
+		]
+	},
 	"W11": {
 		"details": {
 			"id": "W11",
