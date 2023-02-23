@@ -402,6 +402,19 @@
 			"core"
 		]
 	},
+	"P13": {
+		"details": {
+			"id": "P13",
+			"category": "⌨️ Popups",
+			"name": "Full Page Banner",
+			"type": "Component"
+		},
+		"description": "Full Page Banner used to showcase programs, promotions near the bottom of a page.",
+		"status": [
+			"production",
+			"core"
+		]
+	},
 	"PF2": {
 		"details": {
 			"id": "PF2",
