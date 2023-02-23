@@ -193,6 +193,21 @@
 			"core"
 		]
 	},
+	"C26": {
+		"details": {
+			"id": "C26",
+			"category": "📘 Content",
+			"name": "Managed By",
+			"type": "Component"
+		},
+		"description": "To help give the user the context of who is managing pages",
+		"element": "<code>&lt;div class=\"act-managed-by\"&gt;</code>",
+		"usage": "",
+		"status": [
+			"production",
+			"core"
+		]
+	},
 	"F11": {
 		"details": {
 			"id": "F11",

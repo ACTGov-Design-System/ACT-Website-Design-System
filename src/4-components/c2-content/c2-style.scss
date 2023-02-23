@@ -81,3 +81,19 @@
 		margin-top: map-get($act-space, "desktop-1");
 	}
 }
+
+.act-content__managed-by {
+	display: flex;
+	width: 100%;
+	justify-content: center;
+	border-top:1px solid $act-colour__light-grey;
+	padding: 0 map-get($act-space, "desktop-2") 0 map-get($act-space, "desktop-2");
+	p {
+		padding: map-get($act-space, "desktop-4") 0 map-get($act-space, "desktop-4") 0;
+	}
+}
+
+//for demo purposes only
+.act-body > .act-content__managed-by {
+	margin-top: 50px;
+}
