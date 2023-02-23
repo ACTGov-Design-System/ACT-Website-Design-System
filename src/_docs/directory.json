@@ -208,6 +208,36 @@
 			"core"
 		]
 	},
+	"C27": {
+		"details": {
+			"id": "C27",
+			"category": "📘 Content",
+			"name": "Download Links",
+			"type": "Component"
+		},
+		"description": "Allows users to know what kind of action they will be taking",
+		"element": "<code>&lt;div class=\"act-download-link\"&gt;</code>",
+		"usage": "Set the file name, file type, and file size dynamically",
+		"status": [
+			"production",
+			"core"
+		]
+	},
+	"C28": {
+		"details": {
+			"id": "C28",
+			"category": "📘 Content",
+			"name": "Table Of Contents",
+			"type": "Component"
+		},
+		"description": "Used at the top of content pages, used to jump to a certain place on a page, clicking the link would scroll you to that point of the page",
+		"element": "<code>&lt;div class=\"act-table-contents\"&gt;</code>",
+		"usage": "",
+		"status": [
+			"production",
+			"core"
+		]
+	},
 	"F11": {
 		"details": {
 			"id": "F11",

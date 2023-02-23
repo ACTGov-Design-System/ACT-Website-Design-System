@@ -97,3 +97,16 @@
 .act-body > .act-content__managed-by {
 	margin-top: 50px;
 }
+
+.act-table-contents {
+	&__container {
+		padding-left: map-get($act-space, "desktop-2");	
+		border-left: 1px solid $act-colour__black;
+	}
+	&__content {
+		list-style-type: none;
+		&__item {
+			padding : map-get($act-space, "desktop-1") 0;
+		}
+	}
+}
