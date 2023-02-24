@@ -38,13 +38,14 @@
 			display: flex;
 			flex-direction: row;
 			justify-content: start;
-			@include devices(mobile) {
-				justify-content: center;
-				display: grid;
-				grid-template-columns: repeat(3, 1fr);
-			}
 			gap: 1rem;
+			overflow-x: scroll;
 			width: 100%;
+			
+			@include devices(mobile) {
+				margin-left: 12px;
+			}
+			
 			&__step {
 				align-items: center;
 				display: flex;
@@ -55,17 +56,31 @@
 					border: 1px solid map-get($act-colour, "grey-2");
 					border-radius: 50%;
 					display: flex;
-					height: map-get($act-space, "desktop-5");
+					height: map-get($act-space, "desktop-4");
 					justify-content: center;
-					width: map-get($act-space, "desktop-5");
+					width: map-get($act-space, "desktop-4");
+					padding: map-get($act-space, "desktop-2");
+					.multi-step-icon-edit {
+						display: block;
+					}
+					.multi-step-icon-check {
+						display: none;
+					}
     				
 				}
 				&.complete > &__icon {
 					background-color: map-get($act-colour, "green");
 					border: 1px solid map-get($act-colour, "green");
 					color: map-get($act-colour, "white");
+					.multi-step-icon-edit {
+						display: none;
+					}
+					.multi-step-icon-check {
+						display: block;
+					}
 				}
 			}
+			
 		}
 		&__buttons {
 			display: inline-flex;
@@ -82,4 +97,17 @@
 		}
 	}
 
+}
+
+div::-webkit-scrollbar {
+    display: none
+}
+
+.hide-scroll,aside {
+    -ms-overflow-style: none;
+    scrollbar-width: none
+}
+
+.hide-scroll::-webkit-scrollbar {
+    display: none
 }

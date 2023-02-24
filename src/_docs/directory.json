@@ -415,7 +415,7 @@
 		"description": "Used to break up a long form into multiple steps",
 		"element": "<code>&lt;div class=\"act-multi-step\"&gt;</code>",
 		"hierarchy": "",
-		"usage": "",
+		"usage": "Add the <code>complete</code> class to a <code>act-multi-step__step</code> element to indicate that the step has been completed",
 		"status": [
 			"production",
 			"core"

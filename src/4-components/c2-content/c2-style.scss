@@ -86,7 +86,7 @@
 	display: flex;
 	width: 100%;
 	justify-content: center;
-	border-top:1px solid $act-colour__light-grey;
+	border-top:1px solid $act-colour__grey;
 	padding: 0 map-get($act-space, "desktop-2") 0 map-get($act-space, "desktop-2");
 	p {
 		padding: map-get($act-space, "desktop-4") 0 map-get($act-space, "desktop-4") 0;

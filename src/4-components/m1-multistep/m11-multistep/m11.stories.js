@@ -23,6 +23,10 @@ const componentDescription = `
 				<td>Description</td>
 				<td>`+directory.M11.description+`</td>
 			</tr>
+			<tr>
+				<td>Usage</td>
+				<td>`+directory.M11.usage+`</td>
+			</tr>
 		</tbody>
 	</table>
 </div>

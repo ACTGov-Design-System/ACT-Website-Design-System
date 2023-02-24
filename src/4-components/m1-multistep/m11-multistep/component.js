@@ -10,7 +10,7 @@ export const createM11 = ({
         <p class="">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Id tempor consectetur commodo id cursus sit. Id malesuad.</p>
       </div>
       <div class="act-multi-step__content">
-        <div class="act-multi-step__content__step active" id="step-1">
+        <div class="act-multi-step__content__step" id="step-1">
           <!-- this content is for demo purposes only and should be replaced with your own components -->
           <div class="act-form__container act-form__container__cw-4">
             <label class="act-form__field__label" for="select_3Q1AD">
@@ -24,7 +24,7 @@ export const createM11 = ({
             </select>
           </div>
         </div>
-        <div class="act-multi-step__content__step" id="step-2">
+        <div class="act-multi-step__content__step active" id="step-2">
           <!-- this content is for demo purposes only and should be replaced with your own components -->
           <div class="act-form__container act-form__container__cw-4">
             <label class="act-form__field__label" for="select_3Q1AD">
@@ -54,15 +54,49 @@ export const createM11 = ({
         </div>
       </div>
       <div class="act-multi-step__navigation">
-        <div class="act-multi-step__navigation__progress">
+        <div class="act-multi-step__navigation__progress hide-scroll">
           <div class="act-multi-step__navigation__progress__step complete">
             <div class="act-multi-step__navigation__progress__step__icon">
               <span class="act-p-small">
-                <i class="fa-solid fa-check"></i>
+                <i class="fa-solid fa-pen multi-step-icon-edit"></i>
+                <i class="fa-solid fa-check multi-step-icon-check"></i>
               </span>
             </div>
             <div class="act-multi-step__navigation__progress__step__text">
-              <p class="">Choice #1</p>
+              <p class="small">Step #1</p>
+            </div>
+          </div>
+          <div class="act-multi-step__navigation__progress__step complete">
+            <div class="act-multi-step__navigation__progress__step__icon">
+              <span class="act-p-small">
+                <i class="fa-solid fa-pen multi-step-icon-edit"></i>
+                <i class="fa-solid fa-check multi-step-icon-check"></i>
+              </span>
+            </div>
+            <div class="act-multi-step__navigation__progress__step__text">
+              <p class="small">Step #2</p>
+            </div>
+          </div>
+          <div class="act-multi-step__navigation__progress__step">
+            <div class="act-multi-step__navigation__progress__step__icon">
+              <span class="act-p-small">
+                <i class="fa-solid fa-pen multi-step-icon-edit"></i>
+                <i class="fa-solid fa-check multi-step-icon-check"></i>
+              </span>
+            </div>
+            <div class="act-multi-step__navigation__progress__step__text">
+              <p class="small">Step #3</p>
+            </div>
+          </div>
+          <div class="act-multi-step__navigation__progress__step">
+            <div class="act-multi-step__navigation__progress__step__icon">
+              <span class="act-p-small">
+                <i class="fa-solid fa-pen multi-step-icon-edit"></i>
+                <i class="fa-solid fa-check multi-step-icon-check"></i>
+              </span>
+            </div>
+            <div class="act-multi-step__navigation__progress__step__text">
+              <p class="small">Step #4</p>
             </div>
           </div>
           <div class="act-multi-step__navigation__progress__step">
@@ -72,17 +106,7 @@ export const createM11 = ({
               </span>
             </div>
             <div class="act-multi-step__navigation__progress__step__text">
-              <p class="">Choice #2</p>
-            </div>
-          </div>
-          <div class="act-multi-step__navigation__progress__step">
-            <div class="act-multi-step__navigation__progress__step__icon">
-              <span class="act-p-small">
-                <i class="fa-solid fa-pen"></i>
-              </span>
-            </div>
-            <div class="act-multi-step__navigation__progress__step__text">
-              <p class="">Choice #3</p>
+              <p class="small">Step #5</p>
             </div>
           </div>
         </div>
