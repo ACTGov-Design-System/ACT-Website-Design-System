@@ -110,3 +110,22 @@
 		}
 	}
 }
+
+
+.act-links-list {
+	&__container {
+		padding: map-get($act-space, "desktop-2");
+	}
+	&__content {
+		list-style-type: none;
+		&__item {
+			align-items: center;
+			border-bottom: 1px solid $act-colour__black;
+			display: flex;
+			flex-direction: row;
+			justify-content: space-between;
+			padding : map-get($act-space, "desktop-2") 0;
+			width: 100%;
+		}
+	}
+}

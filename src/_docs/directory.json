@@ -238,6 +238,21 @@
 			"core"
 		]
 	},
+	"C29": {
+		"details": {
+			"id": "C28",
+			"category": "📘 Content",
+			"name": "Links List",
+			"type": "Component"
+		},
+		"description": "Link lists surface and group related content.",
+		"element": "<code>&lt;div class=\"act-links-list\"&gt;</code>",
+		"usage": "",
+		"status": [
+			"production",
+			"core"
+		]
+	},
 	"F11": {
 		"details": {
 			"id": "F11",
