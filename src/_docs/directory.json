@@ -74,6 +74,21 @@
 			"core"
 		]
 	},
+	"B13": {
+		"details": {
+			"id": "B13",
+			"category": "🟣 Buttons",
+			"name": "Back to top",
+			"type": "Component"
+		},
+		"description": "A button that takes the user to the top of the page",
+		"element": "<code>&lt;button&gt;</code>",
+		"usage": "",
+		"status": [
+			"production",
+			"core"
+		]
+	},
 	"PC1": {
 		"details": {
 			"id": "PC1",
@@ -173,6 +188,66 @@
 		"description": "Are used to display up to date information for helpful services",
 		"element": "<code>&lt;div class=\"act-service-card\"&gt;</code>",
 		"usage": "<ul><li>Desktop and tablet to use ‘large’ variant and mobile to use ‘smal’ variant</li><li>Paragraph length should only be one sentence</li><li>Phone number is optional</li></ul>",
+		"status": [
+			"production",
+			"core"
+		]
+	},
+	"C26": {
+		"details": {
+			"id": "C26",
+			"category": "📘 Content",
+			"name": "Managed By",
+			"type": "Component"
+		},
+		"description": "To help give the user the context of who is managing pages",
+		"element": "<code>&lt;div class=\"act-managed-by\"&gt;</code>",
+		"usage": "",
+		"status": [
+			"production",
+			"core"
+		]
+	},
+	"C27": {
+		"details": {
+			"id": "C27",
+			"category": "📘 Content",
+			"name": "Download Links",
+			"type": "Component"
+		},
+		"description": "Allows users to know what kind of action they will be taking",
+		"element": "<code>&lt;div class=\"act-download-link\"&gt;</code>",
+		"usage": "Set the file name, file type, and file size dynamically",
+		"status": [
+			"production",
+			"core"
+		]
+	},
+	"C28": {
+		"details": {
+			"id": "C28",
+			"category": "📘 Content",
+			"name": "Table Of Contents",
+			"type": "Component"
+		},
+		"description": "Used at the top of content pages, used to jump to a certain place on a page, clicking the link would scroll you to that point of the page",
+		"element": "<code>&lt;div class=\"act-table-contents\"&gt;</code>",
+		"usage": "",
+		"status": [
+			"production",
+			"core"
+		]
+	},
+	"C29": {
+		"details": {
+			"id": "C28",
+			"category": "📘 Content",
+			"name": "Links List",
+			"type": "Component"
+		},
+		"description": "Link lists surface and group related content.",
+		"element": "<code>&lt;div class=\"act-links-list\"&gt;</code>",
+		"usage": "",
 		"status": [
 			"production",
 			"core"
@@ -345,6 +420,22 @@
 			"core"
 		]
 	},
+	"M11": {
+		"details": {
+			"id": "M11",
+			"category": "🃏 Multi Step",
+			"name": "Multi Step",
+			"type": "Component"
+		},
+		"description": "Used to break up a long form into multiple steps",
+		"element": "<code>&lt;div class=\"act-multi-step\"&gt;</code>",
+		"hierarchy": "",
+		"usage": "Add the <code>complete</code> class to a <code>act-multi-step__step</code> element to indicate that the step has been completed",
+		"status": [
+			"production",
+			"core"
+		]
+	},
 	"P11": {
 		"details": {
 			"id": "P11",
@@ -366,6 +457,19 @@
 			"type": "Component"
 		},
 		"description": "Used to alert users to cookie consent options over the top of other content. Rendered at bottom of viewport.",
+		"status": [
+			"production",
+			"core"
+		]
+	},
+	"P13": {
+		"details": {
+			"id": "P13",
+			"category": "⌨️ Popups",
+			"name": "Full Page Banner",
+			"type": "Component"
+		},
+		"description": "Full Page Banner used to showcase programs, promotions near the bottom of a page.",
 		"status": [
 			"production",
 			"core"
@@ -481,6 +585,22 @@
 		},
 		"description": "Used for tagging content to help categorise",
 		"element": "<code>&lt;div class=\"act-tags\"&gt;</code>",
+		"status": [
+			"production",
+			"core"
+		]
+	},
+	"T42": {
+		"details": {
+			"id": "T42",
+			"category": "Tooltips",
+			"name": "Utility Set",
+			"type": "Component"
+		},
+		"description": "Click over a component to display a utility tooltip - for example, click on a Share button and display a list of Share options such as Social Media and Email",
+		"element": "<code>&lt;table class=\"act-utility-set\"&gt;</code>",
+		"hierarchy": "",
+		"usage": "Apply the .active class to <code>&lt;table class=\"act-utility-set\"&gt;</code> to display the utility set",
 		"status": [
 			"production",
 			"core"
