@@ -40,7 +40,70 @@
 		margin-top: map-get($act-space, "desktop-6");
 		margin-left: map-get($act-space, "desktop-6");
 	}
-	&__demo &__text {
-		// visibility: visible;
+}
+
+.act-utility-set {
+	color: $act-colour__purple;
+	cursor: pointer;
+	display: inline-block;
+	font-weight: $act-font-weight__semibold;
+	position: relative;
+	width: auto;
+	//TODO: Apply this with JS
+	&.active &__content {
+		visibility: visible;
 	}
+	&:hover &__content {
+		visibility: visible;
+	}
+	&__content {
+		background: $act-colour__light-grey;
+		clip-path: polygon(
+			0% 0%,
+			100% 0%,
+			100% calc(100% - 10px),
+			calc(50% + 10px) calc(100% - 10px),
+			50% 100%,
+			calc(50% - 10px) calc(100% - 10px),
+			0% calc(100% - 10px)
+		);
+		display: flex;
+		gap: 1rem;
+		font-size: $act-font-size__desktop-p-small;
+		font-weight: $act-font-weight__semibold;
+		left: 50%;
+		transform:translate(-50%, 0);
+		padding-top: map-get($act-space, "desktop-2");
+		padding-bottom: map-get($act-space, "desktop-3");
+		padding-left: map-get($act-space, "desktop-2");
+		padding-right: map-get($act-space, "desktop-2");
+		position: absolute;
+		top: -75px;
+		text-align: center;
+		visibility: hidden;
+		width: auto;
+		z-index: 1;
+		&__item {
+			align-items: center;
+			background-color: $act-colour__purple;
+			border-radius: 50%;
+			display: flex;
+			height: map-get($act-space, "desktop-4");
+			padding-top: 2px;
+			justify-content: center;
+			width: map-get($act-space, "desktop-4");
+			i {
+				color: $act-colour__white;
+				line-height: 0;
+			}
+		}
+	}
+}
+
+.demo-container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	height: 250px;
 }

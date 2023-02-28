@@ -8,16 +8,10 @@ export const createB11 = ({
   onClick,
 }) => {
 
-  var pseudoClassHTML;
-
-  if ( pseudoClass != ""){
-    pseudoClassHTML = "act-button__"+type+"-"+pseudoClass;
-  } else {
-    pseudoClassHTML = "";
-  }
+  
 
   return `
-<button class="act-button act-button__`+type+` act-button__`+size+` act-button__`+icon+` `+pseudoClassHTML+`" type="button">
+<button class="act-button act-button__`+type+` act-button__`+size+` act-button__`+icon+`" type="button">
   `+label+`
   <i class="fa-solid `+fontawesome+`"></i>
 </button>

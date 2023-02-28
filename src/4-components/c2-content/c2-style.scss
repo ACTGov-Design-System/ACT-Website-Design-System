@@ -81,3 +81,51 @@
 		margin-top: map-get($act-space, "desktop-1");
 	}
 }
+
+.act-content__managed-by {
+	display: flex;
+	width: 100%;
+	justify-content: center;
+	border-top:1px solid $act-colour__grey;
+	padding: 0 map-get($act-space, "desktop-2") 0 map-get($act-space, "desktop-2");
+	p {
+		padding: map-get($act-space, "desktop-4") 0 map-get($act-space, "desktop-4") 0;
+	}
+}
+
+//for demo purposes only
+.act-body > .act-content__managed-by {
+	margin-top: 50px;
+}
+
+.act-table-contents {
+	&__container {
+		padding-left: map-get($act-space, "desktop-2");	
+		border-left: 1px solid $act-colour__black;
+	}
+	&__content {
+		list-style-type: none;
+		&__item {
+			padding : map-get($act-space, "desktop-1") 0;
+		}
+	}
+}
+
+
+.act-links-list {
+	&__container {
+		padding: map-get($act-space, "desktop-2");
+	}
+	&__content {
+		list-style-type: none;
+		&__item {
+			align-items: center;
+			border-bottom: 1px solid $act-colour__black;
+			display: flex;
+			flex-direction: row;
+			justify-content: space-between;
+			padding : map-get($act-space, "desktop-2") 0;
+			width: 100%;
+		}
+	}
+}
