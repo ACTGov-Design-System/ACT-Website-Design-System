@@ -23,7 +23,6 @@
 				display: flex;
 			}
 		}
-		
 	}
 	&__navigation {
 		align-items: center;
@@ -34,18 +33,18 @@
 			gap: map-get($act-space, "mobile-1");
 		}
 		justify-content: space-around;
-		&__progress { 
+		&__progress {
 			display: flex;
 			flex-direction: row;
 			justify-content: start;
 			gap: 1rem;
 			overflow-x: scroll;
 			width: 100%;
-			
+
 			@include devices(mobile) {
 				margin-left: 12px;
 			}
-			
+
 			&__step {
 				align-items: center;
 				display: flex;
@@ -66,7 +65,6 @@
 					.multi-step-icon-check {
 						display: none;
 					}
-    				
 				}
 				&.complete > &__icon {
 					background-color: map-get($act-colour, "green");
@@ -80,7 +78,6 @@
 					}
 				}
 			}
-			
 		}
 		&__buttons {
 			display: inline-flex;
@@ -96,18 +93,18 @@
 			}
 		}
 	}
-
 }
 
 div::-webkit-scrollbar {
-    display: none
+	display: none;
 }
 
-.hide-scroll,aside {
-    -ms-overflow-style: none;
-    scrollbar-width: none
+.hide-scroll,
+aside {
+	-ms-overflow-style: none;
+	scrollbar-width: none;
 }
 
 .hide-scroll::-webkit-scrollbar {
-    display: none
+	display: none;
 }

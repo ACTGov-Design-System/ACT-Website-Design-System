@@ -55,11 +55,11 @@
 .act-full-page-banner {
 	&__container {
 		display: grid;
-		grid-template-columns: repeat(2, minmax(0, 1fr)); 
+		grid-template-columns: repeat(2, minmax(0, 1fr));
 		height: 100%;
 		width: 100%;
 		@include devices(mobile) {
-			display:flex;
+			display: flex;
 			flex-direction: column;
 		}
 	}
@@ -69,7 +69,7 @@
 		height: 100%;
 		justify-content: center;
 		img {
-			object-fit: cover;	
+			object-fit: cover;
 			width: 100%;
 			height: 100%;
 		}
@@ -106,7 +106,6 @@
 				padding: 1rem;
 			}
 		}
-		
 	}
 	&__content:first-of-type {
 		background-color: red;
