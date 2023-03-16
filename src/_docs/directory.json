@@ -538,7 +538,7 @@
 			"name": "Mega Menu",
 			"type": "Component"
 		},
-		"description": "Used to help users navigate the website via a collection of links",
+		"description": "Used to help users navigate the website via a collection of links. You can preview an example of the mega menu in action in the Toolkit section of this page.",
 		"element": "<code>&lt;div class=\"act-megamenu\"&gt;</code>",
 		"usage": "<ul><li>Do not change the colour of this component</li></ul>",
 		"status": [
