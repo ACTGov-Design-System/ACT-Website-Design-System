@@ -20,7 +20,6 @@ export const createW15 = ({
     function toggleSubMenu(open) {
       const mainMenu = document.querySelector(".act-megamenu__content__block-main-menu");
       const subMenu = document.querySelector(".act-megamenu__content__block-sub-menu");
-      console.log(open)
       if(open) {
         subMenu.classList.remove("hidden-mobile")
         mainMenu.classList.add("hidden-mobile")
@@ -85,71 +84,95 @@ export const createW15 = ({
             </div>
           </div>
         </div>
+        <div class="act-megamenu__content__block-main-menu__additional-links">
+          <div class="act-megamenu__link">
+            <a class="act-megamenu__link__text">
+              Additional Link 1
+            </a>
+          </div>
+          <div class="act-megamenu__link">
+            <a class="act-megamenu__link__text">
+            Additional Link 2
+            </a>
+          </div>
+          <div class="act-megamenu__link">
+            <a class="act-megamenu__link__text">
+            Additional Link 3
+            </a>
+          </div>
+          <button class="button">
+            <span class="button__text">
+              Login
+            </span>
+            <span class="button__icon">
+              <i class="fa-solid fa-user"></i>
+            </span>
+          </button>
+        </div>
       </div>
       
       <div class="act-megamenu__content__block-sub-menu hidden-mobile" id="sub-menu">
-        <button role="button" class="back-button" onclick="toggleSubMenu(false)">
+        <button class="back-button" onclick="toggleSubMenu(false)">
             <span class="back-button__icon">
               <i class="fa-solid fa-chevron-left"></i>
             </span>
             <span class="back-button__text">
               Back
             </span>
-            
         </button>
         <div class="act-megamenu__sub-menu-link-container hidden" id="sub-menu-1">
           <div class="section-heading">
             Child Links 1
           </div>
           <div class="sub-menu-links-list">
-            <div class="act-megamenu__link">
+            <a class="act-megamenu__link">
               <div class="act-megamenu__link__text">
                 Sub Link 11
               </div>
               <div class="act-megamenu___link__icon">
                 <i class="fa-solid fa-arrow-right"></i>
               </div>
-            </div>
-            <div class="act-megamenu__link">
+            </a>
+            <a class="act-megamenu__link">
               <div class="act-megamenu__link__text">
                 Sub Link 12
               </div>
               <div class="act-megamenu___link__icon">
                 <i class="fa-solid fa-arrow-right"></i>
               </div>
-            </div>
-            <div class="act-megamenu__link">
+            </a>
+            <a class="act-megamenu__link">
               <div class="act-megamenu__link__text">
                 Sub Link 13
               </div>
               <div class="act-megamenu___link__icon">
                 <i class="fa-solid fa-arrow-right"></i>
               </div>
-            </div>
-            <div class="act-megamenu__link">
+            </a>
+            <a class="act-megamenu__link">
               <div class="act-megamenu__link__text">
                 External Link
               </div>
               <div class="act-megamenu___link__icon">
                 <i class="fa-solid fa-external-link"></i>
               </div>
-            </div>
-            <div class="act-megamenu__link">
+            </a>
+            <a class="act-megamenu__link">
               <div class="act-megamenu__link__text">
                 Sub Link 15
               </div>
               <div class="act-megamenu___link__icon">
                 <i class="fa-solid fa-arrow-right"></i>
               </div>
-            </div>
-            <div class="act-megamenu__link">
+            </a>
+            <a class="act-megamenu__link">
               <div class="act-megamenu__link__text">
                 Sub Link 16
               </div>
               <div class="act-megamenu___link__icon">
                 <i class="fa-solid fa-arrow-right"></i>
               </div>
-            </div>
+            </a>
           </div>
         </div>
         <div class="act-megamenu__sub-menu-link-container hidden" id="sub-menu-2">
@@ -157,54 +180,54 @@ export const createW15 = ({
             Information and support
           </div>
           <div class="sub-menu-links-list">
-            <div class="act-megamenu__link">
+            <a class="act-megamenu__link">
               <div class="act-megamenu__link__text">
                 External Link
               </div>
               <div class="act-megamenu___link__icon">
                 <i class="fa-solid fa-external-link"></i>
               </div>
-            </div>
-            <div class="act-megamenu__link">
+            </a>
+            <a class="act-megamenu__link">
               <div class="act-megamenu__link__text">
                 Sub Link 22
               </div>
               <div class="act-megamenu___link__icon">
                 <i class="fa-solid fa-arrow-right"></i>
               </div>
-            </div>
-            <div class="act-megamenu__link">
+            </a>
+            <a class="act-megamenu__link">
               <div class="act-megamenu__link__text">
                 Sub Link 23
               </div>
               <div class="act-megamenu___link__icon">
                 <i class="fa-solid fa-arrow-right"></i>
               </div>
-            </div>
-            <div class="act-megamenu__link">
+            </a>
+            <a class="act-megamenu__link">
               <div class="act-megamenu__link__text">
                 Sub Link 24
               </div>
               <div class="act-megamenu___link__icon">
                 <i class="fa-solid fa-arrow-right"></i>
               </div>
-            </div>
-            <div class="act-megamenu__link">
+            </a>
+            <a class="act-megamenu__link">
               <div class="act-megamenu__link__text">
                 Sub Link 25
               </div>
               <div class="act-megamenu___link__icon">
                 <i class="fa-solid fa-arrow-right"></i>
               </div>
-            </div>
-            <div class="act-megamenu__link">
+            </a>
+            <a class="act-megamenu__link">
               <div class="act-megamenu__link__text">
                 Sub Link 26
               </div>
               <div class="act-megamenu___link__icon">
                 <i class="fa-solid fa-arrow-right"></i>
               </div>
-            </div>
+            </a>
           </div>
         </div>
         <div class="act-megamenu__sub-menu-link-container hidden" id="sub-menu-3">
@@ -212,54 +235,54 @@ export const createW15 = ({
             Child Links 3
           </div>
           <div class="sub-menu-links-list">
-            <div class="act-megamenu__link">
+            <a class="act-megamenu__link">
               <div class="act-megamenu__link__text">
                 Sub Link 31
               </div>
               <div class="act-megamenu___link__icon">
                 <i class="fa-solid fa-arrow-right"></i>
               </div>
-            </div>
-            <div class="act-megamenu__link">
+            </a>
+            <a class="act-megamenu__link">
               <div class="act-megamenu__link__text">
                 Sub Link 32
               </div>
               <div class="act-megamenu___link__icon">
                 <i class="fa-solid fa-arrow-right"></i>
               </div>
-            </div>
-            <div class="act-megamenu__link">
+            </a>
+            <a class="act-megamenu__link">
               <div class="act-megamenu__link__text">
                 Sub Link 33
               </div>
               <div class="act-megamenu___link__icon">
                 <i class="fa-solid fa-arrow-right"></i>
               </div>
-            </div>
-            <div class="act-megamenu__link">
+            </a>
+            <a class="act-megamenu__link">
               <div class="act-megamenu__link__text">
                 Sub Link 34
               </div>
               <div class="act-megamenu___link__icon">
                 <i class="fa-solid fa-arrow-right"></i>
               </div>
-            </div>
-            <div class="act-megamenu__link">
+            </a>
+            <a class="act-megamenu__link">
               <div class="act-megamenu__link__text">
                 Sub Link 35
               </div>
               <div class="act-megamenu___link__icon">
                 <i class="fa-solid fa-arrow-right"></i>
               </div>
-            </div>
-            <div class="act-megamenu__link">
+            </a>
+            <a class="act-megamenu__link">
               <div class="act-megamenu__link__text">
                 Sub Link 36
               </div>
               <div class="act-megamenu___link__icon">
                 <i class="fa-solid fa-arrow-right"></i>
               </div>
-            </div>
+            </a>
           </div>
         </div>
       </div>

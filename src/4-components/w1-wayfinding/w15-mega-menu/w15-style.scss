@@ -19,26 +19,31 @@
 	height: 50vh;
 	position: relative;
 	width: 100%;
-	margin: 16px;
+	margin: 16px 0;
+	@include devices(mobile) {
+		margin: 0;
+	}
 }
 .act-megamenu {
-	align-items: center;
+	align-items: stretch;
 	background-color: $act-colour__violet;
 	display: flex;
 	flex-direction: column;
-	height: auto;
+	height: 100%;
+	min-height: 50vh;
+	@include devices(mobile) {
+		height: 75vh;
+	}
 	left: 0px;
 	position: absolute;
 	top: 0px;
 	width: 100vw;
 	z-index: 9999;
 	box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
-
 	&__container {
 		color: $act-colour__white;
 		display: flex;
 		flex-direction: row;
-		justify-content: space-between;
 		height: 100%;
 		width: 100%;
 	}
@@ -76,14 +81,52 @@
 		}
 		//parent links
 		&__block-main-menu {
+			display: flex;
+			flex-direction: column;
+			height: auto;
 			margin: 0 map-get($act-space, "desktop-1");
 			padding: map-get($act-space, "desktop-5") map-get($act-space, "desktop-2");
 			padding-left: map-get($act-space, "desktop-8");
 			padding-right: map-get($act-space, "desktop-1");
+			position: relative;
 			width: 33%;
 			@include devices(mobile) {
 				padding-left: map-get($act-space, "desktop-1");
 				width: 100%;
+			}
+			&__additional-links {
+				border-top: 1px solid $act-colour__light-grey;
+				box-sizing: border-box;
+				display: none;
+				@include devices(mobile) {
+					display: flex;
+				}
+				flex-direction: column;
+				gap: map-get($act-space, "desktop-1");
+				height: auto;
+				padding: map-get($act-space, "desktop-2") 0;
+				margin-top: auto;
+				width: 100%;
+				a {
+					border: none;
+					color: $act-colour__white;
+					text-decoration: none;
+				}
+				button {
+					background: none;
+					border: 1px solid $act-colour__light-grey;
+					color: $act-colour__white;
+					display: flex;
+					gap: map-get($act-space, "desktop-1");
+					justify-content: center;
+					padding: map-get($act-space, "desktop-1");
+					width: 100%;
+				}
+				button:hover {
+					background-color: $act-colour__light-grey;
+					color: $act-colour__black;
+					cursor: pointer;
+				}
 			}
 		}
 
@@ -111,6 +154,7 @@
 				margin-bottom: map-get($act-space, "desktop-1");
 				@include devices(mobile) {
 					display: flex;
+					gap: map-get($act-space, "desktop-1");
 				}
 				color: $act-colour__black;
 				&__text {
