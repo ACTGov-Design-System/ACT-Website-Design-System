@@ -255,4 +255,10 @@
 			margin-left: map-get($act-space, "desktop-1");
 		}
 	}
+	/* Back To Top */
+	&__back-to-top {
+		i {
+			margin-left: 0px;
+		}
+	}
 }

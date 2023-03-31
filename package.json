@@ -5,7 +5,7 @@
 		"url": "https://pollen.com.au"
 	},
 	"name": "ACT-Website-Design-System",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"description": "",
 	"main": "index.js",
 	"scripts": {

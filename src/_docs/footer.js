@@ -11,33 +11,23 @@ const Footer = () => {
 							<div className="act-box">
 								<div className="act-footer-nav">
 									<h4>
-										<LinkTo kind="system-introduction--page">
-											System
+										<LinkTo kind="about-about--page">
+											About
 										</LinkTo>
 									</h4>
 									<ul>
 										<li>
-											<LinkTo kind="system-introduction--page">
-												Introduction
+											<LinkTo kind="about-what-is-the-design-system--page">
+												What is the Design System
 											</LinkTo>
 										</li>
 										<li>
-											<LinkTo kind="system-our-ecosystem--page">
-												Our ecosystem
+											<LinkTo kind="about-requesting-a-new-component--page">
+												Requesting a new component
 											</LinkTo>
 										</li>
 										<li>
-											<LinkTo kind="system-roles-responsibilities--page">
-												Roles & responsibilities
-											</LinkTo>
-										</li>
-										<li>
-											<LinkTo kind="system-changes-updates--page">
-												Changes & updates
-											</LinkTo>
-										</li>
-										<li>
-											<LinkTo kind="system-technical-info--page">
+											<LinkTo kind="about-technical-info--page">
 												Technical Info
 											</LinkTo>
 										</li>
@@ -49,76 +39,43 @@ const Footer = () => {
 							<div className="act-box">
 								<div className="act-footer-nav">
 									<h4>
-										<LinkTo kind="guidelines-overview--page">
-											Guidelines
+										<LinkTo kind="design-overview--page">
+											Design
 										</LinkTo>
 									</h4>
 									<ul>
 										<li>
-											<LinkTo kind="guidelines-accessibility--page">
-												Accessibility
-											</LinkTo>
-										</li>
-										<li>
-											<LinkTo kind="guidelines-branding--page">
-												Branding
-											</LinkTo>
-										</li>
-										<li>
-											<LinkTo kind="guidelines-content--page">
-												Content
-											</LinkTo>
-										</li>
-										<li>
-											<LinkTo kind="guidelines-glossary--page">
-												Glossary
-											</LinkTo>
-										</li>
-									</ul>
-								</div>
-							</div>
-						</div>
-						<div className="act-col__cw-3">
-							<div className="act-box">
-								<div className="act-footer-nav">
-									<h4>
-										<LinkTo kind="design-tokens-overview--page">
-											Design Tokens
-										</LinkTo>
-									</h4>
-									<ul>
-										<li>
-											<LinkTo kind="design-tokens-breakpoints--page">
+											<LinkTo kind="design-breakpoints--page">
 												Breakpoints
 											</LinkTo>
 										</li>
 										<li>
-											<LinkTo kind="design-tokens-colours--page">
+											<LinkTo kind="design-colours--page">
 												Colours
 											</LinkTo>
 										</li>
 										<li>
-											<LinkTo kind="design-tokens-interactions--page">
+											<LinkTo kind="design-interactions--page">
 												Interactions
 											</LinkTo>
 										</li>
 										<li>
-											<LinkTo kind="design-tokens-radius--page">
+											<LinkTo kind="design-radius--page">
 												Radius
 											</LinkTo>
 										</li>
 										<li>
-											<LinkTo kind="design-tokens-shadows--page">
+											<LinkTo kind="design-shadows--page">
 												Shadows
 											</LinkTo>
 										</li>
 										<li>
-											<LinkTo kind="design-tokens-spacing--page">
+											<LinkTo kind="design-spacing--page">
 												Spacing
 											</LinkTo>
 										</li>
 										<li>
-											<LinkTo kind="design-tokens-typography--page">
+											<LinkTo kind="design-typography--page">
 												Typography
 											</LinkTo>
 										</li>

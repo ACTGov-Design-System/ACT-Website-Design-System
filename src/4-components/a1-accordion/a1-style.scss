@@ -7,6 +7,8 @@
 		width: 100%;
 	}
 	&__section {
+		border-bottom: 2px solid $act-colour__white;
+		cursor: pointer;
 		flex-grow: 1;
 		width: 100%;
 		&__heading {
@@ -37,6 +39,9 @@
 		[class*="__heading"] {
 			background-color: $act-colour__light-grey;
 			color: $act-colour__black;
+			&:hover {
+				background-color: $act-colour__middle-grey;
+			}
 		}
 		[class*="__content"] {
 			display: none;
@@ -64,6 +69,9 @@
 			background-color: $act-colour__white;
 			border: 1px solid $act-colour__middle-grey;
 			color: $act-colour__black;
+			&:hover {
+				background-color: $act-colour__middle-grey;
+			}
 		}
 		[class*="__content"] {
 			display: none;

@@ -7,8 +7,28 @@ export const createA11 = ({
   <div class="act-accordion__container">
     <div class="act-accordion__section act-accordion__section__`+state+`">
       <div class="act-accordion__section__heading">
-        <h5>Title</h5>
-        <i class="fa-solid fa-xmark"></i>
+        <span class="act-h5">Section 1</span>
+        <i aria-expanded="false" class="fa-solid fa-xmark"></i>
+      </div>
+      <div class="act-accordion__section__content">Content</div>
+      <div class="act-accordion__section__content">Content</div>
+      <div class="act-accordion__section__content">Content</div>
+      <div class="act-accordion__section__content">Content</div>
+    </div>
+    <div class="act-accordion__section act-accordion__section__`+state+`">
+      <div class="act-accordion__section__heading">
+        <span class="act-h5">Section 2</span>
+        <i aria-expanded="false" class="fa-solid fa-xmark"></i>
+      </div>
+      <div class="act-accordion__section__content">Content</div>
+      <div class="act-accordion__section__content">Content</div>
+      <div class="act-accordion__section__content">Content</div>
+      <div class="act-accordion__section__content">Content</div>
+    </div>
+    <div class="act-accordion__section act-accordion__section__`+state+`">
+      <div class="act-accordion__section__heading">
+        <span class="act-h5">Section 3</span>
+        <i aria-expanded="false" class="fa-solid fa-xmark"></i>
       </div>
       <div class="act-accordion__section__content">Content</div>
       <div class="act-accordion__section__content">Content</div>

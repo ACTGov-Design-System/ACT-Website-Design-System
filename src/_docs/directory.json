@@ -23,7 +23,7 @@
 		},
 		"description": "Used to draw attention to important information for the user globally",
 		"element": "<code>&lt;div class=\"act-alert-global\"&gt;</code>",
-		"usage": "<ul><li>Do not stack Global Alerts, limit of one per page</li><li>Global Alert must be placed above the masthead</li><li>Use the relevant variant</li><li>Keep alert text short and succinct (should be no longer than one sentence)</li><li>Text should link to relevant content</li></ul>",
+		"usage": "<ul><li>Do not stack Global Alerts, limit of one per page</li><li>Additional Global Alerts can be stacked in an emergency situation only</li><li>Global Alert must be placed above the masthead</li><li>Use the relevant variant</li><li>Keep alert text short and succinct (should be no longer than one sentence)</li><li>Text should link to relevant content</li></ul>",
 		"status": [
 			"production",
 			"core"
@@ -83,7 +83,7 @@
 		},
 		"description": "A button that takes the user to the top of the page",
 		"element": "<code>&lt;button&gt;</code>",
-		"usage": "",
+		"usage": "<ul><li>The Back To Top button should always be fixed to the bottom right corner of the screen.</li></ul>",
 		"status": [
 			"production",
 			"core"
@@ -188,6 +188,21 @@
 		"description": "Are used to display up to date information for helpful services",
 		"element": "<code>&lt;div class=\"act-service-card\"&gt;</code>",
 		"usage": "<ul><li>Desktop and tablet to use ‘large’ variant and mobile to use ‘smal’ variant</li><li>Paragraph length should only be one sentence</li><li>Phone number is optional</li></ul>",
+		"status": [
+			"production",
+			"core"
+		]
+	},
+	"C25": {
+		"details": {
+			"id": "C25",
+			"category": "📘 Content",
+			"name": "Steps List",
+			"type": "Component"
+		},
+		"description": "Are used to display a numerical list",
+		"element": "<code>&lt;div class=\"act-service-card\"&gt;</code>",
+		"usage": "",
 		"status": [
 			"production",
 			"core"
@@ -630,7 +645,7 @@
 		},
 		"description": "Used to help users navigate the website through the menu button",
 		"element": "<code>&lt;div class=\"act-navbar\"&gt;</code>",
-		"usage": "<ul><li>ACT Government logo to link to ‘https://www.act.gov.au/’</li><li>Secondary logo to link to current websites homepage e.g. Access Canberra logo in this example</li><li>Default Menu Button purple, can be changed with approval from design system team</li></ul>",
+		"usage": "<ul><li>ACT Government logo to link to ‘https://www.act.gov.au/’</li><li>Secondary logo to link to current websites homepage e.g. Access Canberra logo in this example</li><li>Default Menu Button purple, can be changed with approval from design system team</li><li>Ideally, the main navigation of your website should only include links to pages within your site, while links to external websites should be placed within the content pages.</li></ul>",
 		"status": [
 			"production",
 			"core"
@@ -705,8 +720,8 @@
 		"element": "<code>&lt;div class=\"act-index\"&gt;</code>",
 		"restrictions": "This component can only be used by ACT Health",
 		"status": [
-			"health",
-			"production"
+			"production",
+			"core"
 		]
 	}
 }

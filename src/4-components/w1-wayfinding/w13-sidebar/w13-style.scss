@@ -63,10 +63,12 @@
 			&__item {
 				padding: map-get($act-space, "desktop-2");
 				border-bottom: 1px solid $act-colour__white;
-
 				&:hover {
 					background-color: $act-colour__medium-purple;
-					color: $act-colour__white;
+					color: $act-colour__black;
+					a {
+						color: $act-colour__black;
+					}
 				}
 			}
 			&__item:last-of-type {

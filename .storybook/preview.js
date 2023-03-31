@@ -105,17 +105,24 @@ export const parameters = {
 		storySort: { // Set the order of stories/pages in the sidebar
 			method: "alphabetical",
 			order: [
-				"System",
+				"About",
 					[
-						"Introduction",
-						"Our ecosystem",
-						"Roles & responsibilities",
-						"Changes & updates",
+						"About",
+						"What is the Design System",
+						"Requesting a new component",
+						"Technical Info",
 					],
 
-				"Design Tokens",
+				"Design",
 					[
-						"Overview",
+						"Getting started",
+						"Figma UI Kit",
+						"Extending the Design System",
+						"Design Tokens",
+							[
+								"Design Tokens",
+								"Breakpoints"
+							]
 					],
 				"Layout",
 					[

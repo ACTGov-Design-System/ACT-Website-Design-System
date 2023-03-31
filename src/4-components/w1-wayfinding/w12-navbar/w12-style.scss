@@ -32,20 +32,49 @@
 	}
 	&__search {
 		height: 100%;
+
 		&__container {
 			align-items: center;
+			border: 2px solid $act-colour__white;
+			cursor: pointer;
 			display: flex;
 			justify-content: center;
-			height: 100%;
-			padding: 0px map-get($act-space, "desktop-2");
+			// height: 100%;
+			margin: map-get($act-space, "desktop-2");
+			&.active,
+			&:active,
+			&:focus,
+			&:hover {
+				border: 2px solid $act-colour__middle-grey;
+			}
+			input {
+				border: none;
+				outline: none;
+				font-size: $act-font-size__desktop-p;
+				font-weight: $act-font-weight__semibold;
+				padding: map-get($act-space, "desktop-2");
+				width: 100px;
+				&.active,
+				&:active,
+				&:focus {
+					border: none;
+					outline: none;
+					width: 200px !important;
+				}
+			}
 			i {
+				align-items: center;
 				border-radius: 25%;
+				display: flex;
 				height: map-get($act-space, "desktop-3");
+				justify-content: center;
 				margin-left: map-get($act-space, "desktop-1");
+				padding: map-get($act-space, "desktop-2");
 				width: map-get($act-space, "desktop-3");
 			}
 		}
 		@include devices(mobile) {
+			padding: 0px;
 			&__container {
 				i {
 					margin-left: 0px;
@@ -68,8 +97,11 @@
 			height: 100%;
 			padding: 0px map-get($act-space, "desktop-2");
 			i {
+				align-items: center;
 				border-radius: 25%;
+				display: flex;
 				height: map-get($act-space, "desktop-3");
+				justify-content: center;
 				margin-left: map-get($act-space, "desktop-1");
 				width: map-get($act-space, "desktop-3");
 			}

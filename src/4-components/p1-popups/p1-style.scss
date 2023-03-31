@@ -50,6 +50,9 @@
 			font-size: $act-font-size__desktop-h4;
 		}
 	}
+	&__close {
+		cursor: pointer;
+	}
 }
 
 .act-full-page-banner {
