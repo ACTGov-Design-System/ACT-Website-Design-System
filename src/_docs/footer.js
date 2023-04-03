@@ -3,7 +3,7 @@ import LinkTo from "@storybook/addon-links/react";
 
 const Footer = () => {
 	return (
-		<div className="act-flex act-flex-violet">
+		<div className="act-flex act-flex-middle-dark-grey">
 			<div className="act-flex__container">
 				<div className="act-flex__grid">
 					<div className="act-flex__row">
@@ -19,11 +19,6 @@ const Footer = () => {
 										<li>
 											<LinkTo kind="about-what-is-the-design-system--page">
 												What is the Design System
-											</LinkTo>
-										</li>
-										<li>
-											<LinkTo kind="about-requesting-a-new-component--page">
-												Requesting a new component
 											</LinkTo>
 										</li>
 										<li>
@@ -52,11 +47,6 @@ const Footer = () => {
 										<li>
 											<LinkTo kind="design-colours--page">
 												Colours
-											</LinkTo>
-										</li>
-										<li>
-											<LinkTo kind="design-interactions--page">
-												Interactions
 											</LinkTo>
 										</li>
 										<li>

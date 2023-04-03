@@ -3,7 +3,7 @@ import LinkTo from "@storybook/addon-links/react";
 
 const AoC = () => {
 	return (
-		<div className="act-flex act-flex-purple">
+		<div className="act-flex act-flex-middle-dark-grey">
 			<div className="act-flex__container">
 				<div className="act-flex__grid">
 					<div className="act-flex__row">

@@ -179,7 +179,8 @@ ul {
 	line-height: $act-line-height__150;
 	margin: map-get($act-space, "desktop-1") 0px;
 	li {
-		list-style-position: inside;
+		list-style-position: outside;
+		margin-left: map-get($act-space, "desktop-2");
 	}
 }
 

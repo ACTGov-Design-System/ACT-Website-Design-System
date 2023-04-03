@@ -22,6 +22,13 @@
 		background-color: $act-colour__purple;
 		color: $act-colour__white;
 	}
+	&-middle-dark-grey {
+		background-color: $act-colour__middle-dark-grey;
+		color: $act-colour__white;
+		&:last-of-type {
+			border-top: 1px solid $act-colour__light-grey;
+		}
+	}
 	&-violet {
 		background-color: $act-colour__violet;
 		color: $act-colour__white;
