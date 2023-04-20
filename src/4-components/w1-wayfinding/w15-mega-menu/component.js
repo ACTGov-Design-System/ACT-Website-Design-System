@@ -55,7 +55,7 @@ export const createW15 = ({
   <div class="act-megamenu">
     <div class="act-megamenu__container">
       <div class="act-megamenu__content__block-main-menu">
-        <div class="act-megamenu__section-heading">
+        <div class="act-megamenu__section-heading" tabindex="0">
           Home
         </div>
         <div class="act-megamenu__link-container">

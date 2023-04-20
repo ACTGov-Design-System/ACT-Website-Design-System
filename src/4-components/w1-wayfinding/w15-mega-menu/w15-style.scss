@@ -37,7 +37,7 @@
 	left: 0px;
 	position: absolute;
 	top: 0px;
-	width: 100vw;
+	width: 100%;
 	z-index: 9999;
 	box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
 	&__container {
@@ -107,10 +107,17 @@
 				padding: map-get($act-space, "desktop-2") 0;
 				margin-top: auto;
 				width: 100%;
-				a {
-					border: none;
-					color: $act-colour__white;
-					text-decoration: none;
+				.act-megamenu__link {
+					a {
+						border: none;
+						color: $act-colour__white;
+						text-decoration: none;
+					}
+				}
+				.act-megamenu__link:hover {
+					a {
+						color: $act-colour__violet;
+					}
 				}
 				button {
 					background: none;
@@ -184,6 +191,10 @@
 		flex-direction: column;
 		gap: map-get($act-space, "desktop-1");
 		height: auto;
+		.act-megamenu__link:hover {
+			background-color: $act-colour__white;
+			color: $act-colour__violet;
+		}
 	}
 	&__link {
 		align-items: center;
@@ -205,13 +216,6 @@
 		}
 		&:hover {
 			background-color: white;
-		}
-		&:hover &__icon {
-			color: $act-colour__black;
-		}
-		&:hover &__text {
-			text-decoration: none;
-			color: $act-colour__black;
 		}
 	}
 	&__sub-menu-link-container {
@@ -238,7 +242,15 @@
 				align-items: center;
 				padding: map-get($act-space, "desktop-2");
 				&__icon {
-					color: $act-colour__purple;
+					color: $act-colour__violet;
+				}
+			}
+			.act-megamenu__link:hover {
+				background-color: $act-colour__violet;
+				color: $act-colour__white;
+
+				&__icon {
+					color: $act-colour__white;
 				}
 			}
 		}
