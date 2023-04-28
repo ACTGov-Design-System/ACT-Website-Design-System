@@ -405,6 +405,21 @@
 			"core"
 		]
 	},
+	"F26": {
+		"details": {
+			"id": "F26",
+			"category": "⌨️ Form Elements",
+			"name": "Progress",
+			"type": "Component"
+		},
+		"description": "To help users understand their progress of completion, normally when completing a long form. Each step must have a stage of <i>active</i>, <i>complete</i> or <i>incomplete</i>",
+		"element": "<code>&lt;div class=\"act-progress\"&gt;</code>",
+		"hierarchy": "Progress Components must always be rendered inside a Progress Group",
+		"status": [
+			"production",
+			"core"
+		]
+	},
 	"F27": {
 		"details": {
 			"id": "F27",

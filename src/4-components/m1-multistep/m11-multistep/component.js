@@ -54,58 +54,58 @@ export const createM11 = ({
         </div>
       </div>
       <div class="act-multi-step__navigation">
-        <div class="act-multi-step__navigation__progress hide-scroll">
-          <div class="act-multi-step__navigation__progress__step complete">
-            <div class="act-multi-step__navigation__progress__step__icon">
+        <div class="act-progress hide-scroll">
+          <div class="act-progress__step complete">
+            <div class="act-progress__step__icon">
               <span class="act-p-small">
                 <i class="fa-solid fa-pen multi-step-icon-edit"></i>
                 <i class="fa-solid fa-check multi-step-icon-check"></i>
               </span>
             </div>
-            <div class="act-multi-step__navigation__progress__step__text">
+            <div class="act-progress__step__text">
               <p class="small">Step #1</p>
             </div>
           </div>
-          <div class="act-multi-step__navigation__progress__step complete">
-            <div class="act-multi-step__navigation__progress__step__icon">
+          <div class="act-progress__step complete">
+            <div class="act-progress__step__icon">
               <span class="act-p-small">
                 <i class="fa-solid fa-pen multi-step-icon-edit"></i>
                 <i class="fa-solid fa-check multi-step-icon-check"></i>
               </span>
             </div>
-            <div class="act-multi-step__navigation__progress__step__text">
+            <div class="act-progress__step__text">
               <p class="small">Step #2</p>
             </div>
           </div>
-          <div class="act-multi-step__navigation__progress__step">
-            <div class="act-multi-step__navigation__progress__step__icon">
+          <div class="act-progress__step">
+            <div class="act-progress__step__icon">
               <span class="act-p-small">
                 <i class="fa-solid fa-pen multi-step-icon-edit"></i>
                 <i class="fa-solid fa-check multi-step-icon-check"></i>
               </span>
             </div>
-            <div class="act-multi-step__navigation__progress__step__text">
+            <div class="act-progress__step__text">
               <p class="small">Step #3</p>
             </div>
           </div>
-          <div class="act-multi-step__navigation__progress__step">
-            <div class="act-multi-step__navigation__progress__step__icon">
+          <div class="act-progress__step">
+            <div class="act-progress__step__icon">
               <span class="act-p-small">
                 <i class="fa-solid fa-pen multi-step-icon-edit"></i>
                 <i class="fa-solid fa-check multi-step-icon-check"></i>
               </span>
             </div>
-            <div class="act-multi-step__navigation__progress__step__text">
+            <div class="act-progress__step__text">
               <p class="small">Step #4</p>
             </div>
           </div>
-          <div class="act-multi-step__navigation__progress__step">
-            <div class="act-multi-step__navigation__progress__step__icon">
+          <div class="act-progress__step">
+            <div class="act-progress__step__icon">
               <span class="act-p-small">
                 <i class="fa-solid fa-pen"></i>
               </span>
             </div>
-            <div class="act-multi-step__navigation__progress__step__text">
+            <div class="act-progress__step__text">
               <p class="small">Step #5</p>
             </div>
           </div>
