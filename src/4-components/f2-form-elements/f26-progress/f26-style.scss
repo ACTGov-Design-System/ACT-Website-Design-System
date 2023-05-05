@@ -6,9 +6,11 @@
 	gap: 1rem;
 	overflow-x: scroll;
 	width: 100%;
+	padding: map-get($act-space, "desktop-2");
 
 	@include devices(mobile) {
-		margin-left: 12px;
+		
+		flex-direction: column;
 	}
 	&__step {
 		align-items: center;
